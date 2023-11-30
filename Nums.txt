@@ -1,0 +1,4301 @@
+FUNCTION "Call_Valves" : VOID
+TITLE =CALL VALVES
+VERSION : 0_1
+
+BEGIN
+NETWORK
+TITLE =DROP1 (Адрес 3)
+
+_________________FESTO_0___________________
+
+      CALL "Valves" (
+           OPSW                     := "VK4_Yo",
+           CLSW                     := "VK4_Yc",
+           OUTP                     := "VK4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 1);
+
+      CALL "Valves" (
+           OPSW                     := "VK3_Yo",
+           CLSW                     := "VK3_Yc",
+           OUTP                     := "VK3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 2);
+
+      CALL "Valves" (
+           OPSW                     := "VC2_F3_Yo",
+           CLSW                     := "VC2_F3_Yc",
+           OUTP                     := "VC2_F3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 3);
+
+      CALL "Valves" (
+           OPSW                     := "VC2_F2_Yo",
+           CLSW                     := "VC2_F2_Yc",
+           OUTP                     := "VC2_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 4);
+
+      CALL "Valves" (
+           OPSW                     := "VC2_F1_Yo",
+           CLSW                     := "VC2_F1_Yc",
+           OUTP                     := "VC2_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 5);
+
+      CALL "Valves" (
+           OPSW                     := "VC1_F3_Yo",
+           CLSW                     := "VC1_F3_Yc",
+           OUTP                     := "VC1_F3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 6);
+
+      CALL "Valves" (
+           OPSW                     := "VC1_F2_Yo",
+           CLSW                     := "VC1_F2_Yc",
+           OUTP                     := "VC1_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 7);
+
+      CALL "Valves" (
+           OPSW                     := "VC1_F1_Yo",
+           CLSW                     := "VC1_F1_Yc",
+           OUTP                     := "VC1_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 8);
+
+_________________FESTO_1___________________
+
+      CALL "Valves" (
+           OPSW                     := "VC5_F2_Yo",
+           CLSW                     := "VC5_F2_Yc",
+           OUTP                     := "VC5_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 9);
+
+      CALL "Valves" (
+           OPSW                     := "VC5_F1_Yo",
+           CLSW                     := "VC5_F1_Yc",
+           OUTP                     := "VC5_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 10);
+
+      CALL "Valves" (
+           OPSW                     := "VC4_F3_Yo",
+           CLSW                     := "VC4_F3_Yc",
+           OUTP                     := "VC4_F3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 11);
+
+      CALL "Valves" (
+           OPSW                     := "VC4_F2_Yo",
+           CLSW                     := "VC4_F2_Yc",
+           OUTP                     := "VC4_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 12);
+
+      CALL "Valves" (
+           OPSW                     := "VC4_F1_Yo",
+           CLSW                     := "VC4_F1_Yc",
+           OUTP                     := "VC4_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 13);
+
+      CALL "Valves" (
+           OPSW                     := "VC3_F3_Yo",
+           CLSW                     := "VC3_F3_Yc",
+           OUTP                     := "VC3_F3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 14);
+
+      CALL "Valves" (
+           OPSW                     := "VC3_F2_Yo",
+           CLSW                     := "VC3_F2_Yc",
+           OUTP                     := "VC3_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 15);
+
+      CALL "Valves" (
+           OPSW                     := "VC3_F1_Yo",
+           CLSW                     := "VC3_F1_Yc",
+           OUTP                     := "VC3_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 16);
+
+_________________FESTO_2___________________
+
+      CALL "Valves" (
+           OPSW                     := "VC5_F3_Yo",
+           CLSW                     := "VC5_F3_Yc",
+           OUTP                     := "VC5_F3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 17);
+
+      CALL "Valves" (
+           OPSW                     := "VC6_F1_Yo",
+           CLSW                     := "VC6_F1_Yc",
+           OUTP                     := "VC6_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 18);
+
+      CALL "Valves" (
+           OPSW                     := "VC6_F2_Yo",
+           CLSW                     := "VC6_F2_Yc",
+           OUTP                     := "VC6_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 19);
+
+      CALL "Valves" (
+           OPSW                     := "VC6_F3_Yo",
+           CLSW                     := "VC6_F3_Yc",
+           OUTP                     := "VC6_F3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 20);
+
+      CALL "Valves" (
+           OPSW                     := "VPC1_Yo",
+           CLSW                     := "VPC1_Yc",
+           OUTP                     := "VPC1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 21);
+
+      CALL "Valves" (
+           OPSW                     := "VPC2_Yo",
+           CLSW                     := "VPC2_Yc",
+           OUTP                     := "VPC2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 22);
+
+      CALL "Valves" (
+           OPSW                     := "VCT_19_Yo",
+           CLSW                     := "VCT_19_Yc",
+           OUTP                     := "VCT_19_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 23);
+
+      CALL "Valves" (
+           OPSW                     := "VC7_F1_Yo",
+           CLSW                     := "VC7_F1_Yc",
+           OUTP                     := "VC7_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 24);
+
+_________________FESTO_3___________________
+
+      CALL "Valves" (
+           OPSW                     := "VST20_Yo",
+           CLSW                     := "VST20_Yc",
+           OUTP                     := "VST20_Out",__vst20
+           En_Horn                  := TRUE,
+           NUM                      := 25);
+
+      CALL "Valves" (
+           OPSW                     := "VC8_F1_Yo",
+           CLSW                     := "VC8_F1_Yc",
+           OUTP                     := "VC8_F1_Out",__vc8_f1
+           En_Horn                  := TRUE,
+           NUM                      := 26);
+
+      CALL "Valves" (
+           OPSW                     := "VC8_F2_Yo",
+           CLSW                     := "VC8_F2_Yc",
+           OUTP                     := "VC8_F2_Out",__vc8_f2
+           En_Horn                  := TRUE,
+           NUM                      := 27);
+
+      CALL "Valves" (
+           OPSW                     := "VST31_Yo",
+           CLSW                     := "VST31_Yc",
+           OUTP                     := "VST31_Out",__vst31
+           En_Horn                  := TRUE,
+           NUM                      := 28);
+
+      CALL "Valves" (
+           OPSW                     := I     39_1,
+           CLSW                     := I     39_0,
+           OUTP                     := Q     39_0,
+           En_Horn                  := TRUE,
+           NUM                      := 29);
+
+      CALL "Valves" (
+           OPSW                     := I     39_3,
+           CLSW                     := I     39_2,__big
+           OUTP                     := Q     39_2,__vst32
+           En_Horn                  := TRUE,
+           NUM                      := 30);
+
+      CALL "Valves" (
+           OPSW                     := I     39_5,
+           CLSW                     := I     39_4,
+           OUTP                     := Q     39_4,
+           En_Horn                  := TRUE,
+           NUM                      := 31);
+
+      CALL "Valves" (
+           OPSW                     := I     39_7,
+           CLSW                     := I     39_6,
+           OUTP                     := Q     39_6,
+           En_Horn                  := TRUE,
+           NUM                      := 32);
+
+NETWORK
+TITLE =DROP2  (Адрес 4)
+
+_________________FESTO_0___________________
+
+      CALL "Valves" (
+           OPSW                     := "VPC4_Yo",
+           CLSW                     := "VPC4_Yc",
+           OUTP                     := "VPC4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 33);
+
+      CALL "Valves" (
+           OPSW                     := "VPC3_Yo",
+           CLSW                     := "VPC3_Yc",
+           OUTP                     := "VPC3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 34);
+
+      CALL "Valves" (
+           OPSW                     := "VC2_D3_Yo",
+           CLSW                     := "VC2_D3_Yc",
+           OUTP                     := "VC2_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 35);
+
+      CALL "Valves" (
+           OPSW                     := "VC2_D2_Yo",
+           CLSW                     := "VC2_D2_Yc",
+           OUTP                     := "VC2_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 36);
+
+      CALL "Valves" (
+           OPSW                     := "VC2_D1_Yo",
+           CLSW                     := "VC2_D1_Yc",
+           OUTP                     := "VC2_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 37);
+
+      CALL "Valves" (
+           OPSW                     := "VC1_D3_Yo",
+           CLSW                     := "VC1_D3_Yc",
+           OUTP                     := "VC1_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 38);
+
+      CALL "Valves" (
+           OPSW                     := "VC1_D2_Yo",
+           CLSW                     := "VC1_D2_Yc",
+           OUTP                     := "VC1_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 39);
+
+      CALL "Valves" (
+           OPSW                     := "VC1_D1_Yo",
+           CLSW                     := "VC1_D1_Yc",
+           OUTP                     := "VC1_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 40);
+
+_________________FESTO_1___________________
+
+      CALL "Valves" (
+           OPSW                     := "VPC6_Yo",
+           CLSW                     := "VPC6_Yc",
+           OUTP                     := "VPC6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 41);
+
+      CALL "Valves" (
+           OPSW                     := "VPC5_Yo",
+           CLSW                     := "VPC5_Yc",
+           OUTP                     := "VPC5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 42);
+
+      CALL "Valves" (
+           OPSW                     := "VC4_D3_Yo",
+           CLSW                     := "VC4_D3_Yc",
+           OUTP                     := "VC4_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 43);
+
+      CALL "Valves" (
+           OPSW                     := "VC4_D2_Yo",
+           CLSW                     := "VC4_D2_Yc",
+           OUTP                     := "VC4_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 44);
+
+      CALL "Valves" (
+           OPSW                     := "VC4_D1_Yo",
+           CLSW                     := "VC4_D1_Yc",
+           OUTP                     := "VC4_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 45);
+
+      CALL "Valves" (
+           OPSW                     := "VC3_D3_Yo",
+           CLSW                     := "VC3_D3_Yc",
+           OUTP                     := "VC3_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 46);
+
+      CALL "Valves" (
+           OPSW                     := "VC3_D2_Yo",
+           CLSW                     := "VC3_D2_Yc",
+           OUTP                     := "VC3_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 47);
+
+      CALL "Valves" (
+           OPSW                     := "VC3_D1_Yo",
+           CLSW                     := "VC3_D1_Yc",
+           OUTP                     := "VC3_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 48);
+
+_________________FESTO_2___________________
+
+      CALL "Valves" (
+           OPSW                     := "VC5_D1_Yo",
+           CLSW                     := "VC5_D1_Yc",
+           OUTP                     := "VC5_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 49);
+
+      CALL "Valves" (
+           OPSW                     := "VC5_D2_Yo",
+           CLSW                     := "VC5_D2_Yc",
+           OUTP                     := "VC5_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 50);
+
+      CALL "Valves" (
+           OPSW                     := "VC5_D3_Yo",
+           CLSW                     := "VC5_D3_Yc",
+           OUTP                     := "VC5_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 51);
+
+      CALL "Valves" (
+           OPSW                     := "VC6_D1_Yo",
+           CLSW                     := "VC6_D1_Yc",
+           OUTP                     := "VC6_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 52);
+
+      CALL "Valves" (
+           OPSW                     := "VC6_D2_Yo",
+           CLSW                     := "VC6_D2_Yc",
+           OUTP                     := "VC6_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 53);
+
+      CALL "Valves" (
+           OPSW                     := "VC6_D3_Yo",
+           CLSW                     := "VC6_D3_Yc",
+           OUTP                     := "VC6_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 54);
+
+      CALL "Valves" (
+           OPSW                     := I     45_5,
+           CLSW                     := I     45_4,
+           OUTP                     := Q     45_4,
+           En_Horn                  := TRUE,
+           NUM                      := 55);
+
+      CALL "Valves" (
+           OPSW                     := I     45_7,
+           CLSW                     := I     45_6,
+           OUTP                     := Q     45_6,
+           En_Horn                  := TRUE,
+           NUM                      := 56);
+
+_________________FESTO_3___________________
+
+      CALL "Valves" (
+           OPSW                     := I     46_1,
+           CLSW                     := I     46_0,
+           OUTP                     := Q     46_0,
+           En_Horn                  := TRUE,
+           NUM                      := 57);
+
+      CALL "Valves" (
+           OPSW                     := I     46_3,
+           CLSW                     := I     46_2,
+           OUTP                     := Q     46_2,
+           En_Horn                  := TRUE,
+           NUM                      := 58);
+
+      CALL "Valves" (
+           OPSW                     := I     46_5,
+           CLSW                     := I     46_4,
+           OUTP                     := Q     46_4,
+           En_Horn                  := TRUE,
+           NUM                      := 59);
+
+      CALL "Valves" (
+           OPSW                     := I     46_7,
+           CLSW                     := I     46_6,
+           OUTP                     := Q     46_6,
+           En_Horn                  := TRUE,
+           NUM                      := 60);
+
+      CALL "Valves" (
+           OPSW                     := I     47_1,
+           CLSW                     := I     47_0,
+           OUTP                     := Q     47_0,
+           En_Horn                  := TRUE,
+           NUM                      := 61);
+
+      CALL "Valves" (
+           OPSW                     := I     47_3,
+           CLSW                     := I     47_2,
+           OUTP                     := Q     47_2,
+           En_Horn                  := TRUE,
+           NUM                      := 62);
+
+      CALL "Valves" (
+           OPSW                     := I     47_5,
+           CLSW                     := I     47_4,
+           OUTP                     := Q     47_4,
+           En_Horn                  := TRUE,
+           NUM                      := 63);
+
+      CALL "Valves" (
+           OPSW                     := I     47_7,
+           CLSW                     := I     47_6,
+           OUTP                     := Q     47_6,
+           En_Horn                  := TRUE,
+           NUM                      := 64);
+      CALL "Valves" (
+           OPSW                     := I    118_5,
+           CLSW                     := I    118_4,
+           OUTP                     := Q    118_4,
+           En_Horn                  := TRUE,
+           NUM                      := 65);
+      CALL "Valves" (
+           OPSW                     := I    118_7,
+           CLSW                     := I    118_6,
+           OUTP                     := Q    118_6,
+           En_Horn                  := TRUE,
+           NUM                      := 66);
+      CALL "Valves" (
+           OPSW                     := I    119_1,
+           CLSW                     := I    119_0,
+           OUTP                     := Q    119_0,
+           En_Horn                  := TRUE,
+           NUM                      := 67);
+
+NETWORK
+TITLE =DROP3  (Адрес 5)
+
+_________________FESTO_0___________________
+
+      CALL "Valves" (__x
+           OPSW                     := "VR6A_Yo",__I22_1
+           CLSW                     := "VR6A_Yc",__I22_0
+           OUTP                     := "VR6A_Out",__Q16_0
+           En_Horn                  := TRUE,
+           NUM                      := 68);
+
+      CALL "Valves" (__var7
+           OPSW                     := "VAR7_Yo",__I22_3
+           CLSW                     := "VAR7_Yc",__I22_2
+           OUTP                     := "VAR7_Out",__Q16_2
+           En_Horn                  := TRUE,
+           NUM                      := 69);
+
+      CALL "Valves" (__vn2
+           OPSW                     := "VN2_Yo",__ I22_5
+           CLSW                     := "VN2_Yc",__ I22_4
+           OUTP                     := "VN2_Out",__ Q16_4
+           En_Horn                  := TRUE,
+           NUM                      := 70);
+
+      CALL "Valves" (__vn1
+           OPSW                     := "VN1_Yo",__ I22_7
+           CLSW                     := "VN1_Yc",__ I22_6
+           OUTP                     := "VN1_Out",__ Q17_6
+           En_Horn                  := TRUE,
+           NUM                      := 71);
+
+      CALL "Valves" (__vr7f1
+           OPSW                     := "VR7_F1_Yo",__ I23_1
+           CLSW                     := "VR7_F1_Yc",__ I23_0
+           OUTP                     := "VR7_F1_Out",__ Q17_0
+           En_Horn                  := TRUE,
+           NUM                      := 72);
+
+      CALL "Valves" (__vr8f1
+           OPSW                     := "VR8_F1_Yo",__  I23_3
+           CLSW                     := "VR8_F1_Yc",__  I23_2
+           OUTP                     := "VR8_F1_Out",__  Q17_2
+           En_Horn                  := TRUE,
+           NUM                      := 73);
+
+      CALL "Valves" (__vr6f1
+           OPSW                     := "VR6_F1_Yo",__ I23_5
+           CLSW                     := "VR6_F1_Yc",__ I23_4
+           OUTP                     := "VR6_F1_Out",__ Q17_4
+           En_Horn                  := TRUE,
+           NUM                      := 74);
+
+
+      CALL "Valves" (__vrf6
+           OPSW                     := "VRF6_Yo",
+           CLSW                     := "VRF6_Yc",
+           OUTP                     := "VRF6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 75);
+
+
+_________________FESTO_1___________________
+
+      CALL "Valves" (__vr8d1
+           OPSW                     := "VR8_D1_Yo",__I24_1
+           CLSW                     := "VR8_D1_Yc",__I24_0
+           OUTP                     := "VR8_D1_Out",__Q18_0
+           En_Horn                  := TRUE,
+           NUM                      := 76);
+
+      CALL "Valves" (__vr7
+           OPSW                     := "VR7_D1_Yo",__I24_3
+           CLSW                     := "VR7_D1_Yc",__I24_2
+           OUTP                     := "VR7_D1_Out",__Q18_2
+           En_Horn                  := TRUE,
+           NUM                      := 77);
+
+__      CALL  "Valves"                    __Х
+__       OPSW   :="VR6B_Yo"
+__       CLSW   :="VR6B_Yc"
+__       OUTP   :="VR6B_Out"
+__       En_Horn:=TRUE
+__       NUM    :=78
+
+      CALL "Valves" (__vr7b
+           OPSW                     := "VR7_D2_OP",__"VR7B_Yo"
+           CLSW                     := "VR7_D2_CL",__"VR7B_Yc"
+           OUTP                     := "VR7_D2_OUT",__"VR7B_Out"
+           En_Horn                  := TRUE,
+           NUM                      := 79);
+
+      CALL "Valves" (__vr7a
+           OPSW                     := "VR7A_Yo",__I25_1
+           CLSW                     := "VR7A_Yc",__I25_0
+           OUTP                     := "VR7A_Out",__Q19_0
+           En_Horn                  := TRUE,
+           NUM                      := 80);
+
+      CALL "Valves" (__vr6d1
+           OPSW                     := "VR6_D1_Yo",__I25_3
+           CLSW                     := "VR6_D1_Yc",__I25_2
+           OUTP                     := "VR6_D1_Out",__Q19_2
+           En_Horn                  := TRUE,
+           NUM                      := 81);
+
+      CALL "Valves" (__x
+           OPSW                     := "VAR6_Yo",__I25_5
+           CLSW                     := "VAR6_Yc",__I25_4
+           OUTP                     := "VAR6_Out",__Q19_4
+           En_Horn                  := TRUE,
+           NUM                      := 82);
+
+      CALL "Valves" (__VR6B
+           OPSW                     := "VR6_D2_OP",__"VR6B_Yo"
+           CLSW                     := "VR6_D2_CL",__"VR6B_Yc"
+           OUTP                     := "VR6_D2_OUT",__"VR6B_Out"
+           En_Horn                  := TRUE,
+           NUM                      := 83);
+
+_________________FESTO_2___________________
+
+      CALL "Valves" (__vr1_f2
+           OPSW                     := "VR1_F2_Yo",
+           CLSW                     := "VR1_F2_Yc",
+           OUTP                     := "VR1_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 84);
+
+      CALL "Valves" (__vr2_f2
+           OPSW                     := "VR2_F2_Yo",
+           CLSW                     := "VR2_F2_Yc",
+           OUTP                     := "VR2_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 85);
+
+      CALL "Valves" (__vr3_f2
+           OPSW                     := "VR3_F2_Yo",
+           CLSW                     := "VR3_F2_Yc",
+           OUTP                     := "VR3_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 86);
+
+      CALL "Valves" (__vr1_d3
+           OPSW                     := "VR1_D3_Yo",
+           CLSW                     := "VR1_D3_Yc",
+           OUTP                     := "VR1_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 87);
+
+      CALL "Valves" (__vr8_d2     __var6
+           OPSW                     := "VR8_D2_Yo",__I27_1
+           CLSW                     := "VR8_D2_Yc",__ I27_0
+           OUTP                     := "VR8_D2_Out",__Q21_0
+           En_Horn                  := TRUE,
+           NUM                      := 88);
+
+_________________FESTO_3___________________
+
+      CALL "Valves" (__vr2_d3
+           OPSW                     := "VR2_D3_Yo",
+           CLSW                     := "VR2_D3_Yc",
+           OUTP                     := "VR2_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 89);
+
+      CALL "Valves" (__vr3_d3
+           OPSW                     := "VR3_D3_Yo",
+           CLSW                     := "VR3_D3_Yc",
+           OUTP                     := "VR3_D3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 90);
+
+      CALL "Valves" (__vr6_f2
+           OPSW                     := "VR6_F2_Yo",__ I143_1
+           CLSW                     := "VR6_F2_Yc",__ I143_0
+           OUTP                     := "VR6_F2_Out",__ Q142_0
+           En_Horn                  := TRUE,
+           NUM                      := 91);
+
+      CALL "Valves" (__vr7_f2
+           OPSW                     := "VR7_F2_Yo",__ I143_3
+           CLSW                     := "VR7_F2_Yc",__ I143_2
+           OUTP                     := "VR7_F2_Out",__ Q142_1
+           En_Horn                  := TRUE,
+           NUM                      := 92);
+
+      CALL "Valves" (__vr8_f2
+           OPSW                     := "VR8_F2_Yo",__ I143_5
+           CLSW                     := "VR8_F2_Yc",__ I143_4 
+           OUTP                     := "VR8_F2_Out",__ Q142_2
+           En_Horn                  := TRUE,
+           NUM                      := 93);
+
+      CALL "Valves" (__vr8B
+           OPSW                     := "VR8B_Yo",
+           CLSW                     := "VR8B_Yc",
+           OUTP                     := "VR8B_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 94);
+
+      CALL "Valves" (__vpr5
+           OPSW                     := I    144_5,
+           CLSW                     := I    144_4,
+           OUTP                     := "VPR5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 95);
+
+__      CALL  "Valves"
+__       OPSW   :=I55_7
+__       CLSW   :=I55_6
+__       OUTP   :=Q55_6
+__       En_Horn:=TRUE
+__       NUM    :=96
+
+
+NETWORK
+TITLE =DROP4  (Адрес 6)
+
+_________________FESTO_0___________________
+
+__      CALL  "Valves"
+__       OPSW   :=I56_1
+__       CLSW   :=I56_0
+__       OUTP   :=Q56_0
+__       En_Horn:=TRUE
+__       NUM    :=97
+
+__      CALL  "Valves"
+__       OPSW   :=I56_3
+__       CLSW   :=I56_2
+__       OUTP   :=Q56_2
+__       En_Horn:=TRUE
+__       NUM    :=98
+
+__      CALL  "Valves"
+__       OPSW   :=I56_5
+__       CLSW   :=I56_4
+__       OUTP   :=Q56_4
+__       En_Horn:=TRUE
+__       NUM    :=99
+
+__      CALL  "Valves"
+__       OPSW   :=I56_7
+__       CLSW   :=I56_6
+__       OUTP   :=Q56_6
+__       En_Horn:=TRUE
+__       NUM    :=100
+
+__      CALL  "Valves"
+__       OPSW   :=I57_1
+__       CLSW   :=I57_0
+__       OUTP   :=Q57_0
+__       En_Horn:=TRUE
+__       NUM    :=101
+
+      CALL "Valves" (__ vr4_f2
+           OPSW                     := "VR4_F2_Yo",
+           CLSW                     := "VR4_F2_Yc",
+           OUTP                     := "VR4_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 102);
+
+      CALL "Valves" (__ vr5_f2
+           OPSW                     := "VR5_F2_Yo",
+           CLSW                     := "VR5_F2_Yc",
+           OUTP                     := "VR5_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 103);
+
+      CALL "Valves" (__vr800q_2
+           OPSW                     := "VR800Q_2_Yo",
+           CLSW                     := "VR800Q_2_Yc",
+           OUTP                     := "VR800Q_2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 104);
+
+_________________FESTO_1___________________
+
+__      CALL  "Valves"
+__       OPSW   :=I58_1
+__       CLSW   :=I58_0
+__       OUTP   :=Q58_0
+__       En_Horn:=TRUE
+__       NUM    :=105
+
+__      CALL  "Valves"
+__       OPSW   :=I58_3
+__       CLSW   :=I58_2
+__       OUTP   :=Q58_2
+__       En_Horn:=TRUE
+__       NUM    :=106
+
+__      CALL  "Valves"
+__       OPSW   :=I58_5
+__       CLSW   :=I58_4
+__       OUTP   :=Q58_4
+__       En_Horn:=TRUE
+__       NUM    :=107
+
+__      CALL  "Valves"
+__       OPSW   :=I58_7
+__       CLSW   :=I58_6
+__       OUTP   :=Q58_6
+__       En_Horn:=TRUE
+__       NUM    :=108
+
+__      CALL  "Valves"
+__       OPSW   :=I59_1
+__       CLSW   :=I59_0
+__       OUTP   :=Q59_0
+__       En_Horn:=TRUE
+__       NUM    :=109
+
+__      CALL  "Valves"
+__       OPSW   :=I59_3
+__       CLSW   :=I59_2
+__       OUTP   :=Q59_2
+__       En_Horn:=TRUE
+__       NUM    :=110
+
+__      CALL  "Valves"
+__       OPSW   :=I59_5
+__       CLSW   :=I59_4
+__       OUTP   :=Q59_4
+__       En_Horn:=TRUE
+__       NUM    :=111
+
+__      CALL  "Valves"
+__       OPSW   :=I59_7
+__       CLSW   :=I59_6
+__       OUTP   :=Q59_6
+__       En_Horn:=TRUE
+__       NUM    :=112
+
+_________________FESTO_2___________________
+
+      CALL "Valves" (__vr800q_3
+           OPSW                     := "VR800Q_3_Yo",
+           CLSW                     := "VR800Q_3_Yc",
+           OUTP                     := "VR800Q_3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 113);
+
+      CALL "Valves" (__vr123_2
+           OPSW                     := "VR123_2_Yo",
+           CLSW                     := "VR123_2_Yc",
+           OUTP                     := "VR123_2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 114);
+
+      CALL "Valves" (__vr123_3
+           OPSW                     := "VR123_3_Yo",
+           CLSW                     := "VR123_3_Yc",
+           OUTP                     := "VR123_3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 115);
+
+      CALL "Valves" (__vr800q_4
+           OPSW                     := "VR800Q_4_Yo",
+           CLSW                     := "VR800Q_4_Yc",
+           OUTP                     := "VR800Q_4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 116);
+
+      CALL "Valves" (
+           OPSW                     := "VN800Q_Yo",
+           CLSW                     := "VN800Q_Yc",
+           OUTP                     := "VN800Q_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 117);
+
+      CALL "Valves" (
+           OPSW                     := "VN800_Yo",
+           CLSW                     := "VN800_Yc",
+           OUTP                     := "VN800_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 118);
+
+      CALL "Valves" (
+           OPSW                     := "VNI2600_Yo",
+           CLSW                     := "VNI2600_Yc",
+           OUTP                     := "VNI2600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 119);
+
+      CALL "Valves" (__vn2_d2
+           OPSW                     := "VN2_D2_Yo",
+           CLSW                     := "VN2_D2_Yc",
+           OUTP                     := "VN2_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 120);
+
+_________________FESTO_3___________________
+
+      CALL "Valves" (__vn1_d2
+           OPSW                     := "VN1_D2_Yo",
+           CLSW                     := "VN1_D2_Yc",
+           OUTP                     := "VN1_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 121);
+
+      CALL "Valves" (__vpn2
+           OPSW                     := "VPN2_Yo",
+           CLSW                     := "VPN2_Yc",
+           OUTP                     := "VPN2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 122);
+
+      CALL "Valves" (
+           OPSW                     := I    145_5,
+           CLSW                     := I    145_4,
+           OUTP                     := Q     89_4,
+           En_Horn                  := TRUE,
+           NUM                      := 123);
+
+__      CALL  "Valves"
+__       OPSW   :=I62_7
+__       CLSW   :=I62_6
+__       OUTP   :=Q62_6
+__       En_Horn:=TRUE
+__       NUM    :=124
+
+__      CALL  "Valves"
+__       OPSW   :=I63_1
+__       CLSW   :=I63_0
+__       OUTP   :=Q63_0
+__       En_Horn:=TRUE
+__       NUM    :=125
+
+__      CALL  "Valves"
+__       OPSW   :=I63_3
+__       CLSW   :=I63_2
+__       OUTP   :=Q63_2
+__       En_Horn:=TRUE
+__       NUM    :=126
+
+__      CALL  "Valves"
+__       OPSW   :=I63_5
+__       CLSW   :=I63_4
+__       OUTP   :=Q63_4
+__       En_Horn:=TRUE
+__       NUM    :=127
+
+__      CALL  "Valves"
+__       OPSW   :=I63_7
+__       CLSW   :=I63_6
+__       OUTP   :=Q63_6
+__       En_Horn:=TRUE
+__       NUM    :=128
+
+NETWORK
+TITLE =DROP5  (Адрес 7)
+
+_________FESTO_0______DROP5_____________
+
+      CALL "Valves" (__RH_1
+           OPSW                     := "RH_1_Yo",
+           CLSW                     := "RH_1_Yc",
+           OUTP                     := "RH_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 129);
+
+      CALL "Valves" (__VRF_1
+           OPSW                     := "RF_1_Yo",
+           CLSW                     := "RF_1_Yc",
+           OUTP                     := "RF_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 130);
+
+      CALL "Valves" (__R3_D2
+           OPSW                     := "R3_D2_Yo",
+           CLSW                     := "R3_D2_Yc",
+           OUTP                     := "R3_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 131);
+
+      CALL "Valves" (__R2_D2
+           OPSW                     := "R2_D2_Yo",
+           CLSW                     := "R2_D2_Yc",
+           OUTP                     := "R2_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 132);
+
+      CALL "Valves" (__R1_D2
+           OPSW                     := "R1_D2_Yo",
+           CLSW                     := "R1_D2_Yc",
+           OUTP                     := "R1_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 133);
+
+      CALL "Valves" (__R3_D1
+           OPSW                     := "R3_D1_Yo",
+           CLSW                     := "R3_D1_Yc",
+           OUTP                     := "R3_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 134);
+
+      CALL "Valves" (__R2_D1
+           OPSW                     := "R2_D1_Yo",
+           CLSW                     := "R2_D1_Yc",
+           OUTP                     := "R2_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 135);
+
+      CALL "Valves" (__R1_D1
+           OPSW                     := "R1_D1_Yo",
+           CLSW                     := "R1_D1_Yc",
+           OUTP                     := "R1_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 136);
+
+_________FESTO_1______DROP5_____________
+
+      CALL "Valves" (__VPR_3
+           OPSW                     := "VPR_3_Yo",
+           CLSW                     := "VPR_3_Yc",
+           OUTP                     := "VPR_3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 137);
+
+      CALL "Valves" (__VPR_2
+           OPSW                     := "VPR_2_Yo",
+           CLSW                     := "VPR_2_Yc",
+           OUTP                     := "VPR_2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 138);
+
+      CALL "Valves" (__VPR_1
+           OPSW                     := "VPR_1_Yo",
+           CLSW                     := "VPR_1_Yc",
+           OUTP                     := "VPR_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 139);
+
+      CALL "Valves" (__VR3_F1
+           OPSW                     := "VR3_F1_Yo",
+           CLSW                     := "VR3_F1_Yc",
+           OUTP                     := "VR3_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 140);
+
+      CALL "Valves" (__VR2_F1
+           OPSW                     := "VR2_F1_Yo",
+           CLSW                     := "VR2_F1_Yc",
+           OUTP                     := "VR2_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 141);
+
+      CALL "Valves" (__VR1_F1
+           OPSW                     := "VR1_F1_Yo",
+           CLSW                     := "VR1_F1_Yc",
+           OUTP                     := "VR1_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 142);
+
+      CALL "Valves" (__PRH_2
+           OPSW                     := "VRH_2_Yo",
+           CLSW                     := "VRH_2_Yc",
+           OUTP                     := "VRH_2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 143);
+
+      CALL "Valves" (__PRF_2
+           OPSW                     := "VRF_2_Yo",
+           CLSW                     := "VRF_2_Yc",
+           OUTP                     := "VRF_2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 144);
+
+_________FESTO_2______DROP5_____________
+
+      CALL "Valves" (__VN2_F1
+           OPSW                     := "VN2_F1_Yo",
+           CLSW                     := "VN2_F1_Yc",
+           OUTP                     := "VN2_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 145);
+
+      CALL "Valves" (__VN1_F2
+           OPSW                     := "VN1_F2_Yo",
+           CLSW                     := "VN1_F2_Yc",
+           OUTP                     := "VN1_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 146);
+
+      CALL "Valves" (__VN2_F2
+           OPSW                     := "VN2_F2_Yo",
+           CLSW                     := "VN2_F2_Yc",
+           OUTP                     := "VN2_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 147);
+
+      CALL "Valves" (__VNI_2600
+           OPSW                     := "VNI_2600_Yo",
+           CLSW                     := "VNI_2600_Yc",
+           OUTP                     := "VNI_2600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 148);
+
+      CALL "Valves" (__VN1_D1
+           OPSW                     := "VN1_D1_Yo",
+           CLSW                     := "VN1_D1_Yc",
+           OUTP                     := "VN1_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 149);
+
+      CALL "Valves" (__VN2_D1
+           OPSW                     := "VN2_D1_Yo",
+           CLSW                     := "VN2_D1_Yc",
+           OUTP                     := "VN2_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 150);
+
+      CALL "Valves" (__VPN
+           OPSW                     := "VPN_Yo",
+           CLSW                     := "VPN_Yc",
+           OUTP                     := "VPN_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 151);
+
+      CALL "Valves" (__VPR_4
+           OPSW                     := "VPR_4_Yo",
+           CLSW                     := "VPR_4_Yc",
+           OUTP                     := "VPR_4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 152);
+
+_________FESTO_3______DROP5_____________
+
+      CALL "Valves" (__VN1_F1
+           OPSW                     := "VN1_F1_Yo",
+           CLSW                     := "VN1_F1_Yc",
+           OUTP                     := "VN1_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 153);
+
+      CALL "Valves" (__VH1_F1
+           OPSW                     := "VH1_F1_Yo",
+           CLSW                     := "VH1_F1_Yc",
+           OUTP                     := "VH1_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 154);
+
+      CALL "Valves" (__VH2_F1
+           OPSW                     := "VH2_F1_Yo",
+           CLSW                     := "VH2_F1_Yc",
+           OUTP                     := "VH2_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 155);
+
+      CALL "Valves" (__VH3_F1
+           OPSW                     := "VH3_F1_Yo",
+           CLSW                     := "VH3_F1_Yc",
+           OUTP                     := "VH3_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 156);
+
+      CALL "Valves" (__VH1_F2
+           OPSW                     := "VH1_F2_Yo",
+           CLSW                     := "VH1_F2_Yc",
+           OUTP                     := "VH1_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 157);
+
+      CALL "Valves" (__VH2_F2
+           OPSW                     := "VH2_F2_Yo",
+           CLSW                     := "VH2_F2_Yc",
+           OUTP                     := "VH2_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 158);
+
+      CALL "Valves" (__VH3_F2
+           OPSW                     := "VH3_F2_Yo",
+           CLSW                     := "VH3_F2_Yc",
+           OUTP                     := "VH3_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 159);
+
+      CALL "Valves" (__SF2
+           OPSW                     := "SF2_Yo",
+           CLSW                     := "SF2_Yc",
+           OUTP                     := "SF2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 160);
+
+
+NETWORK
+TITLE =DROP6  (Адрес 8)
+
+________FESTO_0_____DROP6______________
+
+      CALL "Valves" (__KIT5600P3
+           OPSW                     := "KIT5600P3_Yo",
+           CLSW                     := "KIT5600P3_Yc",
+           OUTP                     := "KIT5600P3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 161);
+
+      CALL "Valves" (__KIW500
+           OPSW                     := "KIW_500_Yo",
+           CLSW                     := "KIW_500_Yc",
+           OUTP                     := "KIW_500_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 162);
+
+      CALL "Valves" (__K2800SQ
+           OPSW                     := "K2800SQ_Yo",
+           CLSW                     := "K2800SQ_Yc",
+           OUTP                     := "K2800SQ_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 163);
+
+      CALL "Valves" (__K2I2600
+           OPSW                     := "K2I2600_Yo",
+           CLSW                     := "K2I2600_Yc",
+           OUTP                     := "K2I2600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 164);
+
+      CALL "Valves" (__K2T5600PS
+           OPSW                     := "K2T5600PS_Yo",
+           CLSW                     := "K2T5600PS_Yc",
+           OUTP                     := "K2T5600PS_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 165);
+
+      CALL "Valves" (__K2W500
+           OPSW                     := "K2W500_Yo",
+           CLSW                     := "K2W500_Yc",
+           OUTP                     := "K2W500_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 166);
+
+      CALL "Valves" (__K2B
+           OPSW                     := "K2B_Yo",
+           CLSW                     := "K2B_Yc",
+           OUTP                     := "K2B_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 167);
+
+      CALL "Valves" (__K2N
+           OPSW                     := "K2N_Yo",
+           CLSW                     := "K2N_Yc",
+           OUTP                     := "K2N_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 168);
+
+________FESTO_1_____DROP6______________
+
+      CALL "Valves" (__VB1_D1
+           OPSW                     := "VB1_D1_Yo",
+           CLSW                     := "VB1_D1_Yc",
+           OUTP                     := "VB1_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 169);
+
+      CALL "Valves" (__VB2_D1
+           OPSW                     := "VB2_D1_Yo",
+           CLSW                     := "VB2_D1_Yc",
+           OUTP                     := "VB2_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 170);
+
+      CALL "Valves" (__VB3_D1
+           OPSW                     := "VB3_D1_Yo",
+           CLSW                     := "VB3_D1_Yc",
+           OUTP                     := "VB3_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 171);
+
+      CALL "Valves" (__VK3800SQ
+           OPSW                     := "VK3800SQ_Yo",
+           CLSW                     := "VK3800SQ_Yc",
+           OUTP                     := "VK3800SQ_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 172);
+
+      CALL "Valves" (__VK3I2600
+           OPSW                     := "VK3I2600_Yo",
+           CLSW                     := "VK3I2600_Yc",
+           OUTP                     := "VK3I2600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 173);
+
+      CALL "Valves" (__VK3T5600PS
+           OPSW                     := "VK3T5600PS_Yo",
+           CLSW                     := "VK3T5600PS_Yc",
+           OUTP                     := "VK3T5600PS_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 174);
+
+      CALL "Valves" (__VK3W500
+           OPSW                     := "VK3W500_Yo",
+           CLSW                     := "VK3W500_Yc",
+           OUTP                     := "VK3W500_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 175);
+
+      CALL "Valves" (__VHW500
+           OPSW                     := "VHW500_Yo",
+           CLSW                     := "VHW500_Yc",
+           OUTP                     := "VHW500_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 176);
+
+________FESTO_2_____DROP6______________
+
+      CALL "Valves" (__VPB1
+           OPSW                     := "VPB1_Yo",
+           CLSW                     := "VPB1_Yc",
+           OUTP                     := "VPB1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 177);
+
+      CALL "Valves" (__VRB2_800SQ
+           OPSW                     := "VRB2_800SQ_Yo",
+           CLSW                     := "VRB2_800SQ_Yc",
+           OUTP                     := "VRB2_800SQ_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 178);
+
+      CALL "Valves" (__VRB2_I2600
+           OPSW                     := "VRB2_I2600_Yo",
+           CLSW                     := "VRB2_I2600_Yc",
+           OUTP                     := "VRB2_I2600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 179);
+
+      CALL "Valves" (__VRB1_800SQ
+           OPSW                     := "VRB1_800SQ_Yo",
+           CLSW                     := "VRB1_800SQ_Yc",
+           OUTP                     := "VRB1_800SQ_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 180);
+
+      CALL "Valves" (__VRB1_I2600
+           OPSW                     := "VRB1_I2600_Yo",
+           CLSW                     := "VRB1_I2600_Yc",
+           OUTP                     := "VRB1_I2600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 181);
+
+      CALL "Valves" (__VB1_D2
+           OPSW                     := "VB1_D2_Yo",
+           CLSW                     := "VB1_D2_Yc",
+           OUTP                     := "VB1_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 182);
+
+      CALL "Valves" (__VB2_D2
+           OPSW                     := "VB2_D2_Yo",
+           CLSW                     := "VB2_D2_Yc",
+           OUTP                     := "VB2_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 183);
+
+      CALL "Valves" (__VB3_D2
+           OPSW                     := "VB3_D2_Yo",
+           CLSW                     := "VB3_D2_Yc",
+           OUTP                     := "VB3_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 184);
+
+________FESTO_3_____DROP6______________
+
+      CALL "Valves" (__VPB2
+           OPSW                     := "VPB2_Yo",
+           CLSW                     := "VPB2_Yc",
+           OUTP                     := "VPB2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 185);
+
+      CALL "Valves" (__VK46T
+           OPSW                     := "VPK1_Yo",
+           CLSW                     := "VPK1_Yc",
+           OUTP                     := "VPK1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 186);
+
+      CALL "Valves" (__VPK46T
+           OPSW                     := "VK1_Yo",
+           CLSW                     := "VK1_Yc",
+           OUTP                     := "VK1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 187);
+
+      CALL "Valves" (__VN5_600
+           OPSW                     := "VN5_600_Yo",
+           CLSW                     := "VN5_600_Yc",
+           OUTP                     := "VN5_600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 188);
+
+      CALL "Valves" (__VN3
+           OPSW                     := "VN3_Yo",
+           CLSW                     := "VN3_Yc",
+           OUTP                     := "VN3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 189);
+
+      CALL "Valves" (__VN4
+           OPSW                     := "VN4_Yo",
+           CLSW                     := "VN4_Yc",
+           OUTP                     := "VN4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 190);
+
+      CALL "Valves" (__VK3H
+           OPSW                     := "VK3H_Yo",
+           CLSW                     := "VK3H_Yc",
+           OUTP                     := "VK3H_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 191);
+
+      CALL "Valves" (__SF1
+           OPSW                     := "SF1_Yo",
+           CLSW                     := "SF1_Yc",
+           OUTP                     := "SF1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 192);
+
+NETWORK
+TITLE =DROP7  (Адрес 9)
+
+_________FESTO_0______DROP7_____________
+
+      CALL "Valves" (__VI3_F1
+           OPSW                     := "VI3_F1_Yo",
+           CLSW                     := "VI3_F1_Yc",
+           OUTP                     := "VI3_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 193);
+
+      CALL "Valves" (__VI2_F1
+           OPSW                     := "VI2_F1_Yo",
+           CLSW                     := "VI2_F1_Yc",
+           OUTP                     := "VI2_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 194);
+
+      CALL "Valves" (__VI1_F1
+           OPSW                     := "VI1_F1_Yo",
+           CLSW                     := "VI1_F1_Yc",
+           OUTP                     := "VI1_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 195);
+
+      CALL "Valves" (__VI_800SQ
+           OPSW                     := "VI800SQ_Yo",
+           CLSW                     := "VI800SQ_Yc",
+           OUTP                     := "VI800SQ_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 196);
+
+      CALL "Valves" (__VPI
+           OPSW                     := "VPI_Yo",
+           CLSW                     := "VPI_Yc",
+           OUTP                     := "VPI_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 197);
+
+      CALL "Valves" (__VI3_D1
+           OPSW                     := "VI3_D1_Yo",
+           CLSW                     := "VI3_D1_Yc",
+           OUTP                     := "VI3_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 198);
+
+      CALL "Valves" (__VI2_D1
+           OPSW                     := "VI2_D1_Yo",
+           CLSW                     := "VI2_D1_Yc",
+           OUTP                     := "VI2_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 199);
+
+      CALL "Valves" (__VI1_D1
+           OPSW                     := "VI1_D1_Yo",
+           CLSW                     := "VI1_D1_Yc",
+           OUTP                     := "VI1_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 200);
+
+_________FESTO_1______DROP7_____________
+
+      CALL "Valves" (__B3_F2
+           OPSW                     := "B3_F2_Yo",
+           CLSW                     := "B3_F2_Yc",
+           OUTP                     := "B3_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 201);
+
+      CALL "Valves" (__B2_F2
+           OPSW                     := "B2_F2_Yo",
+           CLSW                     := "B2_F2_Yc",
+           OUTP                     := "B2_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 202);
+
+      CALL "Valves" (__B1_F2
+           OPSW                     := "B1_F2_Yo",
+           CLSW                     := "B1_F2_Yc",
+           OUTP                     := "B1_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 203);
+
+      CALL "Valves" (__B3_F1
+           OPSW                     := "B3_F1_Yo",
+           CLSW                     := "B3_F1_Yc",
+           OUTP                     := "B3_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 204);
+
+      CALL "Valves" (__B2_F1
+           OPSW                     := "B2_F1_Yo",
+           CLSW                     := "B2_F1_Yc",
+           OUTP                     := "B2_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 205);
+
+      CALL "Valves" (__B1_F1
+           OPSW                     := "B1_F1_Yo",
+           CLSW                     := "B1_F1_Yc",
+           OUTP                     := "B1_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 206);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "VR123_Yo",
+           CLSW                     := "VR123_Yc",
+           OUTP                     := "VR123_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 207);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "VR4_Yo",
+           CLSW                     := "VR4_Yc",
+           OUTP                     := "VR4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 208);
+
+_________FESTO_2______DROP7_____________
+
+      CALL "Valves" (__VPH
+           OPSW                     := "VPH_Yo",
+           CLSW                     := "VPH_Yc",
+           OUTP                     := "VPH_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 209);
+
+      CALL "Valves" (__VH_098
+           OPSW                     := "VH098_Yo",
+           CLSW                     := "VH098_Yc",
+           OUTP                     := "VH098_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 210);
+
+      CALL "Valves" (__VH_800SQ
+           OPSW                     := "VH800SQ_Yo",
+           CLSW                     := "VH800SQ_Yc",
+           OUTP                     := "VH800SQ_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 211);
+
+      CALL "Valves" (__VHI_2600
+           OPSW                     := "VHI2600_Yo",
+           CLSW                     := "VHI2600_Yc",
+           OUTP                     := "VHI2600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 212);
+
+      CALL "Valves" (__VH3_D1
+           OPSW                     := "VH3_D1_Yo",
+           CLSW                     := "VH3_D1_Yc",
+           OUTP                     := "VH3_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 213);
+
+      CALL "Valves" (__VH2_D1
+           OPSW                     := "VH2_D1_Yo",
+           CLSW                     := "VH2_D1_Yc",
+           OUTP                     := "VH2_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 214);
+
+      CALL "Valves" (__VH1_D1
+           OPSW                     := "VH1_D1_Yo",
+           CLSW                     := "VH1_D1_Yc",
+           OUTP                     := "VH1_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 215);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := I     85_7,
+           CLSW                     := I     85_6,
+           OUTP                     := Q     85_6,
+           En_Horn                  := TRUE,
+           NUM                      := 216);
+
+_________FESTO_3______DROP7_____________
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "R5_D2_Yo",
+           CLSW                     := "R5_D2_Yc",
+           OUTP                     := "R5_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 217);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "R5_D1_Yo",
+           CLSW                     := "R5_D1_Yc",
+           OUTP                     := "R5_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 218);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "VRF4_Yo",
+           CLSW                     := "VRF4_Yc",
+           OUTP                     := "VRF4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 219);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "R4_D2_Yo",
+           CLSW                     := "R4_D2_Yc",
+           OUTP                     := "R4_D2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 220);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "R4_D1_Yo",
+           CLSW                     := "R4_D1_Yc",
+           OUTP                     := "R4_D1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 221);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "R5_F1_Yo",
+           CLSW                     := "R5_F1_Yc",
+           OUTP                     := "R5_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 222);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "R4_F1_Yo",
+           CLSW                     := "R4_F1_Yc",
+           OUTP                     := "R4_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 223);
+
+      CALL "Valves" (__SPARE
+           OPSW                     := "VR45_Yo",
+           CLSW                     := "VR45_Yc",
+           OUTP                     := "VR45_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 224);
+
+      CALL "Valves" (
+           OPSW                     := "VRH_Yo",
+           CLSW                     := "VRH_Yc",
+           OUTP                     := "VRH_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 230);
+
+      CALL "Valves" (
+           OPSW                     := "VRF3_Yo",
+           CLSW                     := "VRF3_Yc",
+           OUTP                     := "VRF3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 231);
+
+NETWORK
+TITLE =ET15 Клапана пирс
+
+
+      CALL "VALVES_1" (__V2
+           OPSW                     := I      4_0,
+           CLSW                     := I      4_1,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 225);
+
+      CALL "VALVES_1" (__V3
+           OPSW                     := I      4_2,
+           CLSW                     := I      4_3,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 226);
+
+      CALL "VALVES_1" (__V4
+           OPSW                     := I      4_4,
+           CLSW                     := I      4_5,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 227);
+
+      CALL "VALVES_1" (__V5
+           OPSW                     := I      4_6,
+           CLSW                     := I      4_7,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 228);
+
+      CALL "VALVES_1" (__V7
+           OPSW                     := I      5_0,
+           CLSW                     := I      5_1,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 229);
+
+
+
+
+
+
+NETWORK
+TITLE =
+__ 
+
+      CALL "Valves" (
+           OPSW                     := "VC9_F1_Yo",
+           CLSW                     := "VC9_F1_Yc",
+           OUTP                     := "VC9_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 232);
+      CALL "Valves" (
+           OPSW                     := "VC10_F1_Yo",
+           CLSW                     := "VC10_F1_Yc",
+           OUTP                     := "VC10_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 233);
+      CALL "Valves" (
+           OPSW                     := "VC11_F1_Yo",
+           CLSW                     := "VC11_F1_Yc",
+           OUTP                     := "VC11_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 234);
+      CALL "Valves" (
+           OPSW                     := "VC12_F1_Yo",
+           CLSW                     := "VC12_F1_Yc",
+           OUTP                     := "VC12_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 235);
+      CALL "Valves" (
+           OPSW                     := I     27_7,
+           CLSW                     := I     27_6,
+           OUTP                     := Q     21_6,
+           En_Horn                  := TRUE,
+           NUM                      := 236);
+      CALL "Valves" (
+           OPSW                     := I     27_5,
+           CLSW                     := I     27_4,
+           OUTP                     := Q     21_4,
+           En_Horn                  := TRUE,
+           NUM                      := 237);
+      CALL "Valves" (
+           OPSW                     := I     27_3,
+           CLSW                     := I     27_2,
+           OUTP                     := Q     21_2,
+           En_Horn                  := TRUE,
+           NUM                      := 238);
+
+      CALL "Valves" (
+           OPSW                     := "VC13_F1_Yo",
+           CLSW                     := "VC13_F1_Yc",
+           OUTP                     := "VC13_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 239);
+
+
+      CALL "Valves" (
+           OPSW                     := I     29_5,
+           CLSW                     := I     29_4,
+           OUTP                     := Q     23_4,
+           En_Horn                  := TRUE,
+           NUM                      := 240);
+      CALL "Valves" (
+           OPSW                     := "P82HWa_KM",
+           CLSW                     := "P82HWa_TH",
+           OUTP                     := "VHF2_1_OUT",
+           En_Horn                  := TRUE,
+           NUM                      := 241);
+
+      CALL "Valves" (
+           OPSW                     := "VRF5_Yo",
+           CLSW                     := "VRF5_Yc",
+           OUTP                     := "VRF5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 242);
+
+      CALL "Valves" (
+           OPSW                     := "VRF800Q_Yo",
+           CLSW                     := "VRF800Q_Yc",
+           OUTP                     := "VRF800Q_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 243);
+
+      CALL "Valves" (
+           OPSW                     := "VR8_F4_Yo",
+           CLSW                     := "VR8_F4_Yc",
+           OUTP                     := "VR8_F4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 244);
+
+      CALL "Valves" (
+           OPSW                     := "VR8_F3_Yo",
+           CLSW                     := "VR8_F3_Yc",
+           OUTP                     := "VR8_F3_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 245);
+
+      CALL "Valves" (
+           OPSW                     := "VPN1_F3mez_Yc",
+           CLSW                     := "VPN1_F3mez_Yo",
+           OUTP                     := "VPN1_F3mez_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 246);
+__vrb2 800q
+      CALL "Valves" (
+           OPSW                     := "VRB2_800Q_YO",
+           CLSW                     := "VRB2_800Q_YC",
+           OUTP                     := "VRB2_800Q_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 247);
+
+__vrb1 800q
+      CALL "Valves" (
+           OPSW                     := "VRB1_800Q_YO",
+           CLSW                     := "VRB1_800Q_YC",
+           OUTP                     := "VRB1_800Q_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 248);
+
+__vi3d2
+      CALL "Valves" (
+           OPSW                     := "VI3_D2_Yo",
+           CLSW                     := I     49_6,
+           OUTP                     := Q     49_6,
+           En_Horn                  := TRUE,
+           NUM                      := 249);
+
+__vi2d2
+      CALL "Valves" (
+           OPSW                     := "VI2_D2_Yo",
+           CLSW                     := I     49_0,
+           OUTP                     := Q     49_0,
+           En_Horn                  := TRUE,
+           NUM                      := 250);
+
+__vi1d2
+      CALL "Valves" (
+           OPSW                     := "VI1_D2_Yo",
+           CLSW                     := I     61_6,
+           OUTP                     := Q     61_6,
+           En_Horn                  := TRUE,
+           NUM                      := 251);
+
+__vpi2
+      CALL "Valves" (
+           OPSW                     := "VPI2_Yo",
+           CLSW                     := I     48_0,
+           OUTP                     := Q     48_0,
+           En_Horn                  := TRUE,
+           NUM                      := 252);
+
+__vi2 800q
+      CALL "Valves" (
+           OPSW                     := "VI2800SQ_Yo",
+           CLSW                     := I     48_4,
+           OUTP                     := Q     48_4,
+           En_Horn                  := TRUE,
+           NUM                      := 253);
+
+__vi1 800q
+      CALL "Valves" (
+           OPSW                     := "VI_1_800Q_Yo",
+           CLSW                     := I     53_2,
+           OUTP                     := Q     53_2,
+           En_Horn                  := TRUE,
+           NUM                      := 254);
+
+__vi2 800sq
+      CALL "Valves" (
+           OPSW                     := "VI2800Q_Yo",
+           CLSW                     := I     49_4,
+           OUTP                     := Q     49_4,
+           En_Horn                  := TRUE,
+           NUM                      := 255);
+
+__ vh3d2
+      CALL "Valves" (
+           OPSW                     := "VH3_D2_Yo",
+           CLSW                     := I     53_4,
+           OUTP                     := Q     53_4,
+           En_Horn                  := TRUE,
+           NUM                      := 256);
+
+__vh2d2
+      CALL "Valves" (
+           OPSW                     := "VH2_D2_Yo",
+           CLSW                     := I     52_6,
+           OUTP                     := Q     52_6,
+           En_Horn                  := TRUE,
+           NUM                      := 257);
+
+__vh1d2
+      CALL "Valves" (
+           OPSW                     := "VH1_D2_Yo",
+           CLSW                     := I     53_6,
+           OUTP                     := Q     53_6,
+           En_Horn                  := TRUE,
+           NUM                      := 258);
+
+__vph2
+      CALL "Valves" (
+           OPSW                     := "VPH2_Yo",
+           CLSW                     := "VPH2_Yc",
+           OUTP                     := Q     52_4,
+           En_Horn                  := TRUE,
+           NUM                      := 259);
+
+__vh2 800q
+      CALL "Valves" (
+           OPSW                     := "VH2_800Q_Yo",
+           CLSW                     := I     48_2,
+           OUTP                     := Q     48_2,
+           En_Horn                  := TRUE,
+           NUM                      := 260);
+
+__vh2 2600
+      CALL "Valves" (
+           OPSW                     := "VH2_2600_Yo",
+           CLSW                     := I     53_0,
+           OUTP                     := Q     53_0,
+           En_Horn                  := TRUE,
+           NUM                      := 261);
+
+__vh2 800sq
+      CALL "Valves" (
+           OPSW                     := "VH2_800SQ_Yo",
+           CLSW                     := "VH2_800SQ_Yc",
+           OUTP                     := "VH2_800SQ_OUT",
+           En_Horn                  := TRUE,
+           NUM                      := 262);
+
+__vh2 098
+      CALL "Valves" (
+           OPSW                     := "VH2_098_Yo",
+           CLSW                     := "VH2_098_Yc",
+           OUTP                     := "VH2_098_OUT",
+           En_Horn                  := TRUE,
+           NUM                      := 263);
+
+__vh1 800q
+      CALL "Valves" (
+           OPSW                     := "VH1_800Q_Yo",
+           CLSW                     := "VH1_800Q_Yc",
+           OUTP                     := "VH1_800Q_OUT",
+           En_Horn                  := TRUE,
+           NUM                      := 264);
+
+__vk2 800q
+      CALL "Valves" (
+           OPSW                     := "VK2_800Q_YO",
+           CLSW                     := "VK2_800Q_YC",
+           OUTP                     := "VK2_800Q_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 265);
+
+__vk3 800q
+      CALL "Valves" (
+           OPSW                     := "VK3_800Q_YO",
+           CLSW                     := "VK3_800Q_YC",
+           OUTP                     := "VK3_800Q_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 266);
+__v600
+      CALL "Valves" (
+           OPSW                     := "V600_OP",
+           CLSW                     := "V600_CL",
+           OUTP                     := "V600_OUT",
+           En_Horn                  := TRUE,
+           NUM                      := 267);
+__v800q
+      CALL "Valves" (
+           OPSW                     := "V800Q_OP",
+           CLSW                     := "V800Q_CL",
+           OUTP                     := "V800Q_OUT",
+           En_Horn                  := TRUE,
+           NUM                      := 268);
+
+NETWORK
+TITLE =Tank Park 2 (Profibus adress 23) C9_C13
+
+      CALL "Valves" (
+           OPSW                     := "C12b3_Yo",
+           CLSW                     := "C12b3_Yc",
+           OUTP                     := "C12b3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 269);
+
+      CALL "Valves" (
+           OPSW                     := "C11b3_Yo",
+           CLSW                     := "C11b3_Yc",
+           OUTP                     := "C11b3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 270);
+
+      CALL "Valves" (
+           OPSW                     := "C11b4_Yo",
+           CLSW                     := "C11b4_Yc",
+           OUTP                     := "C11b4_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 271);
+
+
+      CALL "Valves" (
+           OPSW                     := "C11b5_Yo",
+           CLSW                     := "C11b5_Yc",
+           OUTP                     := "C11b5_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 272);
+
+      CALL "Valves" (
+           OPSW                     := "C12b5_Yo",
+           CLSW                     := "C12b5_Yc",
+           OUTP                     := "C12b5_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 273);
+
+      CALL "Valves" (
+           OPSW                     := "C12b4_Yo",
+           CLSW                     := "C12b4_Yc",
+           OUTP                     := "C12b4_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 274);
+
+      CALL "Valves" (
+           OPSW                     := "C10b3_Yo",
+           CLSW                     := "C10b3_Yc",
+           OUTP                     := "C10b3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 275);
+
+      CALL "Valves" (
+           OPSW                     := "C10b5_Yo",
+           CLSW                     := "C10b5_Yc",
+           OUTP                     := "C10b5_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 276);
+
+      CALL "Valves" (
+           OPSW                     := "C10b4_Yo",
+           CLSW                     := "C10b4_Yc",
+           OUTP                     := "C10b4_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 277);
+
+      CALL "Valves" (
+           OPSW                     := "C13D1_Yo",
+           CLSW                     := "C13D1_Yc",
+           OUTP                     := "C13D1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 278);
+
+      CALL "Valves" (
+           OPSW                     := "C13D2_Yo",
+           CLSW                     := "C13D2_Yc",
+           OUTP                     := "C13D2_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 279);
+
+      CALL "Valves" (
+           OPSW                     := "C12D1_Yo",
+           CLSW                     := "C12D1_Yc",
+           OUTP                     := "C12D1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 280);
+
+      CALL "Valves" (
+           OPSW                     := "C12D2_Yo",
+           CLSW                     := "C12D2_Yc",
+           OUTP                     := "C12D2_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 281);
+
+      CALL "Valves" (
+           OPSW                     := "C9b4_Yo",
+           CLSW                     := "C9b4_Yc",
+           OUTP                     := "C9b4_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 282);
+
+      CALL "Valves" (
+           OPSW                     := "C9b5_Yo",
+           CLSW                     := "C9b5_Yc",
+           OUTP                     := "C9b5_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 283);
+
+      CALL "Valves" (
+           OPSW                     := "C9b3_Yo",
+           CLSW                     := "C9b3_Yc",
+           OUTP                     := "C9b3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 284);
+
+NETWORK
+TITLE =Tank Farm 1 (Profibus adress 24)
+
+
+      CALL "Valves" (
+           OPSW                     := "D1_1_Yo",
+           CLSW                     := "D1_1_Yc",
+           OUTP                     := "D1_1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 285);
+
+      CALL "Valves" (
+           OPSW                     := "D2_1_Yo",
+           CLSW                     := "D2_1_Yc",
+           OUTP                     := "D2_1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 286);
+
+      CALL "Valves" (
+           OPSW                     := "D3_1_Yo",
+           CLSW                     := "D3_1_Yc",
+           OUTP                     := "D3_1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 287);
+
+      CALL "Valves" (
+           OPSW                     := "D1_3_Out",__"D1_3_Yo"     и кто это такой гений???
+           CLSW                     := "D1_3_Yc",
+           OUTP                     := "D1_3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 288);
+
+      CALL "Valves" (
+           OPSW                     := "D2_3_Yo",
+           CLSW                     := "D2_3_Yc",
+           OUTP                     := "D2_3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 289);
+
+      CALL "Valves" (
+           OPSW                     := "D3_3_Yo",
+           CLSW                     := "D3_3_Yc",
+           OUTP                     := "D3_3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 290);
+
+      CALL "Valves" (
+           OPSW                     := "D1_2_Yo",
+           CLSW                     := "D1_2_Yc",
+           OUTP                     := "D1_2_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 291);
+
+      CALL "Valves" (
+           OPSW                     := "D2_2_Yo",
+           CLSW                     := "D2_2_Yc",
+           OUTP                     := "D2_2_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 292);
+
+      CALL "Valves" (
+           OPSW                     := "D3_2_Yo",
+           CLSW                     := "D3_2_Yc",
+           OUTP                     := "D3_2_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 293);
+
+      CALL "Valves" (
+           OPSW                     := "VCR3_Yo",
+           CLSW                     := "VCR3_Yc",
+           OUTP                     := "VCR3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 294);
+
+      CALL "Valves" (
+           OPSW                     := "VCR8_Yo",
+           CLSW                     := "VCR8_Yc",
+           OUTP                     := "VCR8_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 295);
+
+      CALL "Valves" (
+           OPSW                     := "VCR6_Yo",
+           CLSW                     := "VCR6_Yc",
+           OUTP                     := "VCR6_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 296);
+
+      CALL "Valves" (
+           OPSW                     := "VCR4_Yo",
+           CLSW                     := "VCR4_Yc",
+           OUTP                     := "VCR4_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 297);
+
+      CALL "Valves" (
+           OPSW                     := "VCR2_Yo",
+           CLSW                     := "VCR2_Yc",
+           OUTP                     := "VCR2_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 298);
+
+      CALL "Valves" (
+           OPSW                     := "VCR7_Yo",
+           CLSW                     := "VCR7_Yc",
+           OUTP                     := "VCR7_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 299);
+
+      CALL "Valves" (
+           OPSW                     := "VCR5_Yo",
+           CLSW                     := "VCR5_Yc",
+           OUTP                     := "VCR5_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 300);
+
+      CALL "Valves" (
+           OPSW                     := "VCR1_Yo",
+           CLSW                     := "VCR1_Yc",
+           OUTP                     := "VCR1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 301);
+
+NETWORK
+TITLE =Новый коллектор C1_C8_ Festo drop 25_26_
+
+
+__vpc1_1
+      CALL "Valves" (
+           OPSW                     := "VPC1_1_Yo",
+           CLSW                     := "VPC1_1_Yc",
+           OUTP                     := "VPC1_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 310);
+
+__vc1_d4
+      CALL "Valves" (
+           OPSW                     := "VC1_D4_Yo",
+           CLSW                     := "VC1_D4_Yc",
+           OUTP                     := "VC1_D4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 311);
+
+__vc1_d5
+      CALL "Valves" (
+           OPSW                     := "VC1_D5_Yo",
+           CLSW                     := "VC1_D5_Yc",
+           OUTP                     := "VC1_D5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 312);
+
+__vc1_d6
+      CALL "Valves" (
+           OPSW                     := "VC1_D6_Yo",
+           CLSW                     := "VC1_D6_Yc",
+           OUTP                     := "VC1_D6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 313);
+
+__vc1_d7
+      CALL "Valves" (
+           OPSW                     := "VC1_D7_Yo",
+           CLSW                     := "VC1_D7_Yc",
+           OUTP                     := "VC1_D7_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 314);
+
+__vpc2_1
+      CALL "Valves" (
+           OPSW                     := "VPC2_1_Yo",
+           CLSW                     := "VPC2_1_Yc",
+           OUTP                     := "VPC2_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 315);
+
+__vc2_d4
+      CALL "Valves" (
+           OPSW                     := "VC2_D4_Yo",
+           CLSW                     := "VC2_D4_Yc",
+           OUTP                     := "VC2_D4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 316);
+
+__vc2_d5
+      CALL "Valves" (
+           OPSW                     := "VC2_D5_Yo",
+           CLSW                     := "VC2_D5_Yc",
+           OUTP                     := "VC2_D5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 317);
+
+__vc2_d6
+      CALL "Valves" (
+           OPSW                     := "VC2_D6_Yo",
+           CLSW                     := "VC2_D6_Yc",
+           OUTP                     := "VC2_D6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 318);
+
+__vc2_d7
+      CALL "Valves" (
+           OPSW                     := "VC2_D7_Yo",
+           CLSW                     := "VC2_D7_Yc",
+           OUTP                     := "VC2_D7_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 319);
+
+__vpc3_1
+      CALL "Valves" (
+           OPSW                     := "VPC3_1_Yo",
+           CLSW                     := "VPC3_1_Yc",
+           OUTP                     := "VPC3_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 320);
+
+__vc3_d4
+      CALL "Valves" (
+           OPSW                     := "VC3_D4_Yo",
+           CLSW                     := "VC3_D4_Yc",
+           OUTP                     := "VC3_D4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 321);
+
+__vc3_d5
+      CALL "Valves" (
+           OPSW                     := "VC3_D5_Yo",
+           CLSW                     := "VC3_D5_Yc",
+           OUTP                     := "VC3_D5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 322);
+
+__vc3_d6
+      CALL "Valves" (
+           OPSW                     := "VC3_D6_Yo",
+           CLSW                     := "VC3_D6_Yc",
+           OUTP                     := "VC3_D6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 323);
+
+__vc3_d7
+      CALL "Valves" (
+           OPSW                     := "VC3_D7_Yo",
+           CLSW                     := "VC3_D7_Yc",
+           OUTP                     := "VC3_D7_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 324);
+
+__vpc4_1
+      CALL "Valves" (
+           OPSW                     := "VPC4_1_Yo",
+           CLSW                     := "VPC4_1_Yc",
+           OUTP                     := "VPC4_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 325);
+
+__vc4_d4
+      CALL "Valves" (
+           OPSW                     := "VC4_D4_Yo",
+           CLSW                     := "VC4_D4_Yc",
+           OUTP                     := "VC4_D4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 326);
+
+__vc4_d5
+      CALL "Valves" (
+           OPSW                     := "VC4_D5_Yo",
+           CLSW                     := "VC4_D5_Yc",
+           OUTP                     := "VC4_D5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 327);
+
+__vc4_d6
+      CALL "Valves" (
+           OPSW                     := "VC4_D6_Yo",
+           CLSW                     := "VC4_D6_Yc",
+           OUTP                     := "VC4_D6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 328);
+
+__vc4_d7
+      CALL "Valves" (
+           OPSW                     := "VC4_D7_Yo",
+           CLSW                     := "VC4_D7_Yc",
+           OUTP                     := "VC4_D7_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 329);
+
+__vpc5_1
+      CALL "Valves" (
+           OPSW                     := "VPC5_1_Yo",
+           CLSW                     := "VPC5_1_Yc",
+           OUTP                     := "VPC5_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 330);
+
+__vc5_d4
+      CALL "Valves" (
+           OPSW                     := "VC5_D4_Yo",
+           CLSW                     := "VC5_D4_Yc",
+           OUTP                     := "VC5_D4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 331);
+
+__vc5_d5
+      CALL "Valves" (
+           OPSW                     := "VC5_D5_Yo",
+           CLSW                     := "VC5_D5_Yc",
+           OUTP                     := "VC5_D5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 332);
+
+__vc5_d6
+      CALL "Valves" (
+           OPSW                     := "VC5_D6_Yo",
+           CLSW                     := "VC5_D6_Yc",
+           OUTP                     := "VC5_D6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 333);
+
+__vc5_d7
+      CALL "Valves" (
+           OPSW                     := "VC5_D7_Yo",
+           CLSW                     := "VC5_D7_Yc",
+           OUTP                     := "VC5_D7_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 334);
+
+__vpc6_1
+      CALL "Valves" (
+           OPSW                     := "VPC6_1_Yo",
+           CLSW                     := "VPC6_1_Yc",
+           OUTP                     := "VPC6_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 335);
+
+__vc6_d4
+      CALL "Valves" (
+           OPSW                     := "VC6_D4_Yo",
+           CLSW                     := "VC6_D4_Yc",
+           OUTP                     := "VC6_D4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 336);
+
+__vc6_d5
+      CALL "Valves" (
+           OPSW                     := "VC6_D5_Yo",
+           CLSW                     := "VC6_D5_Yc",
+           OUTP                     := "VC6_D5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 337);
+
+__vc6_d6
+      CALL "Valves" (
+           OPSW                     := "VC6_D6_Yo",
+           CLSW                     := "VC6_D6_Yc",
+           OUTP                     := "VC6_D6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 338);
+
+__vc6_d7
+      CALL "Valves" (
+           OPSW                     := "VC6_D7_Yo",
+           CLSW                     := "VC6_D7_Yc",
+           OUTP                     := "VC6_D7_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 339);
+
+__vpc7_1
+      CALL "Valves" (
+           OPSW                     := "VPC7_1_Yo",
+           CLSW                     := "VPC7_1_Yc",
+           OUTP                     := "VPC7_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 340);
+
+__vc7_d4
+      CALL "Valves" (
+           OPSW                     := "VC7_D4_Yo",
+           CLSW                     := "VC7_D4_Yc",
+           OUTP                     := "VC7_D4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 341);
+
+__vc7_d5
+      CALL "Valves" (
+           OPSW                     := "VC7_D5_Yo",
+           CLSW                     := "VC7_D5_Yc",
+           OUTP                     := "VC7_D5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 342);
+
+__vc7_d6
+      CALL "Valves" (
+           OPSW                     := "VC7_D6_Yo",
+           CLSW                     := "VC7_D6_Yc",
+           OUTP                     := "VC7_D6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 343);
+
+__vc7_d7
+      CALL "Valves" (
+           OPSW                     := "VC7_D7_Yo",
+           CLSW                     := "VC7_D7_Yc",
+           OUTP                     := "VC7_D7_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 344);
+
+__vpc8_1     
+      CALL "Valves" (
+           OPSW                     := "VPC8_1_Yo",
+           CLSW                     := "VPC8_1_Yc",
+           OUTP                     := "VPC8_1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 345);
+
+__vc8_d4
+      CALL "Valves" (
+           OPSW                     := "VC8_D4_Yo",
+           CLSW                     := "VC8_D4_Yc",
+           OUTP                     := "VC8_D4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 346);
+
+__vc8_d5
+      CALL "Valves" (
+           OPSW                     := "VC8_D5_Yo",
+           CLSW                     := "VC8_D5_Yc",
+           OUTP                     := "VC8_D5_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 347);
+
+__vc8_d6
+      CALL "Valves" (
+           OPSW                     := "VC8_D6_Yo",
+           CLSW                     := "VC8_D6_Yc",
+           OUTP                     := "VC8_D6_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 348);
+
+__vc8_d7
+      CALL "Valves" (
+           OPSW                     := "VC8_D7_Yo",
+           CLSW                     := "VC8_D7_Yc",
+           OUTP                     := "VC8_D7_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 349);
+
+__vctf4
+      CALL "Valves" (
+           OPSW                     := "VCTF4_Yo",
+           CLSW                     := "VCTF4_Yc",
+           OUTP                     := "VCTF4_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 350);
+
+__vk4q800
+      CALL "Valves" (
+           OPSW                     := "VK4Q800_Yo",
+           CLSW                     := "VK4Q800_Yc",
+           OUTP                     := "VK4Q800_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 351);
+
+__vk4i2600
+      CALL "Valves" (
+           OPSW                     := "VK4I2600_Yo",
+           CLSW                     := "VK4I2600_Yc",
+           OUTP                     := "VK4I2600_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 352);
+
+__vk4qms800
+      CALL "Valves" (
+           OPSW                     := "VK4QMS800_Yo",
+           CLSW                     := "VK4QMS800_Yc",
+           OUTP                     := "VK4QMS800_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 353);
+
+__vc12_f11
+      CALL "Valves" (
+           OPSW                     := "VC12_F11_Yo",
+           CLSW                     := "VC12_F11_Yc",
+           OUTP                     := "VC12_F11_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 354);
+
+__vk1_f1
+      CALL "Valves" (
+           OPSW                     := "VK1_F1_Yo",
+           CLSW                     := "VK1_F1_Yc",
+           OUTP                     := "VK1_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 355);
+
+__vk2_f2
+      CALL "Valves" (
+           OPSW                     := "VK2_F2_Yo",
+           CLSW                     := "VK2_F2_Yc",
+           OUTP                     := "VK2_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 356);
+
+__vk2_f1
+      CALL "Valves" (
+           OPSW                     := "VK2_F1_Yo",
+           CLSW                     := "VK2_F1_Yc",
+           OUTP                     := "VK2_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 357);
+
+__vk4_f1
+      CALL "Valves" (
+           OPSW                     := "VK4_F1_Yo",
+           CLSW                     := "VK4_F1_Yc",
+           OUTP                     := "VK4_F1_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 358);
+
+__vk4_f2
+      CALL "Valves" (
+           OPSW                     := "VK4_F2_Yo",
+           CLSW                     := "VK4_F2_Yc",
+           OUTP                     := "VK4_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 359);
+
+__vk1_f2
+      CALL "Valves" (
+           OPSW                     := "VK1_F2_Yo",
+           CLSW                     := "VK1_F2_Yc",
+           OUTP                     := "VK1_F2_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 360);
+
+__vc12_f44
+      CALL "Valves" (
+           OPSW                     := "VC12_F44_Yo",
+           CLSW                     := "VC12_F44_Yc",
+           OUTP                     := "VC12_F44_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 361);
+
+__vc12_f22
+      CALL "Valves" (
+           OPSW                     := "VC12_F22_Yo",
+           CLSW                     := "VC12_F22_Yc",
+           OUTP                     := "VC12_F22_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 362);
+
+__vc1_d8
+      CALL "Valves" (
+           OPSW                     := "VC1_D8_Yo",
+           CLSW                     := "VC1_D8_Yc",
+           OUTP                     := "VC1_D8_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 363);
+
+__vc3_d8
+      CALL "Valves" (
+           OPSW                     := "VC3_D8_Yo",
+           CLSW                     := "VC3_D8_Yc",
+           OUTP                     := "VC3_D8_Out",
+           En_Horn                  := TRUE,
+           NUM                      := 364);
+
+__ 080416 для налива на корабль,
+__ 2_й причал, Ремизов Ковров
+      CALL "Valves" (
+           OPSW                     := I     14_1,
+           CLSW                     := I     14_0,
+           OUTP                     := Q     12_0,
+           En_Horn                  := TRUE,
+           NUM                      := 365);
+
+      CALL "Valves" (
+           OPSW                     := I     14_3,
+           CLSW                     := I     14_2,
+           OUTP                     := Q     12_2,
+           En_Horn                  := TRUE,
+           NUM                      := 366);
+
+      CALL "Valves" (
+           OPSW                     := I     14_5,
+           CLSW                     := I     14_4,
+           OUTP                     := Q     12_4,
+           En_Horn                  := TRUE,
+           NUM                      := 367);
+
+      CALL "Valves" (
+           OPSW                     := I     14_7,
+           CLSW                     := I     14_6,
+           OUTP                     := Q     12_6,
+           En_Horn                  := TRUE,
+           NUM                      := 368);
+
+      CALL "Valves" (
+           OPSW                     := I     15_1,
+           CLSW                     := I     15_0,
+           OUTP                     := Q     13_0,
+           En_Horn                  := TRUE,
+           NUM                      := 369);
+
+      CALL "Valves" (
+           OPSW                     := I     15_3,
+           CLSW                     := I     15_2,
+           OUTP                     := Q     13_2,
+           En_Horn                  := TRUE,
+           NUM                      := 370);
+
+      CALL "Valves" (
+           OPSW                     := I    146_3,
+           CLSW                     := I    146_2,
+           OUTP                     := Q     89_5,
+           En_Horn                  := FALSE,
+           NUM                      := 371);
+
+_____________
+      CALL "Valves" (
+           OPSW                     := "VPA1_Yo",
+           CLSW                     := "VPA1_Yc",
+           OUTP                     := "VPA1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 372);
+
+      CALL "Valves" (
+           OPSW                     := "VB5600_Yo",
+           CLSW                     := "VB5600_Yc",
+           OUTP                     := "VB5600_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 373);
+
+
+      CALL "Valves" (
+           OPSW                     := "VA1_H_Yo",
+           CLSW                     := "VA1_H_Yc",
+           OUTP                     := "VA1_H_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 374);
+
+      CALL "Valves" (
+           OPSW                     := "VB_F2_Yo",
+           CLSW                     := "VB_F2_Yc",
+           OUTP                     := "VB_F2_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 375);
+
+      CALL "Valves" (
+           OPSW                     := "VA4_Yo",
+           CLSW                     := "VA4_Yc",
+           OUTP                     := "VA4_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 376);
+
+      CALL "Valves" (
+           OPSW                     := "VH_F3_Yo",
+           CLSW                     := "VH_F3_Yc",
+           OUTP                     := "VH_F3_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 377);
+
+      CALL "Valves" (
+           OPSW                     := "VH_F2_Yo",
+           CLSW                     := "VH_F2_Yc",
+           OUTP                     := "VH_F2_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 378);
+
+
+      CALL "Valves" (
+           OPSW                     := "VH_F1_Yo",
+           CLSW                     := "VH_F1_Yc",
+           OUTP                     := "VH_F1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 379);
+
+      CALL "Valves" (
+           OPSW                     := "VA1_K4_Yo",
+           CLSW                     := "VA1_K4_Yc",
+           OUTP                     := "VA1_K4_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 380);
+
+      CALL "Valves" (
+           OPSW                     := "VA1_Yo",
+           CLSW                     := "VA1_Yc",
+           OUTP                     := "VA1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 381);
+
+      CALL "Valves" (
+           OPSW                     := "VAS4_Yo",
+           CLSW                     := "VAS4_Yc",
+           OUTP                     := "VAS4_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 382);
+
+      CALL "Valves" (
+           OPSW                     := "VB_F1_Yo",
+           CLSW                     := "VB_F1_Yc",
+           OUTP                     := "VB_F1_Out",
+           En_Horn                  := FALSE,
+           NUM                      := 383);
+_________________________
+______________VN1_D4___________
+      CALL "Valves" (
+           OPSW                     := "VN1_D4_Yo",
+           CLSW                     := "VN1_D4_Yc",
+           OUTP                     := "VN1_D4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 384);
+_________________________
+______________VN2_D4___________
+      CALL "Valves" (
+           OPSW                     := "VN2_D4_Yo",
+           CLSW                     := "VN2_D4_Yc",
+           OUTP                     := "VN2_D4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 385);
+_________________________
+______________VN4800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VN4800QMS3_Yo",
+           CLSW                     := "VN4800QMS3_Yc",
+           OUTP                     := "VN4800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 386);
+_________________________
+______________VPN4___________
+      CALL "Valves" (
+           OPSW                     := "VPN4_Yo",
+           CLSW                     := "VPN4_Yc",
+           OUTP                     := "VPN4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 387);
+_________________________
+______________VB3800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VB3800QMS3_Yo",
+           CLSW                     := "VB3800QMS3_Yc",
+           OUTP                     := "VB3800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 388);
+_________________________
+______________VB3_D3___________
+      CALL "Valves" (
+           OPSW                     := "VB3_D3_Yo",
+           CLSW                     := "VB3_D3_Yc",
+           OUTP                     := "VB3_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 389);
+_________________________
+______________VB2_D3___________
+      CALL "Valves" (
+           OPSW                     := "VB2_D3_Yo",
+           CLSW                     := "VB2_D3_Yc",
+           OUTP                     := "VB2_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 390);
+_________________________
+______________VB1_D3___________
+      CALL "Valves" (
+           OPSW                     := "VB1_D3_Yo",
+           CLSW                     := "VB1_D3_Yc",
+           OUTP                     := "VB1_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 391);
+_________________________
+______________VPB3___________
+      CALL "Valves" (
+           OPSW                     := "VPB3_Yo",
+           CLSW                     := "VPB3_Yc",
+           OUTP                     := "VPB3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 392);
+_________________________
+______________VI1_D3___________
+      CALL "Valves" (
+           OPSW                     := "VI1_D3_Yo",
+           CLSW                     := "VI1_D3_Yc",
+           OUTP                     := "VI1_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 393);
+_________________________
+______________VI2_D3___________
+      CALL "Valves" (
+           OPSW                     := "VI2_D3_Yo",
+           CLSW                     := "VI2_D3_Yc",
+           OUTP                     := "VI2_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 394);
+_________________________
+______________VI3_D3___________
+      CALL "Valves" (
+           OPSW                     := "VI3_D3_Yo",
+           CLSW                     := "VI3_D3_Yc",
+           OUTP                     := "VI3_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 395);
+_________________________
+______________VI3800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VI3800QMS3_Yo",
+           CLSW                     := "VI3800QMS3_Yc",
+           OUTP                     := "VI3800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 396);
+_________________________
+______________VH1_D3___________
+      CALL "Valves" (
+           OPSW                     := "VH1_D3_Yo",
+           CLSW                     := "VH1_D3_Yc",
+           OUTP                     := "VH1_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 397);
+_________________________
+______________VH2_D3___________
+      CALL "Valves" (
+           OPSW                     := "VH2_D3_Yo",
+           CLSW                     := "VH2_D3_Yc",
+           OUTP                     := "VH2_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 398);
+_________________________
+______________VH3_D3___________
+      CALL "Valves" (
+           OPSW                     := "VH3_D3_Yo",
+           CLSW                     := "VH3_D3_Yc",
+           OUTP                     := "VH3_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 399);
+_________________________
+______________VH3800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VH3800QMS3_Yo",
+           CLSW                     := "VH3800QMS3_Yc",
+           OUTP                     := "VH3800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 302);
+_________________________
+______________VPI3___________
+      CALL "Valves" (
+           OPSW                     := "VPI3_Yo",
+           CLSW                     := "VPI3_Yc",
+           OUTP                     := "VPI3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 303);
+_________________________
+______________VPH3___________
+      CALL "Valves" (
+           OPSW                     := "VPH3_Yo",
+           CLSW                     := "VPH3_Yc",
+           OUTP                     := "VPH3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 304);
+_________________________
+
+______________VPC12_1___________
+      CALL "Valves" (
+           OPSW                     := "VPC12_1_YO",
+           CLSW                     := "VPC12_1_YC",
+           OUTP                     := "VPC12_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 400);
+_________________________
+______________VC12800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VC12800QMS3_YO",
+           CLSW                     := "VC12800QMS3_YC",
+           OUTP                     := "VC12800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 401);
+_________________________
+______________VPC11_3___________
+      CALL "Valves" (
+           OPSW                     := "VPC11_3_YO",
+           CLSW                     := "VPC11_3_YC",
+           OUTP                     := "VPC11_3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 402);
+_________________________
+______________VC11800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VC11800QMS3_YO",
+           CLSW                     := "VC11800QMS3_YC",
+           OUTP                     := "VC11800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 403);
+_________________________
+______________VPC11800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VPC11800QMS_YO",
+           CLSW                     := "VPC11800QMS_YC",
+           OUTP                     := "VPC11800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 404);
+_________________________
+______________VPC11800Q___________
+      CALL "Valves" (
+           OPSW                     := "VPC11800Q_YO",
+           CLSW                     := "VPC11800Q_YC",
+           OUTP                     := "VPC11800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 405);
+_________________________
+______________VPC11I2600___________
+      CALL "Valves" (
+           OPSW                     := "VPC11I2600_YO",
+           CLSW                     := "VPC11I2600_YC",
+           OUTP                     := "VPC11I2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 406);
+_________________________
+______________VC11800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VC11800QMS_YO",
+           CLSW                     := "VC11800QMS_YC",
+           OUTP                     := "VC11800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 407);
+_________________________
+______________VC11800Q___________
+      CALL "Valves" (
+           OPSW                     := "VC11800Q_YO",
+           CLSW                     := "VC11800Q_YC",
+           OUTP                     := "VC11800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 408);
+_________________________
+______________VC11I2600___________
+      CALL "Valves" (
+           OPSW                     := "VC11I2600_YO",
+           CLSW                     := "VC11I2600_YC",
+           OUTP                     := "VC11I2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 409);
+_________________________
+______________VR6_D3___________
+      CALL "Valves" (
+           OPSW                     := "VR6_D3_YO",
+           CLSW                     := "VR6_D3_YC",
+           OUTP                     := "VR6_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 410);
+_________________________
+______________VR7_D3___________
+      CALL "Valves" (
+           OPSW                     := "VR7_D3_YO",
+           CLSW                     := "VR7_D3_YC",
+           OUTP                     := "VR7_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 411);
+_________________________
+______________VR8_D3___________
+      CALL "Valves" (
+           OPSW                     := "VR8_D3_YO",
+           CLSW                     := "VR8_D3_YC",
+           OUTP                     := "VR8_D3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 412);
+_________________________
+______________VR8A___________
+      CALL "Valves" (
+           OPSW                     := "VR8A_YO",
+           CLSW                     := "VR8A_YC",
+           OUTP                     := "VR8A_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 413);
+_________________________
+______________VPR8___________
+      CALL "Valves" (
+           OPSW                     := "VPR8_YO",
+           CLSW                     := "VPR8_YC",
+           OUTP                     := "VPR8_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 414);
+_________________________
+______________VC800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VC800QMS3_YO",
+           CLSW                     := "VC800QMS3_YC",
+           OUTP                     := "VC800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 415);
+_________________________
+______________VC1_2800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VC1_2800QMS3_YO",
+           CLSW                     := "VC1_2800QMS3_YC",
+           OUTP                     := "VC1_2800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 416);
+_________________________
+______________VPC1B2_2___________
+      CALL "Valves" (
+           OPSW                     := "VPC1B2_2_YO",
+           CLSW                     := "VPC1B2_2_YC",
+           OUTP                     := "VPC1B2_2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 417);
+_________________________
+______________VC3_2800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VC3_2800QMS3_YO",
+           CLSW                     := "VC3_2800QMS3_YC",
+           OUTP                     := "VC3_2800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 418);
+_________________________
+______________VPC3B2_2___________
+      CALL "Valves" (
+           OPSW                     := "VPC3B2_2_YO",
+           CLSW                     := "VPC3B2_2_YC",
+           OUTP                     := "VPC3B2_2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 419);
+_________________________
+______________VC12I2600___________
+      CALL "Valves" (
+           OPSW                     := "VC12I2600_YO",
+           CLSW                     := "VC12I2600_YC",
+           OUTP                     := "VC12I2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 420);
+_________________________
+______________VC12800Q___________
+      CALL "Valves" (
+           OPSW                     := "VC12800Q_YO",
+           CLSW                     := "VC12800Q_YC",
+           OUTP                     := "VC12800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 421);
+_________________________
+______________VC12800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VC12800QMS_YO",
+           CLSW                     := "VC12800QMS_YC",
+           OUTP                     := "VC12800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 422);
+_________________________
+______________VK1R68_F2___________
+      CALL "Valves" (
+           OPSW                     := "VK1R68_F2_OP",
+           CLSW                     := "VK1R68_F2_CL",
+           OUTP                     := "VK1R68_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 423);
+_________________________
+______________VK2R68_F2___________
+      CALL "Valves" (
+           OPSW                     := "VK2R68_F2_OP",
+           CLSW                     := "VK2R68_F2_CL",
+           OUTP                     := "VK2R68_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 424);
+_________________________
+______________VR800Q7___________
+      CALL "Valves" (
+           OPSW                     := "VR800Q7_OP",
+           CLSW                     := "VR800Q7_CL",
+           OUTP                     := "VR800Q7_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 425);
+_________________________
+______________VR800QMS7___________
+      CALL "Valves" (
+           OPSW                     := "VR800QMS7_OP",
+           CLSW                     := "VR800QMS7_CL",
+           OUTP                     := "VR800QMS7_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 426);
+_________________________
+______________VN2600H___________
+      CALL "Valves" (
+           OPSW                     := "VN2600H_OP",
+           CLSW                     := "VN2600H_CL",
+           OUTP                     := "VN2600H_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 427);
+
+_________________________
+______________VI2600H___________
+      CALL "Valves" (
+           OPSW                     := "VI2600H_OP",
+           CLSW                     := "VI2600H_CL",
+           OUTP                     := "VI2600H_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 428);
+
+_________________________
+______________VK4_T100___________
+      CALL "Valves" (
+           OPSW                     := "VK4_T100_OP",
+           CLSW                     := "VK4_T100_CL",
+           OUTP                     := "VK4_T100_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 429);
+
+_________________________       
+______________VK4_F3___________
+      CALL "Valves" (
+           OPSW                     := "VK4_F3_OP",
+           CLSW                     := "VK4_F3_CL",
+           OUTP                     := "VK4_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 430);
+
+_________________________ _______
+______________VRTemp___________
+      CALL "Valves" (
+           OPSW                     := "VC12_2_800Q_NO",
+           CLSW                     := "VC12_2_800Q_NC",
+           OUTP                     := "VC12_2_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 431);
+
+______________VRTemp___________
+      CALL "Valves" (
+           OPSW                     := "VPC12_2_NO",
+           CLSW                     := "VPC12_2_NC",
+           OUTP                     := "VPC12_2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 432);
+______________VRTemp___________
+      CALL "Valves" (
+           OPSW                     := "VC11_T100_NO",
+           CLSW                     := "VC11_T100_NC",
+           OUTP                     := "VC11_T100_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 433);
+______________VRTemp___________
+      CALL "Valves" (
+           OPSW                     := "VC11_T200_NO",
+           CLSW                     := "VC11_T200_NC",
+           OUTP                     := "VC11_T200_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 434);
+______________VRTemp___________
+      CALL "Valves" (
+           OPSW                     := "VC12_T200_NO",
+           CLSW                     := "VC12_T200_NC",
+           OUTP                     := "VC12_T200_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 435);
+______________VRTemp___________
+      CALL "Valves" (
+           OPSW                     := "VC12_T100_NO",
+           CLSW                     := "VC12_T100_NC",
+           OUTP                     := "VC12_T100_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 436);
+______________VHF1_1___________
+      CALL "Valves" (
+           OPSW                     := "VHF1_1_OP",
+           CLSW                     := "VHF1_1_CL",
+           OUTP                     := "VHF1_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 437);
+______________KA1_1___________
+      CALL "Valves" (
+           OPSW                     := "KA1_1_OP",
+           CLSW                     := "KA1_1_CL",
+           OUTP                     := "KA1_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 438);
+______________VHF2_1___________
+      CALL "Valves" (
+           OPSW                     := "VHF2_1_OP",
+           CLSW                     := "VHF2_1_CL",
+           OUTP                     := "VHF2_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 439);
+______________VKF4_1___________
+      CALL "Valves" (
+           OPSW                     := "VKF4_1_OP",
+           CLSW                     := "VKF4_1_CL",
+           OUTP                     := "VKF4_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 440);
+______________VC3_T100_T200___________
+      CALL "Valves" (
+           OPSW                     := "VC3_T100_T200_OP",
+           CLSW                     := "VC3_T100_T200_CL",
+           OUTP                     := "VC3_T100_T200_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 441);
+______________VC1_T100_T200___________
+      CALL "Valves" (
+           OPSW                     := "VC1_T100_T200_OP",
+           CLSW                     := "VC1_T100_T200_CL",
+           OUTP                     := "VC1_T100_T200_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 442);
+_____________VPC3_3___________
+      CALL "Valves" (
+           OPSW                     := "VPC3_3_OP",
+           CLSW                     := "VPC3_3_CL",
+           OUTP                     := "VPC3_3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 443);
+
+
+NETWORK
+TITLE =Коллектор на_с секций J_H2600
+
+______________VC1_2600___________
+      CALL "Valves" (
+           OPSW                     := "VC1_2600_OP",
+           CLSW                     := "VC1_2600_CL",
+           OUTP                     := "VC1_2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 444);
+______________VC3_2600___________
+      CALL "Valves" (
+           OPSW                     := "VC3_2600_OP",
+           CLSW                     := "VC3_2600_CL",
+           OUTP                     := "VC3_2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 445);
+______________VH1___________
+      CALL "Valves" (
+           OPSW                     := "VH1_OP",
+           CLSW                     := "VH1_CL",
+           OUTP                     := "VH1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 446);
+______________VJ1___________
+      CALL "Valves" (
+           OPSW                     := "VJ1_OP",
+           CLSW                     := "VJ1_CL",
+           OUTP                     := "VJ1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 447);
+______________VH_MBH1___________
+      CALL "Valves" (
+           OPSW                     := "VH_MBH1_OP",
+           CLSW                     := "VH_MBH1_CL",
+           OUTP                     := "VH_MBH1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 448);
+______________VJ_MBH1___________
+      CALL "Valves" (
+           OPSW                     := "VJ_MBH1_OP",
+           CLSW                     := "VJ_MBH1_CL",
+           OUTP                     := "VJ_MBH1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 449);
+______________VH_F3___________
+      CALL "Valves" (
+           OPSW                     := "VH_F3_OP",
+           CLSW                     := "VH_F3_CL",
+           OUTP                     := "VH_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 450);
+______________VJ_F3___________
+      CALL "Valves" (
+           OPSW                     := "VJ_F3_OP",
+           CLSW                     := "VJ_F3_CL",
+           OUTP                     := "VJ_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 451);
+______________VH_MBH2___________
+      CALL "Valves" (
+           OPSW                     := "VH_MBH2_OP",
+           CLSW                     := "VH_MBH2_CL",
+           OUTP                     := "VH_MBH2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 452);
+______________VJ_MBH2___________
+      CALL "Valves" (
+           OPSW                     := "VJ_MBH2_OP",
+           CLSW                     := "VJ_MBH2_CL",
+           OUTP                     := "VJ_MBH2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 453);
+______________VH1_D4___________
+      CALL "Valves" (
+           OPSW                     := "VH1_D4_OP",
+           CLSW                     := "VH1_D4_CL",
+           OUTP                     := "VH1_D4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 454);
+______________VH2_D4___________
+      CALL "Valves" (
+           OPSW                     := "VH2_D4_OP",
+           CLSW                     := "VH2_D4_CL",
+           OUTP                     := "VH2_D4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 455);
+______________VH3_D4___________
+      CALL "Valves" (
+           OPSW                     := "VH3_D4_OP",
+           CLSW                     := "VH3_D4_CL",
+           OUTP                     := "VH3_D4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 456);
+______________VH4_4___________
+      CALL "Valves" (
+           OPSW                     := "VH4_4_OP",
+           CLSW                     := "VH4_4_CL",
+           OUTP                     := "VH4_4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 457);
+______________VH4_5___________
+      CALL "Valves" (
+           OPSW                     := "VH4_5_OP",
+           CLSW                     := "VH4_5_CL",
+           OUTP                     := "VH4_5_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 458);
+______________VH1_F3___________
+      CALL "Valves" (
+           OPSW                     := "VH1_F3_OP",
+           CLSW                     := "VH1_F3_CL",
+           OUTP                     := "VH1_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 459);
+______________VH2_F3___________
+      CALL "Valves" (
+           OPSW                     := "VH2_F3_OP",
+           CLSW                     := "VH2_F3_CL",
+           OUTP                     := "VH2_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 460);
+______________VH3_F3___________
+      CALL "Valves" (
+           OPSW                     := "VH3_F3_OP",
+           CLSW                     := "VH3_F3_CL",
+           OUTP                     := "VH3_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 461);
+______________VI1_F3___________
+      CALL "Valves" (
+           OPSW                     := "VI1_F3_OP",
+           CLSW                     := "VI1_F3_CL",
+           OUTP                     := "VI1_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 462);
+______________VI2_F3___________
+      CALL "Valves" (
+           OPSW                     := "VI2_F3_OP",
+           CLSW                     := "VI2_F3_CL",
+           OUTP                     := "VI2_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 463);
+______________VI3_F3___________
+      CALL "Valves" (
+           OPSW                     := "VI3_F3_OP",
+           CLSW                     := "VI3_F3_CL",
+           OUTP                     := "VI3_F3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 464);
+______________VB1_D4___________
+      CALL "Valves" (
+           OPSW                     := "VB1_D4_OP",
+           CLSW                     := "VB1_D4_CL",
+           OUTP                     := "VB1_D4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 465);
+______________VB2_D4___________
+      CALL "Valves" (
+           OPSW                     := "VB2_D4_OP",
+           CLSW                     := "VB2_D4_CL",
+           OUTP                     := "VB2_D4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 466);
+______________VB3_D4___________
+      CALL "Valves" (
+           OPSW                     := "VB3_D4_OP",
+           CLSW                     := "VB3_D4_CL",
+           OUTP                     := "VB3_D4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 467);
+______________VH4_6___________
+      CALL "Valves" (
+           OPSW                     := "VH4_6_OP",
+           CLSW                     := "VH4_6_CL",
+           OUTP                     := "VH4_6_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 468);
+______________VH4_7___________
+      CALL "Valves" (
+           OPSW                     := "VH4_7_OP",
+           CLSW                     := "VH4_7_CL",
+           OUTP                     := "VH4_7_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 469);
+______________VN1_D5___________
+__      CALL  "Valves"
+__       OPSW   :="VN1_D5_OP"
+__       CLSW   :="VN1_D5_CL"
+__       OUTP   :="VN1_D5_OUT"
+__       En_Horn:=FALSE
+__       NUM    :=470
+______________VN2_3___________
+      CALL "Valves" (
+           OPSW                     := "VN2_3_OP",
+           CLSW                     := "VN2_3_CL",
+           OUTP                     := "VN2_3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 471);
+______________VN2_2___________
+      CALL "Valves" (
+           OPSW                     := "VN2_2_OP",
+           CLSW                     := "VN2_2_CL",
+           OUTP                     := "VN2_2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 472);
+______________VN2_D5___________
+      CALL "Valves" (
+           OPSW                     := "VN2_D5_OP",
+           CLSW                     := "VN2_D5_CL",
+           OUTP                     := "VN2_D5_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 473);
+______________________________________________
+
+______________V800QMS_MBH2___________
+      CALL "Valves" (
+           OPSW                     := "V800QMS_MBH2_OP",
+           CLSW                     := "V800QMS_MBH2_CL",
+           OUTP                     := "V800QMS_MBH2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 474);
+
+
+______________V800Q3_MBH2___________
+      CALL "Valves" (
+           OPSW                     := "V800Q3_MBH2_OP",
+           CLSW                     := "V800Q3_MBH2_CL",
+           OUTP                     := "V800Q3_MBH2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 475);
+
+______________V800Q_MBH2___________
+      CALL "Valves" (
+           OPSW                     := "V800Q_MBH2_OP",
+           CLSW                     := "V800Q_MBH2_CL",
+           OUTP                     := "V800Q_MBH2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 476);
+
+______________VIN2600_MBH2___________
+      CALL "Valves" (
+           OPSW                     := "VIN2600_MBH2_OP",
+           CLSW                     := "VIN2600_MBH2_CL",
+           OUTP                     := "VIN2600_MBH2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 477);
+
+NETWORK
+TITLE =Клапана Ёршики
+
+______________VDQMS3_1___________
+      CALL "Valves" (
+           OPSW                     := "VDQMS3_1_OP",
+           CLSW                     := "VDQMS3_1_CL",
+           OUTP                     := "VDQMS3_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 478);
+
+______________VDQMS3_2___________
+      CALL "Valves" (
+           OPSW                     := "VDQMS3_2_OP",
+           CLSW                     := "VDQMS3_2_CL",
+           OUTP                     := "VDQMS3_2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 479);
+
+______________VDQMS3_3___________
+      CALL "Valves" (
+           OPSW                     := "VDQMS3_3_OP",
+           CLSW                     := "VDQMS3_3_CL",
+           OUTP                     := "VDQMS3_3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 480);
+
+______________VDQMS3_N1___________
+      CALL "Valves" (
+           OPSW                     := "VDQMS3_N1_OP",
+           CLSW                     := "VDQMS3_N1_CL",
+           OUTP                     := "VDQMS3_N1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 481);
+
+
+______________VDQ1___________
+      CALL "Valves" (
+           OPSW                     := "VDQ1_OP",
+           CLSW                     := "VDQ1_CL",
+           OUTP                     := "VDQ1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 482);
+
+______________VDQ2___________
+      CALL "Valves" (
+           OPSW                     := "VDQ2_OP",
+           CLSW                     := "VDQ2_CL",
+           OUTP                     := "VDQ2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 483);
+
+______________VDQ3___________
+      CALL "Valves" (
+           OPSW                     := "VDQ3_OP",
+           CLSW                     := "VDQ3_CL",
+           OUTP                     := "VDQ3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 484);
+
+______________VDQN1___________
+      CALL "Valves" (
+           OPSW                     := "VDQN1_OP",
+           CLSW                     := "VDQN1_CL",
+           OUTP                     := "VDQN1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 485);
+
+
+
+________________________________
+
+
+
+______________VDN1_4___________
+      CALL "Valves" (
+           OPSW                     := "VDN1_4_OP",
+           CLSW                     := "VDN1_4_CL",
+           OUTP                     := "VDN1_4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 486);
+
+______________VDPR1___________
+      CALL "Valves" (
+           OPSW                     := "VDPR1_OP",
+           CLSW                     := "VDPR1_CL",
+           OUTP                     := "VDPR1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 487);
+
+______________VDPR2___________
+      CALL "Valves" (
+           OPSW                     := "VDPR2_OP",
+           CLSW                     := "VDPR2_CL",
+           OUTP                     := "VDPR2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 488);
+
+
+______________VDPR3___________
+      CALL "Valves" (
+           OPSW                     := "VDPR3_OP",
+           CLSW                     := "VDPR3_CL",
+           OUTP                     := "VDPR3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 489);
+
+______________VDN1_1___________
+      CALL "Valves" (
+           OPSW                     := "VDN1_1_OP",
+           CLSW                     := "VDN1_1_CL",
+           OUTP                     := "VDN1_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 490);
+
+
+______________VDS1_1___________
+      CALL "Valves" (
+           OPSW                     := "VDS1_1_OP",
+           CLSW                     := "VDS1_1_CL",
+           OUTP                     := "VDS1_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 491);
+
+______________VDS1_2___________
+      CALL "Valves" (
+           OPSW                     := "VDS1_2_OP",
+           CLSW                     := "VDS1_2_CL",
+           OUTP                     := "VDS1_2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 492);
+
+______________VDS3___________
+      CALL "Valves" (
+           OPSW                     := "VDS3_OP",
+           CLSW                     := "VDS3_CL",
+           OUTP                     := "VDS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 493);
+
+______________VK2_RQMS___________
+      CALL "Valves" (
+           OPSW                     := "VK2_RQMS_OP",
+           CLSW                     := "VK2_RQMS_CL",
+           OUTP                     := "VK2_RQMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 494);
+
+______________VK1_RQMS___________
+      CALL "Valves" (
+           OPSW                     := "VK1_RQMS_OP",
+           CLSW                     := "VK1_RQMS_CL",
+           OUTP                     := "VK1_RQMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 495);
+
+NETWORK
+TITLE =ТМБХ№2 TF ET(34),(35),(36) 05_07_2022 
+
+______________VH4_1_800Q___________
+      CALL "Valves" (
+           OPSW                     := "VH4_1_800Q_OP",
+           CLSW                     := "VH4_1_800Q_CL",
+           OUTP                     := "VH4_1_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 496);
+______________VH4_1_H2600___________
+      CALL "Valves" (
+           OPSW                     := "VH4_1_H2600_OP",
+           CLSW                     := "VH4_1_H2600_CL",
+           OUTP                     := "VH4_1_H2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 497);
+______________VH4_2_800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VH4_2_800QMS3_OP",
+           CLSW                     := "VH4_2_800QMS3_CL",
+           OUTP                     := "VH4_2_800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 498);
+______________VH4_2_J2600___________
+      CALL "Valves" (
+           OPSW                     := "VH4_2_J2600_OP",
+           CLSW                     := "VH4_2_J2600_CL",
+           OUTP                     := "VH4_2_J2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 499);
+______________VH4_2_IN2600___________
+      CALL "Valves" (
+           OPSW                     := "VH4_2_IN2600_OP",
+           CLSW                     := "VH4_2_IN2600_CL",
+           OUTP                     := "VH4_2_IN2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 500);
+______________VI4D2___________
+      CALL "Valves" (
+           OPSW                     := "VI4D2_OP",
+           CLSW                     := "VI4D2_CL",
+           OUTP                     := "VI4D2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 501);
+______________VI5D2___________
+      CALL "Valves" (
+           OPSW                     := "VI5D2_OP",
+           CLSW                     := "VI5D2_CL",
+           OUTP                     := "VI5D2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 502);
+______________VI4D1___________
+      CALL "Valves" (
+           OPSW                     := "VI4D1_OP",
+           CLSW                     := "VI4D1_CL",
+           OUTP                     := "VI4D1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 503);
+______________VI5D1___________
+      CALL "Valves" (
+           OPSW                     := "VI5D1_OP",
+           CLSW                     := "VI5D1_CL",
+           OUTP                     := "VI5D1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 504);
+______________VPI4___________
+      CALL "Valves" (
+           OPSW                     := "VPI4_OP",
+           CLSW                     := "VPI4_CL",
+           OUTP                     := "VPI4_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 505);
+______________VPI5___________
+      CALL "Valves" (
+           OPSW                     := "VPI5_OP",
+           CLSW                     := "VPI5_CL",
+           OUTP                     := "VPI5_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 506);
+______________VI4_800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VI4_800QMS_OP",
+           CLSW                     := "VI4_800QMS_CL",
+           OUTP                     := "VI4_800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 507);
+______________VI4_800Q___________
+      CALL "Valves" (
+           OPSW                     := "VI4_800Q_OP",
+           CLSW                     := "VI4_800Q_CL",
+           OUTP                     := "VI4_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 508);
+______________VI4_800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VI4_800QMS3_OP",
+           CLSW                     := "VI4_800QMS3_CL",
+           OUTP                     := "VI4_800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 509);
+______________VI5_800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VI5_800QMS_OP",
+           CLSW                     := "VI5_800QMS_CL",
+           OUTP                     := "VI5_800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 510);
+______________VI5_800Q___________
+      CALL "Valves" (
+           OPSW                     := "VI5_800Q_OP",
+           CLSW                     := "VI5_800Q_CL",
+           OUTP                     := "VI5_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 511);
+______________VI5_800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VI5_800QMS3_OP",
+           CLSW                     := "VI5_800QMS3_CL",
+           OUTP                     := "VI5_800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 512);
+______________VI6D2___________
+      CALL "Valves" (
+           OPSW                     := "VI6D2_OP",
+           CLSW                     := "VI6D2_CL",
+           OUTP                     := "VI6D2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 513);
+______________VI7D2___________
+      CALL "Valves" (
+           OPSW                     := "VI7D2_OP",
+           CLSW                     := "VI7D2_Cl",
+           OUTP                     := "VI7D2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 514);
+______________VI6D1___________
+      CALL "Valves" (
+           OPSW                     := "VI6D1_OP",
+           CLSW                     := "VI6D1_CL",
+           OUTP                     := "VI6D1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 515);
+______________VI7D1___________
+      CALL "Valves" (
+           OPSW                     := "VI7D1_OP",
+           CLSW                     := "VI7D1_CL",
+           OUTP                     := "VI7D1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 516);
+______________VPI6___________
+      CALL "Valves" (
+           OPSW                     := "VPI6_OP",
+           CLSW                     := "VPI6_CL",
+           OUTP                     := "VPI6_OUT",__Было 204_3 15_07_22
+           En_Horn                  := FALSE,
+           NUM                      := 517);
+______________VPI7___________
+      CALL "Valves" (
+           OPSW                     := "VPI7_OP",
+           CLSW                     := "VPI7_CL",
+           OUTP                     := "VPI7_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 518);
+______________VI6_800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VI6_800QMS_OP",
+           CLSW                     := "VI6_800QMS_CL",
+           OUTP                     := "VI6_800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 519);
+______________VI6_800Q___________
+      CALL "Valves" (
+           OPSW                     := "VI6_800Q_OP",
+           CLSW                     := "VI6_800Q_CL",
+           OUTP                     := "VI6_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 520);
+______________VI6_800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VI6_800QMS3_OP",
+           CLSW                     := "VI6_800QMS3_CL",
+           OUTP                     := "VI6_800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 521);
+______________VI7_800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VI7_800QMS_OP",
+           CLSW                     := "VI7_800QMS_CL",
+           OUTP                     := "VI7_800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 522);
+______________VI7_800Q___________
+      CALL "Valves" (
+           OPSW                     := "VI7_800Q_OP",
+           CLSW                     := "VI7_800Q_CL",
+           OUTP                     := "VI7_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 523);
+______________VI7_800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VI7_800QMS3_OP",
+           CLSW                     := "VI7_800QMS3_CL",
+           OUTP                     := "VI7_800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 524);
+______________VI8D2___________
+      CALL "Valves" (
+           OPSW                     := "VI8D2_OP",
+           CLSW                     := "VI8D2_CL",
+           OUTP                     := "VI8D2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 525);
+______________VI9D2___________
+      CALL "Valves" (
+           OPSW                     := "VI9D2_OP",
+           CLSW                     := "VI9D2_CL",
+           OUTP                     := "VI9D2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 526);
+______________VI8D1___________
+      CALL "Valves" (
+           OPSW                     := "VI8D1_OP",
+           CLSW                     := "VI8D1_CL",
+           OUTP                     := "VI8D1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 527);
+______________VI9D1___________
+      CALL "Valves" (
+           OPSW                     := "VI9D1_OP",
+           CLSW                     := "VI9D1_CL",
+           OUTP                     := "VI9D1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 528);
+______________VPI8___________
+      CALL "Valves" (
+           OPSW                     := "VPI8_OP",
+           CLSW                     := "VPI8_Cl",
+           OUTP                     := "VPI8_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 529);
+______________VPI9___________
+      CALL "Valves" (
+           OPSW                     := "VPI9_OP",
+           CLSW                     := "VPI9_CL",
+           OUTP                     := "VPI9_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 530);
+______________VI8_800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VI8_800QMS_OP",
+           CLSW                     := "VI8_800QMS_CL",
+           OUTP                     := "VI8_800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 531);
+______________VI8_800Q___________
+      CALL "Valves" (
+           OPSW                     := "VI8_800Q_OP",
+           CLSW                     := "VI8_800Q_CL",
+           OUTP                     := "VI8_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 532);
+______________VI8_800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VI8_800QMS3_OP",
+           CLSW                     := "VI8_800QMS3_Cl",
+           OUTP                     := "VI8_800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 533);
+______________VI9_800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VI9_800QMS_OP",
+           CLSW                     := "VI9_800QMS_CL",
+           OUTP                     := "VI9_800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 534);
+______________VI9_800Q___________
+      CALL "Valves" (
+           OPSW                     := "VI9_800Q_OP",
+           CLSW                     := "VI9_800Q_CL",
+           OUTP                     := "VI9_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 535);
+______________VI9_800QMS3___________
+      CALL "Valves" (
+           OPSW                     := "VI9_800QMS3_OP",
+           CLSW                     := "VI9_800QMS3_CL",
+           OUTP                     := "VI9_800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 536);
+______________VI5_F1___________
+      CALL "Valves" (
+           OPSW                     := "VI5_F1_OP",
+           CLSW                     := "VI5_F1_CL",
+           OUTP                     := "VI5_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 537);
+______________VI4_F1___________
+      CALL "Valves" (
+           OPSW                     := "VI4_F1_OP",
+           CLSW                     := "VI4_F1_CL",
+           OUTP                     := "VI4_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 538);
+______________VI4_F2___________     был vh4_f2
+      CALL "Valves" (
+           OPSW                     := "VI4_F2_OP",
+           CLSW                     := "VI4_F2_CL",
+           OUTP                     := "VI4_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 539);
+______________VI5_F2___________
+      CALL "Valves" (
+           OPSW                     := "VI5_F2_OP",
+           CLSW                     := "VI5_F2_CL",
+           OUTP                     := "VI5_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 540);
+______________VH4_F1___________
+      CALL "Valves" (
+           OPSW                     := "VH4_F1_OP",
+           CLSW                     := "VH4_F1_CL",
+           OUTP                     := "VH4_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 541);
+______________VI9_F2___________
+      CALL "Valves" (
+           OPSW                     := "VI9_F2_OP",
+           CLSW                     := "VI9_F2_CL",
+           OUTP                     := "VI9_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 542);
+______________VI8_F2___________
+      CALL "Valves" (
+           OPSW                     := "VI8_F2_OP",
+           CLSW                     := "VI8_F2_CL",
+           OUTP                     := "VI8_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 543);
+______________VI7_F2___________
+      CALL "Valves" (
+           OPSW                     := "VI7_F2_OP",
+           CLSW                     := "VI7_F2_CL",
+           OUTP                     := "VI7_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 544);
+______________VI6_F2___________
+      CALL "Valves" (
+           OPSW                     := "VI6_F2_OP",
+           CLSW                     := "VI6_F2_CL",
+           OUTP                     := "VI6_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 545);
+______________VI9_F1___________
+      CALL "Valves" (
+           OPSW                     := "VI9_F1_OP",
+           CLSW                     := "VI9_F1_CL",
+           OUTP                     := "VI9_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 546);
+______________VI8_F1___________
+      CALL "Valves" (
+           OPSW                     := "VI8_F1_OP",
+           CLSW                     := "VI8_F1_CL",
+           OUTP                     := "VI8_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 547);
+______________VI7_F1___________
+      CALL "Valves" (
+           OPSW                     := "VI7_F1_OP",
+           CLSW                     := "VI7_F1_CL",
+           OUTP                     := "VI7_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 548);
+______________VI6_F1___________
+      CALL "Valves" (
+           OPSW                     := "VI6_F1_OP",
+           CLSW                     := "VI6_F1_CL",
+           OUTP                     := "VI6_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 549);
+______________VRec_F1___________
+      CALL "Valves" (
+           OPSW                     := "VRec_F1_OP",
+           CLSW                     := "VRec_F1_CL",
+           OUTP                     := "VRec_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 550);
+______________VRec_F2___________
+      CALL "Valves" (
+           OPSW                     := "VRec_F2_OP",
+           CLSW                     := "VRec_F2_CL",
+           OUTP                     := "VRec_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 551);
+______________VH4D2___________
+      CALL "Valves" (
+           OPSW                     := "VH4D2_OP",
+           CLSW                     := "VH4D2_CL",
+           OUTP                     := "VH4D2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 552);
+______________VH4D1___________
+      CALL "Valves" (
+           OPSW                     := "VH4D1_OP",
+           CLSW                     := "VH4D1_CL",
+           OUTP                     := "VH4D1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 553);
+______________VPH4_1___________
+      CALL "Valves" (
+           OPSW                     := "VPH4_1_OP",
+           CLSW                     := "VPH4_1_CL",
+           OUTP                     := "VPH4_1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 554);
+______________VPH4_2___________
+      CALL "Valves" (
+           OPSW                     := "VPH4_2_OP",
+           CLSW                     := "VPH4_2_CL",
+           OUTP                     := "VPH4_2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 555);
+______________VH4_1_800QMS___________
+      CALL "Valves" (
+           OPSW                     := "VH4_1_800QMS_OP",
+           CLSW                     := "VH4_1_800QMS_CL",
+           OUTP                     := "VH4_1_800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 556);
+
+NETWORK
+TITLE =C42_C44
+
+______________VC44_F1___________
+      CALL "Valves" (
+           OPSW                     := "VC44_F1_YO",
+           CLSW                     := "VC44_F1_YC",
+           OUTP                     := "VC44_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 557);
+
+______________VC42_43___________
+      CALL "Valves" (
+           OPSW                     := "VC42_43_YO",
+           CLSW                     := "VC42_43_YC",
+           OUTP                     := "VC42_43_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 558);
+
+______________VC42_F1___________
+      CALL "Valves" (
+           OPSW                     := "VC42_F1_YO",
+           CLSW                     := "VC42_F1_YC",
+           OUTP                     := "VC42_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 559);
+
+______________VC43_F1___________
+      CALL "Valves" (
+           OPSW                     := "VC43_F1_YO",
+           CLSW                     := "VC43_F1_YC",
+           OUTP                     := "VC43_F1_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 560);
+
+NETWORK
+TITLE =
+
+______________VH4_F2___________
+      CALL "Valves" (
+           OPSW                     := "VH4_F2_OP",
+           CLSW                     := "VH4_F2_CL",
+           OUTP                     := "VH4_F2_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 561);
+
+
+NETWORK
+TITLE =
+
+___________________VB4_HJ2600____________________
+      CALL "Valves" (
+           OPSW                     := "VB4_HJ2600_OP",
+           CLSW                     := "VB4_HJ2600_CL",
+           OUTP                     := "VB4_HJ2600_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 562);
+
+___________________VB4_800QMS3____________________
+      CALL "Valves" (
+           OPSW                     := "VB4_800QMS3_OP",
+           CLSW                     := "VB4_800QMS3_CL",
+           OUTP                     := "VB4_800QMS3_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 563);
+
+___________________VB4_800QMS____________________
+      CALL "Valves" (
+           OPSW                     := "VB4_800QMS_OP",
+           CLSW                     := "VB4_800QMS_CL",
+           OUTP                     := "VB4_800QMS_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 564);
+
+___________________VB4_800Q___________________
+      CALL "Valves" (
+           OPSW                     := "VB4_800Q_OP",
+           CLSW                     := "VB4_800Q_CL",
+           OUTP                     := "VB4_800Q_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 565);
+
+NETWORK
+TITLE =
+
+
+
+___________________V800Q___________________
+      CALL "Valves" (
+           OPSW                     := I    262_0,
+           CLSW                     := I    262_1,
+           OUTP                     := Q    201_0,
+           En_Horn                  := FALSE,
+           NUM                      := 566);
+
+
+___________________V800QMS___________________
+      CALL "Valves" (
+           OPSW                     := I    262_2,
+           CLSW                     := I    262_3,
+           OUTP                     := Q    201_1,
+           En_Horn                  := FALSE,
+           NUM                      := 567);
+
+
+___________________V800QMS3___________________
+      CALL "Valves" (
+           OPSW                     := I    262_4,
+           CLSW                     := I    262_5,
+           OUTP                     := Q    201_2,
+           En_Horn                  := FALSE,
+           NUM                      := 568);
+
+
+___________________VHI2600___________________
+      CALL "Valves" (
+           OPSW                     := I    262_6,
+           CLSW                     := I    262_7,
+           OUTP                     := Q    201_3,
+           En_Horn                  := FALSE,
+           NUM                      := 569);
+
+___________________VIN2600___________________
+      CALL "Valves" (
+           OPSW                     := I    263_0,
+           CLSW                     := I    263_1,
+           OUTP                     := Q    201_4,
+           En_Horn                  := FALSE,
+           NUM                      := 570);
+
+___________________VKH2___________________
+      CALL "Valves" (
+           OPSW                     := I    278_7,
+           CLSW                     := I    278_6,
+           OUTP                     := Q    208_6,
+           En_Horn                  := FALSE,
+           NUM                      := 571);
+
+___________________VKH2_1___________________
+      CALL "Valves" (
+           OPSW                     := I    279_1,
+           CLSW                     := I    279_0,
+           OUTP                     := Q    208_7,
+           En_Horn                  := FALSE,
+           NUM                      := 572);
+___________________VN34___________________
+      CALL "Valves" (
+           OPSW                     := "VN34_OP",
+           CLSW                     := "VN34_CL",
+           OUTP                     := "VN34_OUT",
+           En_Horn                  := FALSE,
+           NUM                      := 573);
+
+
+NETWORK
+TITLE =
+
+      BE    ; 
+
+END_FUNCTION
+

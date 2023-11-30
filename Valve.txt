@@ -1,0 +1,4330 @@
+FUNCTION FC 31 : VOID
+TITLE =CALL VALVES
+VERSION : 0.1
+
+BEGIN
+NETWORK
+TITLE =DROP1 (Адрес 3)
+
+//---------------FESTO_0-------------------
+
+      CALL FC    11 (
+           OPSW                     := I     32.1,
+           CLSW                     := I     32.0,
+           OUTP                     := Q     32.0,
+           En_Horn                  := TRUE,
+           NUM                      := 1);
+
+      CALL FC    11 (
+           OPSW                     := I     32.3,
+           CLSW                     := I     32.2,
+           OUTP                     := Q     32.2,
+           En_Horn                  := TRUE,
+           NUM                      := 2);
+
+      CALL FC    11 (
+           OPSW                     := I     32.5,
+           CLSW                     := I     32.4,
+           OUTP                     := Q     32.4,
+           En_Horn                  := TRUE,
+           NUM                      := 3);
+
+      CALL FC    11 (
+           OPSW                     := I     32.7,
+           CLSW                     := I     32.6,
+           OUTP                     := Q     32.6,
+           En_Horn                  := TRUE,
+           NUM                      := 4);
+
+      CALL FC    11 (
+           OPSW                     := I     33.1,
+           CLSW                     := I     33.0,
+           OUTP                     := Q     33.0,
+           En_Horn                  := TRUE,
+           NUM                      := 5);
+
+      CALL FC    11 (
+           OPSW                     := I     33.3,
+           CLSW                     := I     33.2,
+           OUTP                     := Q     33.2,
+           En_Horn                  := TRUE,
+           NUM                      := 6);
+
+      CALL FC    11 (
+           OPSW                     := I     33.5,
+           CLSW                     := I     33.4,
+           OUTP                     := Q     33.4,
+           En_Horn                  := TRUE,
+           NUM                      := 7);
+
+      CALL FC    11 (
+           OPSW                     := I     33.7,
+           CLSW                     := I     33.6,
+           OUTP                     := Q     33.6,
+           En_Horn                  := TRUE,
+           NUM                      := 8);
+
+//---------------FESTO_1-------------------
+
+      CALL FC    11 (
+           OPSW                     := I     34.1,
+           CLSW                     := I     34.0,
+           OUTP                     := Q     34.0,
+           En_Horn                  := TRUE,
+           NUM                      := 9);
+
+      CALL FC    11 (
+           OPSW                     := I     34.3,
+           CLSW                     := I     34.2,
+           OUTP                     := Q     34.2,
+           En_Horn                  := TRUE,
+           NUM                      := 10);
+
+      CALL FC    11 (
+           OPSW                     := I     34.5,
+           CLSW                     := I     34.4,
+           OUTP                     := Q     34.4,
+           En_Horn                  := TRUE,
+           NUM                      := 11);
+
+      CALL FC    11 (
+           OPSW                     := I     34.7,
+           CLSW                     := I     34.6,
+           OUTP                     := Q     34.6,
+           En_Horn                  := TRUE,
+           NUM                      := 12);
+
+      CALL FC    11 (
+           OPSW                     := I     35.1,
+           CLSW                     := I     35.0,
+           OUTP                     := Q     35.0,
+           En_Horn                  := TRUE,
+           NUM                      := 13);
+
+      CALL FC    11 (
+           OPSW                     := I     35.3,
+           CLSW                     := I     35.2,
+           OUTP                     := Q     35.2,
+           En_Horn                  := TRUE,
+           NUM                      := 14);
+
+      CALL FC    11 (
+           OPSW                     := I     35.5,
+           CLSW                     := I     35.4,
+           OUTP                     := Q     35.4,
+           En_Horn                  := TRUE,
+           NUM                      := 15);
+
+      CALL FC    11 (
+           OPSW                     := I     35.7,
+           CLSW                     := I     35.6,
+           OUTP                     := Q     35.6,
+           En_Horn                  := TRUE,
+           NUM                      := 16);
+
+//---------------FESTO_2-------------------
+
+      CALL FC    11 (
+           OPSW                     := I     36.1,
+           CLSW                     := I     36.0,
+           OUTP                     := Q     36.0,
+           En_Horn                  := TRUE,
+           NUM                      := 17);
+
+      CALL FC    11 (
+           OPSW                     := I     36.3,
+           CLSW                     := I     36.2,
+           OUTP                     := Q     36.2,
+           En_Horn                  := TRUE,
+           NUM                      := 18);
+
+      CALL FC    11 (
+           OPSW                     := I     36.5,
+           CLSW                     := I     36.4,
+           OUTP                     := Q     36.4,
+           En_Horn                  := TRUE,
+           NUM                      := 19);
+
+      CALL FC    11 (
+           OPSW                     := I     36.7,
+           CLSW                     := I     36.6,
+           OUTP                     := Q     36.6,
+           En_Horn                  := TRUE,
+           NUM                      := 20);
+
+      CALL FC    11 (
+           OPSW                     := I     37.1,
+           CLSW                     := I     37.0,
+           OUTP                     := Q     37.0,
+           En_Horn                  := TRUE,
+           NUM                      := 21);
+
+      CALL FC    11 (
+           OPSW                     := I     37.3,
+           CLSW                     := I     37.2,
+           OUTP                     := Q     37.2,
+           En_Horn                  := TRUE,
+           NUM                      := 22);
+
+      CALL FC    11 (
+           OPSW                     := I     37.5,
+           CLSW                     := I     37.4,
+           OUTP                     := Q     37.4,
+           En_Horn                  := TRUE,
+           NUM                      := 23);
+
+      CALL FC    11 (
+           OPSW                     := I     37.7,
+           CLSW                     := I     37.6,
+           OUTP                     := Q     37.6,
+           En_Horn                  := TRUE,
+           NUM                      := 24);
+
+//---------------FESTO_3-------------------
+
+      CALL FC    11 (
+           OPSW                     := I     38.1,
+           CLSW                     := I     38.0,
+           OUTP                     := Q     38.0,//vst20
+           En_Horn                  := TRUE,
+           NUM                      := 25);
+
+      CALL FC    11 (
+           OPSW                     := I     38.3,
+           CLSW                     := I     38.2,
+           OUTP                     := Q     38.2,//vc8-f1
+           En_Horn                  := TRUE,
+           NUM                      := 26);
+
+      CALL FC    11 (
+           OPSW                     := I     38.5,
+           CLSW                     := I     38.4,
+           OUTP                     := Q     38.4,//vc8-f2
+           En_Horn                  := TRUE,
+           NUM                      := 27);
+
+      CALL FC    11 (
+           OPSW                     := I     38.7,
+           CLSW                     := I     38.6,
+           OUTP                     := Q     38.6,//vst31
+           En_Horn                  := TRUE,
+           NUM                      := 28);
+
+      CALL FC    11 (
+           OPSW                     := I     39.1,
+           CLSW                     := I     39.0,
+           OUTP                     := Q     39.0,
+           En_Horn                  := TRUE,
+           NUM                      := 29);
+
+      CALL FC    11 (
+           OPSW                     := I     39.3,
+           CLSW                     := I     39.2,//big
+           OUTP                     := Q     39.2,//vst32
+           En_Horn                  := TRUE,
+           NUM                      := 30);
+
+      CALL FC    11 (
+           OPSW                     := I     39.5,
+           CLSW                     := I     39.4,
+           OUTP                     := Q     39.4,
+           En_Horn                  := TRUE,
+           NUM                      := 31);
+
+      CALL FC    11 (
+           OPSW                     := I     39.7,
+           CLSW                     := I     39.6,
+           OUTP                     := Q     39.6,
+           En_Horn                  := TRUE,
+           NUM                      := 32);
+
+NETWORK
+TITLE =DROP2  (Адрес 4)
+
+//---------------FESTO_0-------------------
+
+      CALL FC    11 (
+           OPSW                     := I     40.1,
+           CLSW                     := I     40.0,
+           OUTP                     := Q     40.0,
+           En_Horn                  := TRUE,
+           NUM                      := 33);
+
+      CALL FC    11 (
+           OPSW                     := I     40.3,
+           CLSW                     := I     40.2,
+           OUTP                     := Q     40.2,
+           En_Horn                  := TRUE,
+           NUM                      := 34);
+
+      CALL FC    11 (
+           OPSW                     := I     40.5,
+           CLSW                     := I     40.4,
+           OUTP                     := Q     40.4,
+           En_Horn                  := TRUE,
+           NUM                      := 35);
+
+      CALL FC    11 (
+           OPSW                     := I     40.7,
+           CLSW                     := I     40.6,
+           OUTP                     := Q     40.6,
+           En_Horn                  := TRUE,
+           NUM                      := 36);
+
+      CALL FC    11 (
+           OPSW                     := I     41.1,
+           CLSW                     := I     41.0,
+           OUTP                     := Q     41.0,
+           En_Horn                  := TRUE,
+           NUM                      := 37);
+
+      CALL FC    11 (
+           OPSW                     := I     41.3,
+           CLSW                     := I     41.2,
+           OUTP                     := Q     41.2,
+           En_Horn                  := TRUE,
+           NUM                      := 38);
+
+      CALL FC    11 (
+           OPSW                     := I     41.5,
+           CLSW                     := I     41.4,
+           OUTP                     := Q     41.4,
+           En_Horn                  := TRUE,
+           NUM                      := 39);
+
+      CALL FC    11 (
+           OPSW                     := I     41.7,
+           CLSW                     := I     41.6,
+           OUTP                     := Q     41.6,
+           En_Horn                  := TRUE,
+           NUM                      := 40);
+
+//---------------FESTO_1-------------------
+
+      CALL FC    11 (
+           OPSW                     := I     42.1,
+           CLSW                     := I     42.0,
+           OUTP                     := Q     42.0,
+           En_Horn                  := TRUE,
+           NUM                      := 41);
+
+      CALL FC    11 (
+           OPSW                     := I     42.3,
+           CLSW                     := I     42.2,
+           OUTP                     := Q     42.2,
+           En_Horn                  := TRUE,
+           NUM                      := 42);
+
+      CALL FC    11 (
+           OPSW                     := I     42.5,
+           CLSW                     := I     42.4,
+           OUTP                     := Q     42.4,
+           En_Horn                  := TRUE,
+           NUM                      := 43);
+
+      CALL FC    11 (
+           OPSW                     := I     42.7,
+           CLSW                     := I     42.6,
+           OUTP                     := Q     42.6,
+           En_Horn                  := TRUE,
+           NUM                      := 44);
+
+      CALL FC    11 (
+           OPSW                     := I     43.1,
+           CLSW                     := I     43.0,
+           OUTP                     := Q     43.0,
+           En_Horn                  := TRUE,
+           NUM                      := 45);
+
+      CALL FC    11 (
+           OPSW                     := I     43.3,
+           CLSW                     := I     43.2,
+           OUTP                     := Q     43.2,
+           En_Horn                  := TRUE,
+           NUM                      := 46);
+
+      CALL FC    11 (
+           OPSW                     := I     43.5,
+           CLSW                     := I     43.4,
+           OUTP                     := Q     43.4,
+           En_Horn                  := TRUE,
+           NUM                      := 47);
+
+      CALL FC    11 (
+           OPSW                     := I     43.7,
+           CLSW                     := I     43.6,
+           OUTP                     := Q     43.6,
+           En_Horn                  := TRUE,
+           NUM                      := 48);
+
+//---------------FESTO_2-------------------
+
+      CALL FC    11 (
+           OPSW                     := I     44.1,
+           CLSW                     := I     44.0,
+           OUTP                     := Q     44.0,
+           En_Horn                  := TRUE,
+           NUM                      := 49);
+
+      CALL FC    11 (
+           OPSW                     := I     44.3,
+           CLSW                     := I     44.2,
+           OUTP                     := Q     44.2,
+           En_Horn                  := TRUE,
+           NUM                      := 50);
+
+      CALL FC    11 (
+           OPSW                     := I     44.5,
+           CLSW                     := I     44.4,
+           OUTP                     := Q     44.4,
+           En_Horn                  := TRUE,
+           NUM                      := 51);
+
+      CALL FC    11 (
+           OPSW                     := I     44.7,
+           CLSW                     := I     44.6,
+           OUTP                     := Q     44.6,
+           En_Horn                  := TRUE,
+           NUM                      := 52);
+
+      CALL FC    11 (
+           OPSW                     := I     45.1,
+           CLSW                     := I     45.0,
+           OUTP                     := Q     45.0,
+           En_Horn                  := TRUE,
+           NUM                      := 53);
+
+      CALL FC    11 (
+           OPSW                     := I     45.3,
+           CLSW                     := I     45.2,
+           OUTP                     := Q     45.2,
+           En_Horn                  := TRUE,
+           NUM                      := 54);
+
+      CALL FC    11 (
+           OPSW                     := I     45.5,
+           CLSW                     := I     45.4,
+           OUTP                     := Q     45.4,
+           En_Horn                  := TRUE,
+           NUM                      := 55);
+
+      CALL FC    11 (
+           OPSW                     := I     45.7,
+           CLSW                     := I     45.6,
+           OUTP                     := Q     45.6,
+           En_Horn                  := TRUE,
+           NUM                      := 56);
+
+//---------------FESTO_3-------------------
+
+      CALL FC    11 (
+           OPSW                     := I     46.1,
+           CLSW                     := I     46.0,
+           OUTP                     := Q     46.0,
+           En_Horn                  := TRUE,
+           NUM                      := 57);
+
+      CALL FC    11 (
+           OPSW                     := I     46.3,
+           CLSW                     := I     46.2,
+           OUTP                     := Q     46.2,
+           En_Horn                  := TRUE,
+           NUM                      := 58);
+
+      CALL FC    11 (
+           OPSW                     := I     46.5,
+           CLSW                     := I     46.4,
+           OUTP                     := Q     46.4,
+           En_Horn                  := TRUE,
+           NUM                      := 59);
+
+      CALL FC    11 (
+           OPSW                     := I     46.7,
+           CLSW                     := I     46.6,
+           OUTP                     := Q     46.6,
+           En_Horn                  := TRUE,
+           NUM                      := 60);
+
+      CALL FC    11 (
+           OPSW                     := I     47.1,
+           CLSW                     := I     47.0,
+           OUTP                     := Q     47.0,
+           En_Horn                  := TRUE,
+           NUM                      := 61);
+
+      CALL FC    11 (
+           OPSW                     := I     47.3,
+           CLSW                     := I     47.2,
+           OUTP                     := Q     47.2,
+           En_Horn                  := TRUE,
+           NUM                      := 62);
+
+      CALL FC    11 (
+           OPSW                     := I     47.5,
+           CLSW                     := I     47.4,
+           OUTP                     := Q     47.4,
+           En_Horn                  := TRUE,
+           NUM                      := 63);
+
+      CALL FC    11 (
+           OPSW                     := I     47.7,
+           CLSW                     := I     47.6,
+           OUTP                     := Q     47.6,
+           En_Horn                  := TRUE,
+           NUM                      := 64);
+      CALL FC    11 (
+           OPSW                     := I    118.5,
+           CLSW                     := I    118.4,
+           OUTP                     := Q    118.4,
+           En_Horn                  := TRUE,
+           NUM                      := 65);
+      CALL FC    11 (
+           OPSW                     := I    118.7,
+           CLSW                     := I    118.6,
+           OUTP                     := Q    118.6,
+           En_Horn                  := TRUE,
+           NUM                      := 66);
+      CALL FC    11 (
+           OPSW                     := I    119.1,
+           CLSW                     := I    119.0,
+           OUTP                     := Q    119.0,
+           En_Horn                  := TRUE,
+           NUM                      := 67);
+
+NETWORK
+TITLE =DROP3  (Адрес 5)
+
+//---------------FESTO_0-------------------
+
+      CALL FC    11 (//x
+           OPSW                     := I    199.7,//I22.1
+           CLSW                     := I    199.6,//I22.0
+           OUTP                     := Q    146.7,//Q16.0
+           En_Horn                  := TRUE,
+           NUM                      := 68);
+
+      CALL FC    11 (//var7
+           OPSW                     := I    200.3,//I22.3
+           CLSW                     := I    200.2,//I22.2
+           OUTP                     := Q    147.1,//Q16.2
+           En_Horn                  := TRUE,
+           NUM                      := 69);
+
+      CALL FC    11 (//vn2
+           OPSW                     := I    201.1,// I22.5
+           CLSW                     := I    201.0,// I22.4
+           OUTP                     := Q    147.4,// Q16.4
+           En_Horn                  := TRUE,
+           NUM                      := 70);
+
+      CALL FC    11 (//vn1
+           OPSW                     := I    200.7,// I22.7
+           CLSW                     := I    200.6,// I22.6
+           OUTP                     := Q    147.3,// Q17.6
+           En_Horn                  := TRUE,
+           NUM                      := 71);
+
+      CALL FC    11 (//vr7f1
+           OPSW                     := I    202.3,// I23.1
+           CLSW                     := I    202.2,// I23.0
+           OUTP                     := Q    148.1,// Q17.0
+           En_Horn                  := TRUE,
+           NUM                      := 72);
+
+      CALL FC    11 (//vr8f1
+           OPSW                     := I    202.7,//  I23.3
+           CLSW                     := I    202.6,//  I23.2
+           OUTP                     := Q    148.3,//  Q17.2
+           En_Horn                  := TRUE,
+           NUM                      := 73);
+
+      CALL FC    11 (//vr6f1
+           OPSW                     := I    201.7,// I23.5
+           CLSW                     := I    201.6,// I23.4
+           OUTP                     := Q    147.7,// Q17.4
+           En_Horn                  := TRUE,
+           NUM                      := 74);
+
+
+      CALL FC    11 (//vrf6
+           OPSW                     := I    116.5,
+           CLSW                     := I    116.4,
+           OUTP                     := Q    115.7,
+           En_Horn                  := TRUE,
+           NUM                      := 75);
+
+
+//---------------FESTO_1-------------------
+
+      CALL FC    11 (//vr8d1
+           OPSW                     := I    199.3,//I24.1
+           CLSW                     := I    199.2,//I24.0
+           OUTP                     := Q    146.5,//Q18.0
+           En_Horn                  := TRUE,
+           NUM                      := 76);
+
+      CALL FC    11 (//vr7
+           OPSW                     := I    198.7,//I24.3
+           CLSW                     := I    198.6,//I24.2
+           OUTP                     := Q    146.3,//Q18.2
+           En_Horn                  := TRUE,
+           NUM                      := 77);
+
+//      CALL  "Valves"                    //Х
+//       OPSW   :="VR6B_Yo"
+//       CLSW   :="VR6B_Yc"
+//       OUTP   :="VR6B_Out"
+//       En_Horn:=TRUE
+//       NUM    :=78
+
+      CALL FC    11 (//vr7b
+           OPSW                     := I    198.5,//"VR7B_Yo"
+           CLSW                     := I    198.4,//"VR7B_Yc"
+           OUTP                     := Q    146.2,//"VR7B_Out"
+           En_Horn                  := TRUE,
+           NUM                      := 79);
+
+      CALL FC    11 (//vr7a
+           OPSW                     := I    199.5,//I25.1
+           CLSW                     := I    199.4,//I25.0
+           OUTP                     := Q    146.6,//Q19.0
+           En_Horn                  := TRUE,
+           NUM                      := 80);
+
+      CALL FC    11 (//vr6d1
+           OPSW                     := I    198.3,//I25.3
+           CLSW                     := I    198.2,//I25.2
+           OUTP                     := Q    146.1,//Q19.2
+           En_Horn                  := TRUE,
+           NUM                      := 81);
+
+      CALL FC    11 (//x
+           OPSW                     := I    200.1,//I25.5
+           CLSW                     := I    200.0,//I25.4
+           OUTP                     := Q    147.0,//Q19.4
+           En_Horn                  := TRUE,
+           NUM                      := 82);
+
+      CALL FC    11 (//VR6B
+           OPSW                     := I    198.1,//"VR6B_Yo"
+           CLSW                     := I    198.0,//"VR6B_Yc"
+           OUTP                     := Q    146.0,//"VR6B_Out"
+           En_Horn                  := TRUE,
+           NUM                      := 83);
+
+//---------------FESTO_2-------------------
+
+      CALL FC    11 (//vr1-f2
+           OPSW                     := I     91.1,
+           CLSW                     := I     91.0,
+           OUTP                     := Q     88.2,
+           En_Horn                  := TRUE,
+           NUM                      := 84);
+
+      CALL FC    11 (//vr2-f2
+           OPSW                     := I     91.3,
+           CLSW                     := I     91.2,
+           OUTP                     := Q     88.3,
+           En_Horn                  := TRUE,
+           NUM                      := 85);
+
+      CALL FC    11 (//vr3-f2
+           OPSW                     := I     91.5,
+           CLSW                     := I     91.4,
+           OUTP                     := Q     88.4,
+           En_Horn                  := TRUE,
+           NUM                      := 86);
+
+      CALL FC    11 (//vr1-d3
+           OPSW                     := I     91.7,
+           CLSW                     := I     91.6,
+           OUTP                     := Q     88.5,
+           En_Horn                  := TRUE,
+           NUM                      := 87);
+
+      CALL FC    11 (//vr8_d2     //var6
+           OPSW                     := I    199.1,//I27.1
+           CLSW                     := I    199.0,// I27.0
+           OUTP                     := Q    146.4,//Q21.0
+           En_Horn                  := TRUE,
+           NUM                      := 88);
+
+//---------------FESTO_3-------------------
+
+      CALL FC    11 (//vr2-d3
+           OPSW                     := I    144.1,
+           CLSW                     := I    144.0,
+           OUTP                     := Q     88.6,
+           En_Horn                  := TRUE,
+           NUM                      := 89);
+
+      CALL FC    11 (//vr3-d3
+           OPSW                     := I    144.3,
+           CLSW                     := I    144.2,
+           OUTP                     := Q     88.7,
+           En_Horn                  := TRUE,
+           NUM                      := 90);
+
+      CALL FC    11 (//vr6-f2
+           OPSW                     := I    201.5,// I143.1
+           CLSW                     := I    201.4,// I143.0
+           OUTP                     := Q    147.6,// Q142.0
+           En_Horn                  := TRUE,
+           NUM                      := 91);
+
+      CALL FC    11 (//vr7-f2
+           OPSW                     := I    202.1,// I143.3
+           CLSW                     := I    202.0,// I143.2
+           OUTP                     := Q    148.0,// Q142.1
+           En_Horn                  := TRUE,
+           NUM                      := 92);
+
+      CALL FC    11 (//vr8-f2
+           OPSW                     := I    202.5,// I143.5
+           CLSW                     := I    202.4,// I143.4 
+           OUTP                     := Q    148.2,// Q142.2
+           En_Horn                  := TRUE,
+           NUM                      := 93);
+
+      CALL FC    11 (//vr8B
+           OPSW                     := I    143.7,
+           CLSW                     := I    143.6,
+           OUTP                     := Q    142.3,
+           En_Horn                  := TRUE,
+           NUM                      := 94);
+
+      CALL FC    11 (//vpr5
+           OPSW                     := I    144.5,
+           CLSW                     := I    144.4,
+           OUTP                     := Q     89.0,
+           En_Horn                  := TRUE,
+           NUM                      := 95);
+
+//      CALL  "Valves"
+//       OPSW   :=I55.7
+//       CLSW   :=I55.6
+//       OUTP   :=Q55.6
+//       En_Horn:=TRUE
+//       NUM    :=96
+
+
+NETWORK
+TITLE =DROP4  (Адрес 6)
+
+//---------------FESTO_0-------------------
+
+//      CALL  "Valves"
+//       OPSW   :=I56.1
+//       CLSW   :=I56.0
+//       OUTP   :=Q56.0
+//       En_Horn:=TRUE
+//       NUM    :=97
+
+//      CALL  "Valves"
+//       OPSW   :=I56.3
+//       CLSW   :=I56.2
+//       OUTP   :=Q56.2
+//       En_Horn:=TRUE
+//       NUM    :=98
+
+//      CALL  "Valves"
+//       OPSW   :=I56.5
+//       CLSW   :=I56.4
+//       OUTP   :=Q56.4
+//       En_Horn:=TRUE
+//       NUM    :=99
+
+//      CALL  "Valves"
+//       OPSW   :=I56.7
+//       CLSW   :=I56.6
+//       OUTP   :=Q56.6
+//       En_Horn:=TRUE
+//       NUM    :=100
+
+//      CALL  "Valves"
+//       OPSW   :=I57.1
+//       CLSW   :=I57.0
+//       OUTP   :=Q57.0
+//       En_Horn:=TRUE
+//       NUM    :=101
+
+      CALL FC    11 (// vr4-f2
+           OPSW                     := I     57.3,
+           CLSW                     := I     57.2,
+           OUTP                     := Q     57.2,
+           En_Horn                  := TRUE,
+           NUM                      := 102);
+
+      CALL FC    11 (// vr5-f2
+           OPSW                     := I     57.5,
+           CLSW                     := I     57.4,
+           OUTP                     := Q     57.4,
+           En_Horn                  := TRUE,
+           NUM                      := 103);
+
+      CALL FC    11 (//vr800q-2
+           OPSW                     := I     57.7,
+           CLSW                     := I     57.6,
+           OUTP                     := Q     57.6,
+           En_Horn                  := TRUE,
+           NUM                      := 104);
+
+//---------------FESTO_1-------------------
+
+//      CALL  "Valves"
+//       OPSW   :=I58.1
+//       CLSW   :=I58.0
+//       OUTP   :=Q58.0
+//       En_Horn:=TRUE
+//       NUM    :=105
+
+//      CALL  "Valves"
+//       OPSW   :=I58.3
+//       CLSW   :=I58.2
+//       OUTP   :=Q58.2
+//       En_Horn:=TRUE
+//       NUM    :=106
+
+//      CALL  "Valves"
+//       OPSW   :=I58.5
+//       CLSW   :=I58.4
+//       OUTP   :=Q58.4
+//       En_Horn:=TRUE
+//       NUM    :=107
+
+//      CALL  "Valves"
+//       OPSW   :=I58.7
+//       CLSW   :=I58.6
+//       OUTP   :=Q58.6
+//       En_Horn:=TRUE
+//       NUM    :=108
+
+//      CALL  "Valves"
+//       OPSW   :=I59.1
+//       CLSW   :=I59.0
+//       OUTP   :=Q59.0
+//       En_Horn:=TRUE
+//       NUM    :=109
+
+//      CALL  "Valves"
+//       OPSW   :=I59.3
+//       CLSW   :=I59.2
+//       OUTP   :=Q59.2
+//       En_Horn:=TRUE
+//       NUM    :=110
+
+//      CALL  "Valves"
+//       OPSW   :=I59.5
+//       CLSW   :=I59.4
+//       OUTP   :=Q59.4
+//       En_Horn:=TRUE
+//       NUM    :=111
+
+//      CALL  "Valves"
+//       OPSW   :=I59.7
+//       CLSW   :=I59.6
+//       OUTP   :=Q59.6
+//       En_Horn:=TRUE
+//       NUM    :=112
+
+//---------------FESTO_2-------------------
+
+      CALL FC    11 (//vr800q-3
+           OPSW                     := I     60.1,
+           CLSW                     := I     60.0,
+           OUTP                     := Q     60.0,
+           En_Horn                  := TRUE,
+           NUM                      := 113);
+
+      CALL FC    11 (//vr123-2
+           OPSW                     := I     60.3,
+           CLSW                     := I     60.2,
+           OUTP                     := Q     60.2,
+           En_Horn                  := TRUE,
+           NUM                      := 114);
+
+      CALL FC    11 (//vr123-3
+           OPSW                     := I     60.5,
+           CLSW                     := I     60.4,
+           OUTP                     := Q     60.4,
+           En_Horn                  := TRUE,
+           NUM                      := 115);
+
+      CALL FC    11 (//vr800q-4
+           OPSW                     := I     60.7,
+           CLSW                     := I     60.6,
+           OUTP                     := Q     60.6,
+           En_Horn                  := TRUE,
+           NUM                      := 116);
+
+      CALL FC    11 (
+           OPSW                     := I     61.1,
+           CLSW                     := I     61.0,
+           OUTP                     := Q     61.0,
+           En_Horn                  := TRUE,
+           NUM                      := 117);
+
+      CALL FC    11 (
+           OPSW                     := I     61.3,
+           CLSW                     := I     61.2,
+           OUTP                     := Q     61.2,
+           En_Horn                  := TRUE,
+           NUM                      := 118);
+
+      CALL FC    11 (
+           OPSW                     := I     61.5,
+           CLSW                     := I     61.4,
+           OUTP                     := Q     61.4,
+           En_Horn                  := TRUE,
+           NUM                      := 119);
+
+      CALL FC    11 (//vn2-d2
+           OPSW                     := I    145.1,
+           CLSW                     := I    145.0,
+           OUTP                     := Q     89.2,
+           En_Horn                  := TRUE,
+           NUM                      := 120);
+
+//---------------FESTO_3-------------------
+
+      CALL FC    11 (//vn1-d2
+           OPSW                     := I    144.7,
+           CLSW                     := I    144.6,
+           OUTP                     := Q     89.1,
+           En_Horn                  := TRUE,
+           NUM                      := 121);
+
+      CALL FC    11 (//vpn2
+           OPSW                     := I    145.3,
+           CLSW                     := I    145.2,
+           OUTP                     := Q     89.3,
+           En_Horn                  := TRUE,
+           NUM                      := 122);
+
+      CALL FC    11 (
+           OPSW                     := I    145.5,
+           CLSW                     := I    145.4,
+           OUTP                     := Q     89.4,
+           En_Horn                  := TRUE,
+           NUM                      := 123);
+
+//      CALL  "Valves"
+//       OPSW   :=I62.7
+//       CLSW   :=I62.6
+//       OUTP   :=Q62.6
+//       En_Horn:=TRUE
+//       NUM    :=124
+
+//      CALL  "Valves"
+//       OPSW   :=I63.1
+//       CLSW   :=I63.0
+//       OUTP   :=Q63.0
+//       En_Horn:=TRUE
+//       NUM    :=125
+
+//      CALL  "Valves"
+//       OPSW   :=I63.3
+//       CLSW   :=I63.2
+//       OUTP   :=Q63.2
+//       En_Horn:=TRUE
+//       NUM    :=126
+
+//      CALL  "Valves"
+//       OPSW   :=I63.5
+//       CLSW   :=I63.4
+//       OUTP   :=Q63.4
+//       En_Horn:=TRUE
+//       NUM    :=127
+
+//      CALL  "Valves"
+//       OPSW   :=I63.7
+//       CLSW   :=I63.6
+//       OUTP   :=Q63.6
+//       En_Horn:=TRUE
+//       NUM    :=128
+
+NETWORK
+TITLE =DROP5  (Адрес 7)
+
+//-------FESTO_0------DROP5-------------
+
+      CALL FC    11 (//RH_1
+           OPSW                     := I     64.1,
+           CLSW                     := I     64.0,
+           OUTP                     := Q     64.0,
+           En_Horn                  := TRUE,
+           NUM                      := 129);
+
+      CALL FC    11 (//VRF_1
+           OPSW                     := I     64.3,
+           CLSW                     := I     64.2,
+           OUTP                     := Q     64.2,
+           En_Horn                  := TRUE,
+           NUM                      := 130);
+
+      CALL FC    11 (//R3_D2
+           OPSW                     := I     64.5,
+           CLSW                     := I     64.4,
+           OUTP                     := Q     64.4,
+           En_Horn                  := TRUE,
+           NUM                      := 131);
+
+      CALL FC    11 (//R2_D2
+           OPSW                     := I     64.7,
+           CLSW                     := I     64.6,
+           OUTP                     := Q     64.6,
+           En_Horn                  := TRUE,
+           NUM                      := 132);
+
+      CALL FC    11 (//R1_D2
+           OPSW                     := I     65.1,
+           CLSW                     := I     65.0,
+           OUTP                     := Q     65.0,
+           En_Horn                  := TRUE,
+           NUM                      := 133);
+
+      CALL FC    11 (//R3_D1
+           OPSW                     := I     65.3,
+           CLSW                     := I     65.2,
+           OUTP                     := Q     65.2,
+           En_Horn                  := TRUE,
+           NUM                      := 134);
+
+      CALL FC    11 (//R2_D1
+           OPSW                     := I     65.5,
+           CLSW                     := I     65.4,
+           OUTP                     := Q     65.4,
+           En_Horn                  := TRUE,
+           NUM                      := 135);
+
+      CALL FC    11 (//R1_D1
+           OPSW                     := I     65.7,
+           CLSW                     := I     65.6,
+           OUTP                     := Q     65.6,
+           En_Horn                  := TRUE,
+           NUM                      := 136);
+
+//-------FESTO_1------DROP5-------------
+
+      CALL FC    11 (//VPR_3
+           OPSW                     := I     66.1,
+           CLSW                     := I     66.0,
+           OUTP                     := Q     66.0,
+           En_Horn                  := TRUE,
+           NUM                      := 137);
+
+      CALL FC    11 (//VPR_2
+           OPSW                     := I     66.3,
+           CLSW                     := I     66.2,
+           OUTP                     := Q     66.2,
+           En_Horn                  := TRUE,
+           NUM                      := 138);
+
+      CALL FC    11 (//VPR_1
+           OPSW                     := I     66.5,
+           CLSW                     := I     66.4,
+           OUTP                     := Q     66.4,
+           En_Horn                  := TRUE,
+           NUM                      := 139);
+
+      CALL FC    11 (//VR3_F1
+           OPSW                     := I     66.7,
+           CLSW                     := I     66.6,
+           OUTP                     := Q     66.6,
+           En_Horn                  := TRUE,
+           NUM                      := 140);
+
+      CALL FC    11 (//VR2_F1
+           OPSW                     := I     67.1,
+           CLSW                     := I     67.0,
+           OUTP                     := Q     67.0,
+           En_Horn                  := TRUE,
+           NUM                      := 141);
+
+      CALL FC    11 (//VR1_F1
+           OPSW                     := I     67.3,
+           CLSW                     := I     67.2,
+           OUTP                     := Q     67.2,
+           En_Horn                  := TRUE,
+           NUM                      := 142);
+
+      CALL FC    11 (//PRH_2
+           OPSW                     := I     67.5,
+           CLSW                     := I     67.4,
+           OUTP                     := Q     67.4,
+           En_Horn                  := TRUE,
+           NUM                      := 143);
+
+      CALL FC    11 (//PRF_2
+           OPSW                     := I     67.7,
+           CLSW                     := I     67.6,
+           OUTP                     := Q     67.6,
+           En_Horn                  := TRUE,
+           NUM                      := 144);
+
+//-------FESTO_2------DROP5-------------
+
+      CALL FC    11 (//VN2_F1
+           OPSW                     := I     68.1,
+           CLSW                     := I     68.0,
+           OUTP                     := Q     68.0,
+           En_Horn                  := TRUE,
+           NUM                      := 145);
+
+      CALL FC    11 (//VN1_F2
+           OPSW                     := I     68.3,
+           CLSW                     := I     68.2,
+           OUTP                     := Q     68.2,
+           En_Horn                  := TRUE,
+           NUM                      := 146);
+
+      CALL FC    11 (//VN2_F2
+           OPSW                     := I     68.5,
+           CLSW                     := I     68.4,
+           OUTP                     := Q     68.4,
+           En_Horn                  := TRUE,
+           NUM                      := 147);
+
+      CALL FC    11 (//VNI_2600
+           OPSW                     := I     68.7,
+           CLSW                     := I     68.6,
+           OUTP                     := Q     68.6,
+           En_Horn                  := TRUE,
+           NUM                      := 148);
+
+      CALL FC    11 (//VN1_D1
+           OPSW                     := I     69.1,
+           CLSW                     := I     69.0,
+           OUTP                     := Q     69.0,
+           En_Horn                  := TRUE,
+           NUM                      := 149);
+
+      CALL FC    11 (//VN2_D1
+           OPSW                     := I     69.3,
+           CLSW                     := I     69.2,
+           OUTP                     := Q     69.2,
+           En_Horn                  := TRUE,
+           NUM                      := 150);
+
+      CALL FC    11 (//VPN
+           OPSW                     := I     69.5,
+           CLSW                     := I     69.4,
+           OUTP                     := Q     69.4,
+           En_Horn                  := TRUE,
+           NUM                      := 151);
+
+      CALL FC    11 (//VPR_4
+           OPSW                     := I     69.7,
+           CLSW                     := I     69.6,
+           OUTP                     := Q     69.6,
+           En_Horn                  := TRUE,
+           NUM                      := 152);
+
+//-------FESTO_3------DROP5-------------
+
+      CALL FC    11 (//VN1_F1
+           OPSW                     := I     70.1,
+           CLSW                     := I     70.0,
+           OUTP                     := Q     70.0,
+           En_Horn                  := TRUE,
+           NUM                      := 153);
+
+      CALL FC    11 (//VH1_F1
+           OPSW                     := I     70.3,
+           CLSW                     := I     70.2,
+           OUTP                     := Q     70.2,
+           En_Horn                  := TRUE,
+           NUM                      := 154);
+
+      CALL FC    11 (//VH2_F1
+           OPSW                     := I     70.5,
+           CLSW                     := I     70.4,
+           OUTP                     := Q     70.4,
+           En_Horn                  := TRUE,
+           NUM                      := 155);
+
+      CALL FC    11 (//VH3_F1
+           OPSW                     := I     70.7,
+           CLSW                     := I     70.6,
+           OUTP                     := Q     70.6,
+           En_Horn                  := TRUE,
+           NUM                      := 156);
+
+      CALL FC    11 (//VH1_F2
+           OPSW                     := I     71.1,
+           CLSW                     := I     71.0,
+           OUTP                     := Q     71.0,
+           En_Horn                  := TRUE,
+           NUM                      := 157);
+
+      CALL FC    11 (//VH2_F2
+           OPSW                     := I     71.3,
+           CLSW                     := I     71.2,
+           OUTP                     := Q     71.2,
+           En_Horn                  := TRUE,
+           NUM                      := 158);
+
+      CALL FC    11 (//VH3_F2
+           OPSW                     := I     71.5,
+           CLSW                     := I     71.4,
+           OUTP                     := Q     71.4,
+           En_Horn                  := TRUE,
+           NUM                      := 159);
+
+      CALL FC    11 (//SF2
+           OPSW                     := I     71.7,
+           CLSW                     := I     71.6,
+           OUTP                     := Q     71.6,
+           En_Horn                  := TRUE,
+           NUM                      := 160);
+
+
+NETWORK
+TITLE =DROP6  (Адрес 8)
+
+//------FESTO_0-----DROP6--------------
+
+      CALL FC    11 (//KIT5600P3
+           OPSW                     := I     72.1,
+           CLSW                     := I     72.0,
+           OUTP                     := Q     72.0,
+           En_Horn                  := TRUE,
+           NUM                      := 161);
+
+      CALL FC    11 (//KIW500
+           OPSW                     := I     72.3,
+           CLSW                     := I     72.2,
+           OUTP                     := Q     72.2,
+           En_Horn                  := TRUE,
+           NUM                      := 162);
+
+      CALL FC    11 (//K2800SQ
+           OPSW                     := I     72.5,
+           CLSW                     := I     72.4,
+           OUTP                     := Q     72.4,
+           En_Horn                  := TRUE,
+           NUM                      := 163);
+
+      CALL FC    11 (//K2I2600
+           OPSW                     := I     72.7,
+           CLSW                     := I     72.6,
+           OUTP                     := Q     72.6,
+           En_Horn                  := TRUE,
+           NUM                      := 164);
+
+      CALL FC    11 (//K2T5600PS
+           OPSW                     := I     73.1,
+           CLSW                     := I     73.0,
+           OUTP                     := Q     73.0,
+           En_Horn                  := TRUE,
+           NUM                      := 165);
+
+      CALL FC    11 (//K2W500
+           OPSW                     := I     73.3,
+           CLSW                     := I     73.2,
+           OUTP                     := Q     73.2,
+           En_Horn                  := TRUE,
+           NUM                      := 166);
+
+      CALL FC    11 (//K2B
+           OPSW                     := I     73.5,
+           CLSW                     := I     73.4,
+           OUTP                     := Q     73.4,
+           En_Horn                  := TRUE,
+           NUM                      := 167);
+
+      CALL FC    11 (//K2N
+           OPSW                     := I     73.7,
+           CLSW                     := I     73.6,
+           OUTP                     := Q     73.6,
+           En_Horn                  := TRUE,
+           NUM                      := 168);
+
+//------FESTO_1-----DROP6--------------
+
+      CALL FC    11 (//VB1_D1
+           OPSW                     := I     74.1,
+           CLSW                     := I     74.0,
+           OUTP                     := Q     74.0,
+           En_Horn                  := TRUE,
+           NUM                      := 169);
+
+      CALL FC    11 (//VB2_D1
+           OPSW                     := I     74.3,
+           CLSW                     := I     74.2,
+           OUTP                     := Q     74.2,
+           En_Horn                  := TRUE,
+           NUM                      := 170);
+
+      CALL FC    11 (//VB3_D1
+           OPSW                     := I     74.5,
+           CLSW                     := I     74.4,
+           OUTP                     := Q     74.4,
+           En_Horn                  := TRUE,
+           NUM                      := 171);
+
+      CALL FC    11 (//VK3800SQ
+           OPSW                     := I     74.7,
+           CLSW                     := I     74.6,
+           OUTP                     := Q     74.6,
+           En_Horn                  := TRUE,
+           NUM                      := 172);
+
+      CALL FC    11 (//VK3I2600
+           OPSW                     := I     75.1,
+           CLSW                     := I     75.0,
+           OUTP                     := Q     75.0,
+           En_Horn                  := TRUE,
+           NUM                      := 173);
+
+      CALL FC    11 (//VK3T5600PS
+           OPSW                     := I     75.3,
+           CLSW                     := I     75.2,
+           OUTP                     := Q     75.2,
+           En_Horn                  := TRUE,
+           NUM                      := 174);
+
+      CALL FC    11 (//VK3W500
+           OPSW                     := I     75.5,
+           CLSW                     := I     75.4,
+           OUTP                     := Q     75.4,
+           En_Horn                  := TRUE,
+           NUM                      := 175);
+
+      CALL FC    11 (//VHW500
+           OPSW                     := I     75.7,
+           CLSW                     := I     75.6,
+           OUTP                     := Q     75.6,
+           En_Horn                  := TRUE,
+           NUM                      := 176);
+
+//------FESTO_2-----DROP6--------------
+
+      CALL FC    11 (//VPB1
+           OPSW                     := I     76.1,
+           CLSW                     := I     76.0,
+           OUTP                     := Q     76.0,
+           En_Horn                  := TRUE,
+           NUM                      := 177);
+
+      CALL FC    11 (//VRB2_800SQ
+           OPSW                     := I     76.3,
+           CLSW                     := I     76.2,
+           OUTP                     := Q     76.2,
+           En_Horn                  := TRUE,
+           NUM                      := 178);
+
+      CALL FC    11 (//VRB2_I2600
+           OPSW                     := I     76.5,
+           CLSW                     := I     76.4,
+           OUTP                     := Q     76.4,
+           En_Horn                  := TRUE,
+           NUM                      := 179);
+
+      CALL FC    11 (//VRB1_800SQ
+           OPSW                     := I     76.7,
+           CLSW                     := I     76.6,
+           OUTP                     := Q     76.6,
+           En_Horn                  := TRUE,
+           NUM                      := 180);
+
+      CALL FC    11 (//VRB1_I2600
+           OPSW                     := I     77.1,
+           CLSW                     := I     77.0,
+           OUTP                     := Q     77.0,
+           En_Horn                  := TRUE,
+           NUM                      := 181);
+
+      CALL FC    11 (//VB1_D2
+           OPSW                     := I     77.3,
+           CLSW                     := I     77.2,
+           OUTP                     := Q     77.2,
+           En_Horn                  := TRUE,
+           NUM                      := 182);
+
+      CALL FC    11 (//VB2_D2
+           OPSW                     := I     77.5,
+           CLSW                     := I     77.4,
+           OUTP                     := Q     77.4,
+           En_Horn                  := TRUE,
+           NUM                      := 183);
+
+      CALL FC    11 (//VB3_D2
+           OPSW                     := I     77.7,
+           CLSW                     := I     77.6,
+           OUTP                     := Q     77.6,
+           En_Horn                  := TRUE,
+           NUM                      := 184);
+
+//------FESTO_3-----DROP6--------------
+
+      CALL FC    11 (//VPB2
+           OPSW                     := I     78.1,
+           CLSW                     := I     78.0,
+           OUTP                     := Q     78.0,
+           En_Horn                  := TRUE,
+           NUM                      := 185);
+
+      CALL FC    11 (//VK46T
+           OPSW                     := I     78.3,
+           CLSW                     := I     78.2,
+           OUTP                     := Q     78.2,
+           En_Horn                  := TRUE,
+           NUM                      := 186);
+
+      CALL FC    11 (//VPK46T
+           OPSW                     := I     78.5,
+           CLSW                     := I     78.4,
+           OUTP                     := Q     78.4,
+           En_Horn                  := TRUE,
+           NUM                      := 187);
+
+      CALL FC    11 (//VN5/600
+           OPSW                     := I     78.7,
+           CLSW                     := I     78.6,
+           OUTP                     := Q     78.6,
+           En_Horn                  := TRUE,
+           NUM                      := 188);
+
+      CALL FC    11 (//VN3
+           OPSW                     := I     79.1,
+           CLSW                     := I     79.0,
+           OUTP                     := Q     79.0,
+           En_Horn                  := TRUE,
+           NUM                      := 189);
+
+      CALL FC    11 (//VN4
+           OPSW                     := I     79.3,
+           CLSW                     := I     79.2,
+           OUTP                     := Q     79.2,
+           En_Horn                  := TRUE,
+           NUM                      := 190);
+
+      CALL FC    11 (//VK3H
+           OPSW                     := I     79.5,
+           CLSW                     := I     79.4,
+           OUTP                     := Q     79.4,
+           En_Horn                  := TRUE,
+           NUM                      := 191);
+
+      CALL FC    11 (//SF1
+           OPSW                     := I     79.7,
+           CLSW                     := I     79.6,
+           OUTP                     := Q     79.6,
+           En_Horn                  := TRUE,
+           NUM                      := 192);
+
+NETWORK
+TITLE =DROP7  (Адрес 9)
+
+//-------FESTO_0------DROP7-------------
+
+      CALL FC    11 (//VI3_F1
+           OPSW                     := I     80.1,
+           CLSW                     := I     80.0,
+           OUTP                     := Q     80.0,
+           En_Horn                  := TRUE,
+           NUM                      := 193);
+
+      CALL FC    11 (//VI2_F1
+           OPSW                     := I     80.3,
+           CLSW                     := I     80.2,
+           OUTP                     := Q     80.2,
+           En_Horn                  := TRUE,
+           NUM                      := 194);
+
+      CALL FC    11 (//VI1_F1
+           OPSW                     := I     80.5,
+           CLSW                     := I     80.4,
+           OUTP                     := Q     80.4,
+           En_Horn                  := TRUE,
+           NUM                      := 195);
+
+      CALL FC    11 (//VI_800SQ
+           OPSW                     := I     80.7,
+           CLSW                     := I     80.6,
+           OUTP                     := Q     80.6,
+           En_Horn                  := TRUE,
+           NUM                      := 196);
+
+      CALL FC    11 (//VPI
+           OPSW                     := I     81.1,
+           CLSW                     := I     81.0,
+           OUTP                     := Q     81.0,
+           En_Horn                  := TRUE,
+           NUM                      := 197);
+
+      CALL FC    11 (//VI3_D1
+           OPSW                     := I     81.3,
+           CLSW                     := I     81.2,
+           OUTP                     := Q     81.2,
+           En_Horn                  := TRUE,
+           NUM                      := 198);
+
+      CALL FC    11 (//VI2_D1
+           OPSW                     := I     81.5,
+           CLSW                     := I     81.4,
+           OUTP                     := Q     81.4,
+           En_Horn                  := TRUE,
+           NUM                      := 199);
+
+      CALL FC    11 (//VI1_D1
+           OPSW                     := I     81.7,
+           CLSW                     := I     81.6,
+           OUTP                     := Q     81.6,
+           En_Horn                  := TRUE,
+           NUM                      := 200);
+
+//-------FESTO_1------DROP7-------------
+
+      CALL FC    11 (//B3_F2
+           OPSW                     := I     82.1,
+           CLSW                     := I     82.0,
+           OUTP                     := Q     82.0,
+           En_Horn                  := TRUE,
+           NUM                      := 201);
+
+      CALL FC    11 (//B2_F2
+           OPSW                     := I     82.3,
+           CLSW                     := I     82.2,
+           OUTP                     := Q     82.2,
+           En_Horn                  := TRUE,
+           NUM                      := 202);
+
+      CALL FC    11 (//B1_F2
+           OPSW                     := I     82.5,
+           CLSW                     := I     82.4,
+           OUTP                     := Q     82.4,
+           En_Horn                  := TRUE,
+           NUM                      := 203);
+
+      CALL FC    11 (//B3_F1
+           OPSW                     := I     82.7,
+           CLSW                     := I     82.6,
+           OUTP                     := Q     82.6,
+           En_Horn                  := TRUE,
+           NUM                      := 204);
+
+      CALL FC    11 (//B2_F1
+           OPSW                     := I     83.1,
+           CLSW                     := I     83.0,
+           OUTP                     := Q     83.0,
+           En_Horn                  := TRUE,
+           NUM                      := 205);
+
+      CALL FC    11 (//B1_F1
+           OPSW                     := I     83.3,
+           CLSW                     := I     83.2,
+           OUTP                     := Q     83.2,
+           En_Horn                  := TRUE,
+           NUM                      := 206);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     83.5,
+           CLSW                     := I     83.4,
+           OUTP                     := Q     83.4,
+           En_Horn                  := TRUE,
+           NUM                      := 207);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     83.7,
+           CLSW                     := I     83.6,
+           OUTP                     := Q     83.6,
+           En_Horn                  := TRUE,
+           NUM                      := 208);
+
+//-------FESTO_2------DROP7-------------
+
+      CALL FC    11 (//VPH
+           OPSW                     := I     84.1,
+           CLSW                     := I     84.0,
+           OUTP                     := Q     84.0,
+           En_Horn                  := TRUE,
+           NUM                      := 209);
+
+      CALL FC    11 (//VH_098
+           OPSW                     := I     84.3,
+           CLSW                     := I     84.2,
+           OUTP                     := Q     84.2,
+           En_Horn                  := TRUE,
+           NUM                      := 210);
+
+      CALL FC    11 (//VH_800SQ
+           OPSW                     := I     84.5,
+           CLSW                     := I     84.4,
+           OUTP                     := Q     84.4,
+           En_Horn                  := TRUE,
+           NUM                      := 211);
+
+      CALL FC    11 (//VHI_2600
+           OPSW                     := I     84.7,
+           CLSW                     := I     84.6,
+           OUTP                     := Q     84.6,
+           En_Horn                  := TRUE,
+           NUM                      := 212);
+
+      CALL FC    11 (//VH3_D1
+           OPSW                     := I     85.1,
+           CLSW                     := I     85.0,
+           OUTP                     := Q     85.0,
+           En_Horn                  := TRUE,
+           NUM                      := 213);
+
+      CALL FC    11 (//VH2_D1
+           OPSW                     := I     85.3,
+           CLSW                     := I     85.2,
+           OUTP                     := Q     85.2,
+           En_Horn                  := TRUE,
+           NUM                      := 214);
+
+      CALL FC    11 (//VH1_D1
+           OPSW                     := I     85.5,
+           CLSW                     := I     85.4,
+           OUTP                     := Q     85.4,
+           En_Horn                  := TRUE,
+           NUM                      := 215);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     85.7,
+           CLSW                     := I     85.6,
+           OUTP                     := Q     85.6,
+           En_Horn                  := TRUE,
+           NUM                      := 216);
+
+//-------FESTO_3------DROP7-------------
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     86.1,
+           CLSW                     := I     86.0,
+           OUTP                     := Q     86.0,
+           En_Horn                  := TRUE,
+           NUM                      := 217);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     86.3,
+           CLSW                     := I     86.2,
+           OUTP                     := Q     86.2,
+           En_Horn                  := TRUE,
+           NUM                      := 218);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     86.5,
+           CLSW                     := I     86.4,
+           OUTP                     := Q     86.4,
+           En_Horn                  := TRUE,
+           NUM                      := 219);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     86.7,
+           CLSW                     := I     86.6,
+           OUTP                     := Q     86.6,
+           En_Horn                  := TRUE,
+           NUM                      := 220);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     87.1,
+           CLSW                     := I     87.0,
+           OUTP                     := Q     87.0,
+           En_Horn                  := TRUE,
+           NUM                      := 221);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     87.3,
+           CLSW                     := I     87.2,
+           OUTP                     := Q     87.2,
+           En_Horn                  := TRUE,
+           NUM                      := 222);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     87.5,
+           CLSW                     := I     87.4,
+           OUTP                     := Q     87.4,
+           En_Horn                  := TRUE,
+           NUM                      := 223);
+
+      CALL FC    11 (//SPARE
+           OPSW                     := I     87.7,
+           CLSW                     := I     87.6,
+           OUTP                     := Q     87.6,
+           En_Horn                  := TRUE,
+           NUM                      := 224);
+
+      CALL FC    11 (
+           OPSW                     := I     90.3,
+           CLSW                     := I     90.2,
+           OUTP                     := Q     88.0,
+           En_Horn                  := TRUE,
+           NUM                      := 230);
+
+      CALL FC    11 (
+           OPSW                     := I     90.5,
+           CLSW                     := I     90.4,
+           OUTP                     := Q     88.1,
+           En_Horn                  := TRUE,
+           NUM                      := 231);
+
+NETWORK
+TITLE =ET15 Клапана пирс
+
+
+      CALL FC   111 (//V2
+           OPSW                     := I      4.0,
+           CLSW                     := I      4.1,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 225);
+
+      CALL FC   111 (//V3
+           OPSW                     := I      4.2,
+           CLSW                     := I      4.3,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 226);
+
+      CALL FC   111 (//V4
+           OPSW                     := I      4.4,
+           CLSW                     := I      4.5,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 227);
+
+      CALL FC   111 (//V5
+           OPSW                     := I      4.6,
+           CLSW                     := I      4.7,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 228);
+
+      CALL FC   111 (//V7
+           OPSW                     := I      5.0,
+           CLSW                     := I      5.1,
+           OUTP                     := FALSE,
+           En_Horn                  := TRUE,
+           NUM                      := 229);
+
+
+
+
+
+
+NETWORK
+TITLE =
+// 
+
+      CALL FC    11 (
+           OPSW                     := I     28.7,
+           CLSW                     := I     28.6,
+           OUTP                     := Q     22.6,
+           En_Horn                  := TRUE,
+           NUM                      := 232);
+      CALL FC    11 (
+           OPSW                     := I     28.5,
+           CLSW                     := I     28.4,
+           OUTP                     := Q     22.4,
+           En_Horn                  := TRUE,
+           NUM                      := 233);
+      CALL FC    11 (
+           OPSW                     := I     28.1,
+           CLSW                     := I     28.0,
+           OUTP                     := Q     22.0,
+           En_Horn                  := TRUE,
+           NUM                      := 234);
+      CALL FC    11 (
+           OPSW                     := I     28.3,
+           CLSW                     := I     28.2,
+           OUTP                     := Q     22.2,
+           En_Horn                  := TRUE,
+           NUM                      := 235);
+      CALL FC    11 (
+           OPSW                     := I     27.7,
+           CLSW                     := I     27.6,
+           OUTP                     := Q     21.6,
+           En_Horn                  := TRUE,
+           NUM                      := 236);
+      CALL FC    11 (
+           OPSW                     := I     27.5,
+           CLSW                     := I     27.4,
+           OUTP                     := Q     21.4,
+           En_Horn                  := TRUE,
+           NUM                      := 237);
+      CALL FC    11 (
+           OPSW                     := I     27.3,
+           CLSW                     := I     27.2,
+           OUTP                     := Q     21.2,
+           En_Horn                  := TRUE,
+           NUM                      := 238);
+
+      CALL FC    11 (
+           OPSW                     := I     29.3,
+           CLSW                     := I     29.2,
+           OUTP                     := Q     23.2,
+           En_Horn                  := TRUE,
+           NUM                      := 239);
+
+
+      CALL FC    11 (
+           OPSW                     := I     29.5,
+           CLSW                     := I     29.4,
+           OUTP                     := Q     23.4,
+           En_Horn                  := TRUE,
+           NUM                      := 240);
+      CALL FC    11 (
+           OPSW                     := I    106.0,
+           CLSW                     := I    106.1,
+           OUTP                     := Q    106.0,
+           En_Horn                  := TRUE,
+           NUM                      := 241);
+
+      CALL FC    11 (
+           OPSW                     := I    119.5,
+           CLSW                     := I    119.4,
+           OUTP                     := Q    119.4,
+           En_Horn                  := TRUE,
+           NUM                      := 242);
+
+      CALL FC    11 (
+           OPSW                     := I    115.1,
+           CLSW                     := I    115.0,
+           OUTP                     := Q    115.0,
+           En_Horn                  := TRUE,
+           NUM                      := 243);
+
+      CALL FC    11 (
+           OPSW                     := I    119.3,
+           CLSW                     := I    119.2,
+           OUTP                     := Q    119.2,
+           En_Horn                  := TRUE,
+           NUM                      := 244);
+
+      CALL FC    11 (
+           OPSW                     := I    119.7,
+           CLSW                     := I    119.6,
+           OUTP                     := Q    119.6,
+           En_Horn                  := TRUE,
+           NUM                      := 245);
+
+      CALL FC    11 (
+           OPSW                     := I    118.3,
+           CLSW                     := I    118.2,
+           OUTP                     := Q    118.2,
+           En_Horn                  := TRUE,
+           NUM                      := 246);
+//vrb2 800q
+      CALL FC    11 (
+           OPSW                     := I    115.5,
+           CLSW                     := I    115.4,
+           OUTP                     := Q    115.3,
+           En_Horn                  := TRUE,
+           NUM                      := 247);
+
+//vrb1 800q
+      CALL FC    11 (
+           OPSW                     := I    115.3,
+           CLSW                     := I    115.2,
+           OUTP                     := Q    115.2,
+           En_Horn                  := TRUE,
+           NUM                      := 248);
+
+//vi3d2
+      CALL FC    11 (
+           OPSW                     := I     49.7,
+           CLSW                     := I     49.6,
+           OUTP                     := Q     49.6,
+           En_Horn                  := TRUE,
+           NUM                      := 249);
+
+//vi2d2
+      CALL FC    11 (
+           OPSW                     := I     49.1,
+           CLSW                     := I     49.0,
+           OUTP                     := Q     49.0,
+           En_Horn                  := TRUE,
+           NUM                      := 250);
+
+//vi1d2
+      CALL FC    11 (
+           OPSW                     := I     61.7,
+           CLSW                     := I     61.6,
+           OUTP                     := Q     61.6,
+           En_Horn                  := TRUE,
+           NUM                      := 251);
+
+//vpi2
+      CALL FC    11 (
+           OPSW                     := I     48.1,
+           CLSW                     := I     48.0,
+           OUTP                     := Q     48.0,
+           En_Horn                  := TRUE,
+           NUM                      := 252);
+
+//vi2 800q
+      CALL FC    11 (
+           OPSW                     := I     48.5,
+           CLSW                     := I     48.4,
+           OUTP                     := Q     48.4,
+           En_Horn                  := TRUE,
+           NUM                      := 253);
+
+//vi1 800q
+      CALL FC    11 (
+           OPSW                     := I     53.3,
+           CLSW                     := I     53.2,
+           OUTP                     := Q     53.2,
+           En_Horn                  := TRUE,
+           NUM                      := 254);
+
+//vi2 800sq
+      CALL FC    11 (
+           OPSW                     := I     49.5,
+           CLSW                     := I     49.4,
+           OUTP                     := Q     49.4,
+           En_Horn                  := TRUE,
+           NUM                      := 255);
+
+// vh3d2
+      CALL FC    11 (
+           OPSW                     := I     53.5,
+           CLSW                     := I     53.4,
+           OUTP                     := Q     53.4,
+           En_Horn                  := TRUE,
+           NUM                      := 256);
+
+//vh2d2
+      CALL FC    11 (
+           OPSW                     := I     52.7,
+           CLSW                     := I     52.6,
+           OUTP                     := Q     52.6,
+           En_Horn                  := TRUE,
+           NUM                      := 257);
+
+//vh1d2
+      CALL FC    11 (
+           OPSW                     := I     53.7,
+           CLSW                     := I     53.6,
+           OUTP                     := Q     53.6,
+           En_Horn                  := TRUE,
+           NUM                      := 258);
+
+//vph2
+      CALL FC    11 (
+           OPSW                     := I     52.5,
+           CLSW                     := I     52.4,
+           OUTP                     := Q     52.4,
+           En_Horn                  := TRUE,
+           NUM                      := 259);
+
+//vh2 800q
+      CALL FC    11 (
+           OPSW                     := I     48.3,
+           CLSW                     := I     48.2,
+           OUTP                     := Q     48.2,
+           En_Horn                  := TRUE,
+           NUM                      := 260);
+
+//vh2 2600
+      CALL FC    11 (
+           OPSW                     := I     53.1,
+           CLSW                     := I     53.0,
+           OUTP                     := Q     53.0,
+           En_Horn                  := TRUE,
+           NUM                      := 261);
+
+//vh2 800sq
+      CALL FC    11 (
+           OPSW                     := I     52.1,
+           CLSW                     := I     52.0,
+           OUTP                     := Q     52.0,
+           En_Horn                  := TRUE,
+           NUM                      := 262);
+
+//vh2 098
+      CALL FC    11 (
+           OPSW                     := I     52.3,
+           CLSW                     := I     52.2,
+           OUTP                     := Q     52.2,
+           En_Horn                  := TRUE,
+           NUM                      := 263);
+
+//vh1 800q
+      CALL FC    11 (
+           OPSW                     := I     49.3,
+           CLSW                     := I     49.2,
+           OUTP                     := Q     49.2,
+           En_Horn                  := TRUE,
+           NUM                      := 264);
+
+//vk2 800q
+      CALL FC    11 (
+           OPSW                     := I    116.1,
+           CLSW                     := I    116.0,
+           OUTP                     := Q    115.5,
+           En_Horn                  := TRUE,
+           NUM                      := 265);
+
+//vk3 800q
+      CALL FC    11 (
+           OPSW                     := I    115.7,
+           CLSW                     := I    115.6,
+           OUTP                     := Q    115.4,
+           En_Horn                  := TRUE,
+           NUM                      := 266);
+//v600
+      CALL FC    11 (
+           OPSW                     := I     56.1,
+           CLSW                     := I     56.0,
+           OUTP                     := Q     56.0,
+           En_Horn                  := TRUE,
+           NUM                      := 267);
+//v800q
+      CALL FC    11 (
+           OPSW                     := I     56.3,
+           CLSW                     := I     56.2,
+           OUTP                     := Q     56.2,
+           En_Horn                  := TRUE,
+           NUM                      := 268);
+
+NETWORK
+TITLE =Tank Park 2 (Profibus adress 23) C9-C13
+
+      CALL FC    11 (
+           OPSW                     := I    148.1,
+           CLSW                     := I    148.0,
+           OUTP                     := Q     24.0,
+           En_Horn                  := FALSE,
+           NUM                      := 269);
+
+      CALL FC    11 (
+           OPSW                     := I    148.3,
+           CLSW                     := I    148.2,
+           OUTP                     := Q     24.1,
+           En_Horn                  := FALSE,
+           NUM                      := 270);
+
+      CALL FC    11 (
+           OPSW                     := I    148.5,
+           CLSW                     := I    148.4,
+           OUTP                     := Q     24.2,
+           En_Horn                  := FALSE,
+           NUM                      := 271);
+
+
+      CALL FC    11 (
+           OPSW                     := I    148.7,
+           CLSW                     := I    148.6,
+           OUTP                     := Q     24.3,
+           En_Horn                  := FALSE,
+           NUM                      := 272);
+
+      CALL FC    11 (
+           OPSW                     := I    149.1,
+           CLSW                     := I    149.0,
+           OUTP                     := Q     24.4,
+           En_Horn                  := FALSE,
+           NUM                      := 273);
+
+      CALL FC    11 (
+           OPSW                     := I    149.3,
+           CLSW                     := I    149.2,
+           OUTP                     := Q     24.5,
+           En_Horn                  := FALSE,
+           NUM                      := 274);
+
+      CALL FC    11 (
+           OPSW                     := I    149.5,
+           CLSW                     := I    149.4,
+           OUTP                     := Q     24.6,
+           En_Horn                  := FALSE,
+           NUM                      := 275);
+
+      CALL FC    11 (
+           OPSW                     := I    149.7,
+           CLSW                     := I    149.6,
+           OUTP                     := Q     24.7,
+           En_Horn                  := FALSE,
+           NUM                      := 276);
+
+      CALL FC    11 (
+           OPSW                     := I    150.1,
+           CLSW                     := I    150.0,
+           OUTP                     := Q     25.0,
+           En_Horn                  := FALSE,
+           NUM                      := 277);
+
+      CALL FC    11 (
+           OPSW                     := I    150.3,
+           CLSW                     := I    150.2,
+           OUTP                     := Q     25.1,
+           En_Horn                  := FALSE,
+           NUM                      := 278);
+
+      CALL FC    11 (
+           OPSW                     := I    150.5,
+           CLSW                     := I    150.4,
+           OUTP                     := Q     25.2,
+           En_Horn                  := FALSE,
+           NUM                      := 279);
+
+      CALL FC    11 (
+           OPSW                     := I    150.7,
+           CLSW                     := I    150.6,
+           OUTP                     := Q     25.3,
+           En_Horn                  := FALSE,
+           NUM                      := 280);
+
+      CALL FC    11 (
+           OPSW                     := I    151.1,
+           CLSW                     := I    151.0,
+           OUTP                     := Q     25.4,
+           En_Horn                  := FALSE,
+           NUM                      := 281);
+
+      CALL FC    11 (
+           OPSW                     := I    151.3,
+           CLSW                     := I    151.2,
+           OUTP                     := Q     25.5,
+           En_Horn                  := FALSE,
+           NUM                      := 282);
+
+      CALL FC    11 (
+           OPSW                     := I    151.5,
+           CLSW                     := I    151.4,
+           OUTP                     := Q     25.6,
+           En_Horn                  := FALSE,
+           NUM                      := 283);
+
+      CALL FC    11 (
+           OPSW                     := I    151.7,
+           CLSW                     := I    151.6,
+           OUTP                     := Q     25.7,
+           En_Horn                  := FALSE,
+           NUM                      := 284);
+
+NETWORK
+TITLE =Tank Farm 1 (Profibus adress 24)
+
+
+      CALL FC    11 (
+           OPSW                     := I    156.1,
+           CLSW                     := I    156.0,
+           OUTP                     := Q     28.0,
+           En_Horn                  := FALSE,
+           NUM                      := 285);
+
+      CALL FC    11 (
+           OPSW                     := I    156.3,
+           CLSW                     := I    156.2,
+           OUTP                     := Q     28.1,
+           En_Horn                  := FALSE,
+           NUM                      := 286);
+
+      CALL FC    11 (
+           OPSW                     := I    156.5,
+           CLSW                     := I    156.4,
+           OUTP                     := Q     28.2,
+           En_Horn                  := FALSE,
+           NUM                      := 287);
+
+      CALL FC    11 (
+           OPSW                     := Q     28.3,//"D1/3_Yo"     и кто это такой гений???
+           CLSW                     := I    156.6,
+           OUTP                     := Q     28.3,
+           En_Horn                  := FALSE,
+           NUM                      := 288);
+
+      CALL FC    11 (
+           OPSW                     := I    157.1,
+           CLSW                     := I    157.0,
+           OUTP                     := Q     28.4,
+           En_Horn                  := FALSE,
+           NUM                      := 289);
+
+      CALL FC    11 (
+           OPSW                     := I    157.3,
+           CLSW                     := I    157.2,
+           OUTP                     := Q     28.5,
+           En_Horn                  := FALSE,
+           NUM                      := 290);
+
+      CALL FC    11 (
+           OPSW                     := I    157.5,
+           CLSW                     := I    157.4,
+           OUTP                     := Q     28.6,
+           En_Horn                  := FALSE,
+           NUM                      := 291);
+
+      CALL FC    11 (
+           OPSW                     := I    157.7,
+           CLSW                     := I    157.6,
+           OUTP                     := Q     28.7,
+           En_Horn                  := FALSE,
+           NUM                      := 292);
+
+      CALL FC    11 (
+           OPSW                     := I    158.1,
+           CLSW                     := I    158.0,
+           OUTP                     := Q     29.0,
+           En_Horn                  := FALSE,
+           NUM                      := 293);
+
+      CALL FC    11 (
+           OPSW                     := I    158.3,
+           CLSW                     := I    158.2,
+           OUTP                     := Q     29.1,
+           En_Horn                  := FALSE,
+           NUM                      := 294);
+
+      CALL FC    11 (
+           OPSW                     := I    158.5,
+           CLSW                     := I    158.4,
+           OUTP                     := Q     29.2,
+           En_Horn                  := FALSE,
+           NUM                      := 295);
+
+      CALL FC    11 (
+           OPSW                     := I    158.7,
+           CLSW                     := I    158.6,
+           OUTP                     := Q     29.3,
+           En_Horn                  := FALSE,
+           NUM                      := 296);
+
+      CALL FC    11 (
+           OPSW                     := I    159.1,
+           CLSW                     := I    159.0,
+           OUTP                     := Q     29.4,
+           En_Horn                  := FALSE,
+           NUM                      := 297);
+
+      CALL FC    11 (
+           OPSW                     := I    159.3,
+           CLSW                     := I    159.2,
+           OUTP                     := Q     29.5,
+           En_Horn                  := FALSE,
+           NUM                      := 298);
+
+      CALL FC    11 (
+           OPSW                     := I    159.5,
+           CLSW                     := I    159.4,
+           OUTP                     := Q     29.6,
+           En_Horn                  := FALSE,
+           NUM                      := 299);
+
+      CALL FC    11 (
+           OPSW                     := I    159.7,
+           CLSW                     := I    159.6,
+           OUTP                     := Q     29.7,
+           En_Horn                  := FALSE,
+           NUM                      := 300);
+
+      CALL FC    11 (
+           OPSW                     := I    160.1,
+           CLSW                     := I    160.0,
+           OUTP                     := Q     30.0,
+           En_Horn                  := FALSE,
+           NUM                      := 301);
+
+NETWORK
+TITLE =Новый коллектор C1-C8. Festo drop 25-26.
+
+
+//vpc1.1
+      CALL FC    11 (
+           OPSW                     := I    170.1,
+           CLSW                     := I    170.0,
+           OUTP                     := Q    170.0,
+           En_Horn                  := TRUE,
+           NUM                      := 310);
+
+//vc1_d4
+      CALL FC    11 (
+           OPSW                     := I    165.5,
+           CLSW                     := I    165.4,
+           OUTP                     := Q    165.4,
+           En_Horn                  := TRUE,
+           NUM                      := 311);
+
+//vc1_d5
+      CALL FC    11 (
+           OPSW                     := I    164.3,
+           CLSW                     := I    164.2,
+           OUTP                     := Q    164.2,
+           En_Horn                  := TRUE,
+           NUM                      := 312);
+
+//vc1_d6
+      CALL FC    11 (
+           OPSW                     := I    164.5,
+           CLSW                     := I    164.4,
+           OUTP                     := Q    164.4,
+           En_Horn                  := TRUE,
+           NUM                      := 313);
+
+//vc1_d7
+      CALL FC    11 (
+           OPSW                     := I    164.1,
+           CLSW                     := I    164.0,
+           OUTP                     := Q    164.0,
+           En_Horn                  := TRUE,
+           NUM                      := 314);
+
+//vpc2.1
+      CALL FC    11 (
+           OPSW                     := I    170.3,
+           CLSW                     := I    170.2,
+           OUTP                     := Q    170.1,
+           En_Horn                  := TRUE,
+           NUM                      := 315);
+
+//vc2_d4
+      CALL FC    11 (
+           OPSW                     := I    165.7,
+           CLSW                     := I    165.6,
+           OUTP                     := Q    165.6,
+           En_Horn                  := TRUE,
+           NUM                      := 316);
+
+//vc2_d5
+      CALL FC    11 (
+           OPSW                     := I    165.1,
+           CLSW                     := I    165.0,
+           OUTP                     := Q    165.0,
+           En_Horn                  := TRUE,
+           NUM                      := 317);
+
+//vc2_d6
+      CALL FC    11 (
+           OPSW                     := I    165.3,
+           CLSW                     := I    165.2,
+           OUTP                     := Q    165.2,
+           En_Horn                  := TRUE,
+           NUM                      := 318);
+
+//vc2_d7
+      CALL FC    11 (
+           OPSW                     := I    164.7,
+           CLSW                     := I    164.6,
+           OUTP                     := Q    164.6,
+           En_Horn                  := TRUE,
+           NUM                      := 319);
+
+//vpc3.1
+      CALL FC    11 (
+           OPSW                     := I    170.5,
+           CLSW                     := I    170.4,
+           OUTP                     := Q    170.2,
+           En_Horn                  := TRUE,
+           NUM                      := 320);
+
+//vc3_d4
+      CALL FC    11 (
+           OPSW                     := I    173.7,
+           CLSW                     := I    173.6,
+           OUTP                     := Q    169.6,
+           En_Horn                  := TRUE,
+           NUM                      := 321);
+
+//vc3_d5
+      CALL FC    11 (
+           OPSW                     := I    173.1,
+           CLSW                     := I    173.0,
+           OUTP                     := Q    169.0,
+           En_Horn                  := TRUE,
+           NUM                      := 322);
+
+//vc3_d6
+      CALL FC    11 (
+           OPSW                     := I    172.7,
+           CLSW                     := I    172.6,
+           OUTP                     := Q    168.6,
+           En_Horn                  := TRUE,
+           NUM                      := 323);
+
+//vc3_d7
+      CALL FC    11 (
+           OPSW                     := I    173.3,
+           CLSW                     := I    173.2,
+           OUTP                     := Q    169.2,
+           En_Horn                  := TRUE,
+           NUM                      := 324);
+
+//vpc4.1
+      CALL FC    11 (
+           OPSW                     := I    170.7,
+           CLSW                     := I    170.6,
+           OUTP                     := Q    170.3,
+           En_Horn                  := TRUE,
+           NUM                      := 325);
+
+//vc4_d4
+      CALL FC    11 (
+           OPSW                     := I    173.5,
+           CLSW                     := I    173.4,
+           OUTP                     := Q    169.4,
+           En_Horn                  := TRUE,
+           NUM                      := 326);
+
+//vc4_d5
+      CALL FC    11 (
+           OPSW                     := I    172.3,
+           CLSW                     := I    172.2,
+           OUTP                     := Q    168.2,
+           En_Horn                  := TRUE,
+           NUM                      := 327);
+
+//vc4_d6
+      CALL FC    11 (
+           OPSW                     := I    172.1,
+           CLSW                     := I    172.0,
+           OUTP                     := Q    168.0,
+           En_Horn                  := TRUE,
+           NUM                      := 328);
+
+//vc4_d7
+      CALL FC    11 (
+           OPSW                     := I    172.5,
+           CLSW                     := I    172.4,
+           OUTP                     := Q    168.4,
+           En_Horn                  := TRUE,
+           NUM                      := 329);
+
+//vpc5.1
+      CALL FC    11 (
+           OPSW                     := I    171.1,
+           CLSW                     := I    171.0,
+           OUTP                     := Q    170.4,
+           En_Horn                  := TRUE,
+           NUM                      := 330);
+
+//vc5_d4
+      CALL FC    11 (
+           OPSW                     := I    184.3,
+           CLSW                     := I    184.2,
+           OUTP                     := Q    184.2,
+           En_Horn                  := TRUE,
+           NUM                      := 331);
+
+//vc5_d5
+      CALL FC    11 (
+           OPSW                     := I    180.5,
+           CLSW                     := I    180.4,
+           OUTP                     := Q    180.4,
+           En_Horn                  := TRUE,
+           NUM                      := 332);
+
+//vc5_d6
+      CALL FC    11 (
+           OPSW                     := I    180.7,
+           CLSW                     := I    180.6,
+           OUTP                     := Q    180.6,
+           En_Horn                  := TRUE,
+           NUM                      := 333);
+
+//vc5_d7
+      CALL FC    11 (
+           OPSW                     := I    181.3,
+           CLSW                     := I    181.2,
+           OUTP                     := Q    181.2,
+           En_Horn                  := TRUE,
+           NUM                      := 334);
+
+//vpc6.1
+      CALL FC    11 (
+           OPSW                     := I    171.3,
+           CLSW                     := I    171.2,
+           OUTP                     := Q    170.5,
+           En_Horn                  := TRUE,
+           NUM                      := 335);
+
+//vc6_d4
+      CALL FC    11 (
+           OPSW                     := I    185.7,
+           CLSW                     := I    185.6,
+           OUTP                     := Q    185.6,
+           En_Horn                  := TRUE,
+           NUM                      := 336);
+
+//vc6_d5
+      CALL FC    11 (
+           OPSW                     := I    185.3,
+           CLSW                     := I    185.2,
+           OUTP                     := Q    185.2,
+           En_Horn                  := TRUE,
+           NUM                      := 337);
+
+//vc6_d6
+      CALL FC    11 (
+           OPSW                     := I    185.5,
+           CLSW                     := I    185.4,
+           OUTP                     := Q    185.4,
+           En_Horn                  := TRUE,
+           NUM                      := 338);
+
+//vc6_d7
+      CALL FC    11 (
+           OPSW                     := I    181.7,
+           CLSW                     := I    181.6,
+           OUTP                     := Q    181.6,
+           En_Horn                  := TRUE,
+           NUM                      := 339);
+
+//vpc7.1
+      CALL FC    11 (
+           OPSW                     := I    171.5,
+           CLSW                     := I    171.4,
+           OUTP                     := Q    170.6,
+           En_Horn                  := TRUE,
+           NUM                      := 340);
+
+//vc7_d4
+      CALL FC    11 (
+           OPSW                     := I    184.1,
+           CLSW                     := I    184.0,
+           OUTP                     := Q    184.0,
+           En_Horn                  := TRUE,
+           NUM                      := 341);
+
+//vc7_d5
+      CALL FC    11 (
+           OPSW                     := I    180.1,
+           CLSW                     := I    180.0,
+           OUTP                     := Q    180.0,
+           En_Horn                  := TRUE,
+           NUM                      := 342);
+
+//vc7_d6
+      CALL FC    11 (
+           OPSW                     := I    180.3,
+           CLSW                     := I    180.2,
+           OUTP                     := Q    180.2,
+           En_Horn                  := TRUE,
+           NUM                      := 343);
+
+//vc7_d7
+      CALL FC    11 (
+           OPSW                     := I    181.1,
+           CLSW                     := I    181.0,
+           OUTP                     := Q    181.0,
+           En_Horn                  := TRUE,
+           NUM                      := 344);
+
+//vpc8.1     
+      CALL FC    11 (
+           OPSW                     := I    171.7,
+           CLSW                     := I    171.6,
+           OUTP                     := Q    170.7,
+           En_Horn                  := TRUE,
+           NUM                      := 345);
+
+//vc8_d4
+      CALL FC    11 (
+           OPSW                     := I    184.5,
+           CLSW                     := I    184.4,
+           OUTP                     := Q    184.4,
+           En_Horn                  := TRUE,
+           NUM                      := 346);
+
+//vc8_d5
+      CALL FC    11 (
+           OPSW                     := I    184.7,
+           CLSW                     := I    184.6,
+           OUTP                     := Q    184.6,
+           En_Horn                  := TRUE,
+           NUM                      := 347);
+
+//vc8_d6
+      CALL FC    11 (
+           OPSW                     := I    185.1,
+           CLSW                     := I    185.0,
+           OUTP                     := Q    185.0,
+           En_Horn                  := TRUE,
+           NUM                      := 348);
+
+//vc8_d7
+      CALL FC    11 (
+           OPSW                     := I    181.5,
+           CLSW                     := I    181.4,
+           OUTP                     := Q    181.4,
+           En_Horn                  := TRUE,
+           NUM                      := 349);
+
+//vctf4
+      CALL FC    11 (
+           OPSW                     := I    152.5,
+           CLSW                     := I    152.4,
+           OUTP                     := Q     26.2,
+           En_Horn                  := TRUE,
+           NUM                      := 350);
+
+//vk4q800
+      CALL FC    11 (
+           OPSW                     := I     56.5,
+           CLSW                     := I     56.4,
+           OUTP                     := Q     56.4,
+           En_Horn                  := TRUE,
+           NUM                      := 351);
+
+//vk4i2600
+      CALL FC    11 (
+           OPSW                     := I     56.7,
+           CLSW                     := I     56.6,
+           OUTP                     := Q     56.6,
+           En_Horn                  := TRUE,
+           NUM                      := 352);
+
+//vk4qms800
+      CALL FC    11 (
+           OPSW                     := I     57.1,
+           CLSW                     := I     57.0,
+           OUTP                     := Q     57.0,
+           En_Horn                  := TRUE,
+           NUM                      := 353);
+
+//vc12-f11
+      CALL FC    11 (
+           OPSW                     := I    152.7,
+           CLSW                     := I    152.6,
+           OUTP                     := Q     26.3,
+           En_Horn                  := TRUE,
+           NUM                      := 354);
+
+//vk1-f1
+      CALL FC    11 (
+           OPSW                     := I    153.1,
+           CLSW                     := I    153.0,
+           OUTP                     := Q     26.4,
+           En_Horn                  := TRUE,
+           NUM                      := 355);
+
+//vk2-f2
+      CALL FC    11 (
+           OPSW                     := I    153.3,
+           CLSW                     := I    153.2,
+           OUTP                     := Q     26.5,
+           En_Horn                  := TRUE,
+           NUM                      := 356);
+
+//vk2-f1
+      CALL FC    11 (
+           OPSW                     := I    153.5,
+           CLSW                     := I    153.4,
+           OUTP                     := Q     26.6,
+           En_Horn                  := TRUE,
+           NUM                      := 357);
+
+//vk4-f1
+      CALL FC    11 (
+           OPSW                     := I    153.7,
+           CLSW                     := I    153.6,
+           OUTP                     := Q     26.7,
+           En_Horn                  := TRUE,
+           NUM                      := 358);
+
+//vk4-f2
+      CALL FC    11 (
+           OPSW                     := I    154.1,
+           CLSW                     := I    154.0,
+           OUTP                     := Q     27.0,
+           En_Horn                  := TRUE,
+           NUM                      := 359);
+
+//vk1-f2
+      CALL FC    11 (
+           OPSW                     := I    154.3,
+           CLSW                     := I    154.2,
+           OUTP                     := Q     27.1,
+           En_Horn                  := TRUE,
+           NUM                      := 360);
+
+//vc12-f44
+      CALL FC    11 (
+           OPSW                     := I    154.5,
+           CLSW                     := I    154.4,
+           OUTP                     := Q     27.2,
+           En_Horn                  := TRUE,
+           NUM                      := 361);
+
+//vc12-f22
+      CALL FC    11 (
+           OPSW                     := I    154.7,
+           CLSW                     := I    154.6,
+           OUTP                     := Q     27.3,
+           En_Horn                  := TRUE,
+           NUM                      := 362);
+
+//vc1-d8
+      CALL FC    11 (
+           OPSW                     := I    160.3,
+           CLSW                     := I    160.2,
+           OUTP                     := Q     30.1,
+           En_Horn                  := TRUE,
+           NUM                      := 363);
+
+//vc3-d8
+      CALL FC    11 (
+           OPSW                     := I    160.5,
+           CLSW                     := I    160.4,
+           OUTP                     := Q     30.2,
+           En_Horn                  := TRUE,
+           NUM                      := 364);
+
+// 080416 для налива на корабль,
+// 2-й причал, Ремизов Ковров
+      CALL FC    11 (
+           OPSW                     := I     14.1,
+           CLSW                     := I     14.0,
+           OUTP                     := Q     12.0,
+           En_Horn                  := TRUE,
+           NUM                      := 365);
+
+      CALL FC    11 (
+           OPSW                     := I     14.3,
+           CLSW                     := I     14.2,
+           OUTP                     := Q     12.2,
+           En_Horn                  := TRUE,
+           NUM                      := 366);
+
+      CALL FC    11 (
+           OPSW                     := I     14.5,
+           CLSW                     := I     14.4,
+           OUTP                     := Q     12.4,
+           En_Horn                  := TRUE,
+           NUM                      := 367);
+
+      CALL FC    11 (
+           OPSW                     := I     14.7,
+           CLSW                     := I     14.6,
+           OUTP                     := Q     12.6,
+           En_Horn                  := TRUE,
+           NUM                      := 368);
+
+      CALL FC    11 (
+           OPSW                     := I     15.1,
+           CLSW                     := I     15.0,
+           OUTP                     := Q     13.0,
+           En_Horn                  := TRUE,
+           NUM                      := 369);
+
+      CALL FC    11 (
+           OPSW                     := I     15.3,
+           CLSW                     := I     15.2,
+           OUTP                     := Q     13.2,
+           En_Horn                  := TRUE,
+           NUM                      := 370);
+
+      CALL FC    11 (
+           OPSW                     := I    146.3,
+           CLSW                     := I    146.2,
+           OUTP                     := Q     89.5,
+           En_Horn                  := FALSE,
+           NUM                      := 371);
+
+//-----------
+      CALL FC    11 (
+           OPSW                     := I    179.1,
+           CLSW                     := I    179.0,
+           OUTP                     := Q     94.0,
+           En_Horn                  := FALSE,
+           NUM                      := 372);
+
+      CALL FC    11 (
+           OPSW                     := I    179.7,
+           CLSW                     := I    179.6,
+           OUTP                     := Q     94.3,
+           En_Horn                  := FALSE,
+           NUM                      := 373);
+
+
+      CALL FC    11 (
+           OPSW                     := I    179.5,
+           CLSW                     := I    179.4,
+           OUTP                     := Q     94.2,
+           En_Horn                  := FALSE,
+           NUM                      := 374);
+
+      CALL FC    11 (
+           OPSW                     := I    178.5,
+           CLSW                     := I    178.4,
+           OUTP                     := Q     93.6,
+           En_Horn                  := FALSE,
+           NUM                      := 375);
+
+      CALL FC    11 (
+           OPSW                     := I    177.1,
+           CLSW                     := I    177.0,
+           OUTP                     := Q     93.0,
+           En_Horn                  := FALSE,
+           NUM                      := 376);
+
+      CALL FC    11 (
+           OPSW                     := I    178.1,
+           CLSW                     := I    178.0,
+           OUTP                     := Q     93.4,
+           En_Horn                  := FALSE,
+           NUM                      := 377);
+
+      CALL FC    11 (
+           OPSW                     := I    177.7,
+           CLSW                     := I    177.6,
+           OUTP                     := Q     93.3,
+           En_Horn                  := FALSE,
+           NUM                      := 378);
+
+
+      CALL FC    11 (
+           OPSW                     := I    178.3,
+           CLSW                     := I    178.2,
+           OUTP                     := Q     93.5,
+           En_Horn                  := FALSE,
+           NUM                      := 379);
+
+      CALL FC    11 (
+           OPSW                     := I    177.5,
+           CLSW                     := I    177.4,
+           OUTP                     := Q     93.2,
+           En_Horn                  := FALSE,
+           NUM                      := 380);
+
+      CALL FC    11 (
+           OPSW                     := I    179.3,
+           CLSW                     := I    179.2,
+           OUTP                     := Q     94.1,
+           En_Horn                  := FALSE,
+           NUM                      := 381);
+
+      CALL FC    11 (
+           OPSW                     := I    177.3,
+           CLSW                     := I    177.2,
+           OUTP                     := Q     93.1,
+           En_Horn                  := FALSE,
+           NUM                      := 382);
+
+      CALL FC    11 (
+           OPSW                     := I    178.7,
+           CLSW                     := I    178.6,
+           OUTP                     := Q     93.7,
+           En_Horn                  := FALSE,
+           NUM                      := 383);
+//-----------------------
+//------------VN1-D4-----------
+      CALL FC    11 (
+           OPSW                     := I    188.1,
+           CLSW                     := I    188.0,
+           OUTP                     := Q     94.4,
+           En_Horn                  := FALSE,
+           NUM                      := 384);
+//-----------------------
+//------------VN2-D4-----------
+      CALL FC    11 (
+           OPSW                     := I    188.3,
+           CLSW                     := I    188.2,
+           OUTP                     := Q     94.5,
+           En_Horn                  := FALSE,
+           NUM                      := 385);
+//-----------------------
+//------------VN4800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    188.5,
+           CLSW                     := I    188.4,
+           OUTP                     := Q     94.6,
+           En_Horn                  := FALSE,
+           NUM                      := 386);
+//-----------------------
+//------------VPN4-----------
+      CALL FC    11 (
+           OPSW                     := I    188.7,
+           CLSW                     := I    188.6,
+           OUTP                     := Q     94.7,
+           En_Horn                  := FALSE,
+           NUM                      := 387);
+//-----------------------
+//------------VB3800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    189.1,
+           CLSW                     := I    189.0,
+           OUTP                     := Q     95.0,
+           En_Horn                  := FALSE,
+           NUM                      := 388);
+//-----------------------
+//------------VB3-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    189.3,
+           CLSW                     := I    189.2,
+           OUTP                     := Q     95.1,
+           En_Horn                  := FALSE,
+           NUM                      := 389);
+//-----------------------
+//------------VB2-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    189.5,
+           CLSW                     := I    189.4,
+           OUTP                     := Q     95.2,
+           En_Horn                  := FALSE,
+           NUM                      := 390);
+//-----------------------
+//------------VB1-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    189.7,
+           CLSW                     := I    189.6,
+           OUTP                     := Q     95.3,
+           En_Horn                  := FALSE,
+           NUM                      := 391);
+//-----------------------
+//------------VPB3-----------
+      CALL FC    11 (
+           OPSW                     := I    190.1,
+           CLSW                     := I    190.0,
+           OUTP                     := Q     95.4,
+           En_Horn                  := FALSE,
+           NUM                      := 392);
+//-----------------------
+//------------VI1-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    218.1,
+           CLSW                     := I    218.0,
+           OUTP                     := Q    162.0,
+           En_Horn                  := FALSE,
+           NUM                      := 393);
+//-----------------------
+//------------VI2-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    218.3,
+           CLSW                     := I    218.2,
+           OUTP                     := Q    162.1,
+           En_Horn                  := FALSE,
+           NUM                      := 394);
+//-----------------------
+//------------VI3-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    218.5,
+           CLSW                     := I    218.4,
+           OUTP                     := Q    162.2,
+           En_Horn                  := FALSE,
+           NUM                      := 395);
+//-----------------------
+//------------VI3800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    218.7,
+           CLSW                     := I    218.6,
+           OUTP                     := Q    162.3,
+           En_Horn                  := FALSE,
+           NUM                      := 396);
+//-----------------------
+//------------VH1-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    219.1,
+           CLSW                     := I    219.0,
+           OUTP                     := Q    162.4,
+           En_Horn                  := FALSE,
+           NUM                      := 397);
+//-----------------------
+//------------VH2-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    219.3,
+           CLSW                     := I    219.2,
+           OUTP                     := Q    162.5,
+           En_Horn                  := FALSE,
+           NUM                      := 398);
+//-----------------------
+//------------VH3-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    219.5,
+           CLSW                     := I    219.4,
+           OUTP                     := Q    162.6,
+           En_Horn                  := FALSE,
+           NUM                      := 399);
+//-----------------------
+//------------VH3800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    219.7,
+           CLSW                     := I    219.6,
+           OUTP                     := Q    162.7,
+           En_Horn                  := FALSE,
+           NUM                      := 302);
+//-----------------------
+//------------VPI3-----------
+      CALL FC    11 (
+           OPSW                     := I    220.1,
+           CLSW                     := I    220.0,
+           OUTP                     := Q    163.0,
+           En_Horn                  := FALSE,
+           NUM                      := 303);
+//-----------------------
+//------------VPH3-----------
+      CALL FC    11 (
+           OPSW                     := I    220.3,
+           CLSW                     := I    220.2,
+           OUTP                     := Q    163.1,
+           En_Horn                  := FALSE,
+           NUM                      := 304);
+//-----------------------
+
+//------------VPC12.1-----------
+      CALL FC    11 (
+           OPSW                     := I    205.5,
+           CLSW                     := I    205.4,
+           OUTP                     := Q    149.1,
+           En_Horn                  := FALSE,
+           NUM                      := 400);
+//-----------------------
+//------------VC12800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    205.7,
+           CLSW                     := I    205.6,
+           OUTP                     := Q    149.2,
+           En_Horn                  := FALSE,
+           NUM                      := 401);
+//-----------------------
+//------------VPC11.3-----------
+      CALL FC    11 (
+           OPSW                     := I    206.1,
+           CLSW                     := I    206.0,
+           OUTP                     := Q    149.3,
+           En_Horn                  := FALSE,
+           NUM                      := 402);
+//-----------------------
+//------------VC11800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    206.3,
+           CLSW                     := I    206.2,
+           OUTP                     := Q    149.4,
+           En_Horn                  := FALSE,
+           NUM                      := 403);
+//-----------------------
+//------------VPC11800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    206.5,
+           CLSW                     := I    206.4,
+           OUTP                     := Q    149.5,
+           En_Horn                  := FALSE,
+           NUM                      := 404);
+//-----------------------
+//------------VPC11800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    206.7,
+           CLSW                     := I    206.6,
+           OUTP                     := Q    149.6,
+           En_Horn                  := FALSE,
+           NUM                      := 405);
+//-----------------------
+//------------VPC11I2600-----------
+      CALL FC    11 (
+           OPSW                     := I    207.1,
+           CLSW                     := I    207.0,
+           OUTP                     := Q    149.7,
+           En_Horn                  := FALSE,
+           NUM                      := 406);
+//-----------------------
+//------------VC11800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    207.3,
+           CLSW                     := I    207.2,
+           OUTP                     := Q    150.0,
+           En_Horn                  := FALSE,
+           NUM                      := 407);
+//-----------------------
+//------------VC11800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    207.5,
+           CLSW                     := I    207.4,
+           OUTP                     := Q    150.1,
+           En_Horn                  := FALSE,
+           NUM                      := 408);
+//-----------------------
+//------------VC11I2600-----------
+      CALL FC    11 (
+           OPSW                     := I    207.7,
+           CLSW                     := I    207.6,
+           OUTP                     := Q    150.2,
+           En_Horn                  := FALSE,
+           NUM                      := 409);
+//-----------------------
+//------------VC11I2600-----------
+      CALL FC    11 (
+           OPSW                     := I    207.7,
+           CLSW                     := I    207.6,
+           OUTP                     := Q    150.2,
+           En_Horn                  := FALSE,
+           NUM                      := 409);
+//-----------------------
+//------------VR6-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    204.3,
+           CLSW                     := I    204.2,
+           OUTP                     := Q    148.4,
+           En_Horn                  := FALSE,
+           NUM                      := 410);
+//-----------------------
+//------------VR7-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    204.5,
+           CLSW                     := I    204.4,
+           OUTP                     := Q    148.5,
+           En_Horn                  := FALSE,
+           NUM                      := 411);
+//-----------------------
+//------------VR8-D3-----------
+      CALL FC    11 (
+           OPSW                     := I    204.7,
+           CLSW                     := I    204.6,
+           OUTP                     := Q    148.6,
+           En_Horn                  := FALSE,
+           NUM                      := 412);
+//-----------------------
+//------------VR8A-----------
+      CALL FC    11 (
+           OPSW                     := I    205.1,
+           CLSW                     := I    205.0,
+           OUTP                     := Q    148.7,
+           En_Horn                  := FALSE,
+           NUM                      := 413);
+//-----------------------
+//------------VPR8-----------
+      CALL FC    11 (
+           OPSW                     := I    205.3,
+           CLSW                     := I    205.2,
+           OUTP                     := Q    149.0,
+           En_Horn                  := FALSE,
+           NUM                      := 414);
+//-----------------------
+//------------VC800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    190.3,
+           CLSW                     := I    190.2,
+           OUTP                     := Q     95.5,
+           En_Horn                  := FALSE,
+           NUM                      := 415);
+//-----------------------
+//------------VC1-2800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    209.1,
+           CLSW                     := I    209.0,
+           OUTP                     := Q    153.0,
+           En_Horn                  := FALSE,
+           NUM                      := 416);
+//-----------------------
+//------------VPC1B2.2-----------
+      CALL FC    11 (
+           OPSW                     := I    209.3,
+           CLSW                     := I    209.2,
+           OUTP                     := Q    153.1,
+           En_Horn                  := FALSE,
+           NUM                      := 417);
+//-----------------------
+//------------VC3-2800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    209.5,
+           CLSW                     := I    209.4,
+           OUTP                     := Q    153.2,
+           En_Horn                  := FALSE,
+           NUM                      := 418);
+//-----------------------
+//------------VPC3B2.2-----------
+      CALL FC    11 (
+           OPSW                     := I    209.7,
+           CLSW                     := I    209.6,
+           OUTP                     := Q    153.3,
+           En_Horn                  := FALSE,
+           NUM                      := 419);
+//-----------------------
+//------------VC12I2600-----------
+      CALL FC    11 (
+           OPSW                     := I    197.3,
+           CLSW                     := I    197.2,
+           OUTP                     := Q    150.3,
+           En_Horn                  := FALSE,
+           NUM                      := 420);
+//-----------------------
+//------------VC12800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    197.5,
+           CLSW                     := I    197.4,
+           OUTP                     := Q    150.4,
+           En_Horn                  := FALSE,
+           NUM                      := 421);
+//-----------------------
+//------------VC12800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    197.7,
+           CLSW                     := I    197.6,
+           OUTP                     := Q    150.5,
+           En_Horn                  := FALSE,
+           NUM                      := 422);
+//-----------------------
+//------------VK1R68_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    192.1,
+           CLSW                     := I    192.0,
+           OUTP                     := Q    150.6,
+           En_Horn                  := FALSE,
+           NUM                      := 423);
+//-----------------------
+//------------VK2R68_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    192.3,
+           CLSW                     := I    192.2,
+           OUTP                     := Q    150.7,
+           En_Horn                  := FALSE,
+           NUM                      := 424);
+//-----------------------
+//------------VR800Q7-----------
+      CALL FC    11 (
+           OPSW                     := I    192.5,
+           CLSW                     := I    192.4,
+           OUTP                     := Q    151.0,
+           En_Horn                  := FALSE,
+           NUM                      := 425);
+//-----------------------
+//------------VR800QMS7-----------
+      CALL FC    11 (
+           OPSW                     := I    192.7,
+           CLSW                     := I    192.6,
+           OUTP                     := Q    151.1,
+           En_Horn                  := FALSE,
+           NUM                      := 426);
+//-----------------------
+//------------VN2600H-----------
+      CALL FC    11 (
+           OPSW                     := I    224.1,
+           CLSW                     := I    224.0,
+           OUTP                     := Q    163.2,
+           En_Horn                  := FALSE,
+           NUM                      := 427);
+
+//-----------------------
+//------------VI2600H-----------
+      CALL FC    11 (
+           OPSW                     := I    224.3,
+           CLSW                     := I    224.2,
+           OUTP                     := Q    163.3,
+           En_Horn                  := FALSE,
+           NUM                      := 428);
+
+//-----------------------
+//------------VK4_T100-----------
+      CALL FC    11 (
+           OPSW                     := I    220.5,
+           CLSW                     := I    220.4,
+           OUTP                     := Q    163.4,
+           En_Horn                  := FALSE,
+           NUM                      := 429);
+
+//-----------------------       
+//------------VK4_F3-----------
+      CALL FC    11 (
+           OPSW                     := I    220.7,
+           CLSW                     := I    220.6,
+           OUTP                     := Q    163.5,
+           En_Horn                  := FALSE,
+           NUM                      := 430);
+
+//----------------------- -------
+//------------VRTemp-----------
+      CALL FC    11 (
+           OPSW                     := I    193.1,
+           CLSW                     := I    193.0,
+           OUTP                     := Q    151.2,
+           En_Horn                  := FALSE,
+           NUM                      := 431);
+
+//------------VRTemp-----------
+      CALL FC    11 (
+           OPSW                     := I    193.3,
+           CLSW                     := I    193.2,
+           OUTP                     := Q    151.3,
+           En_Horn                  := FALSE,
+           NUM                      := 432);
+//------------VRTemp-----------
+      CALL FC    11 (
+           OPSW                     := I    193.5,
+           CLSW                     := I    193.4,
+           OUTP                     := Q    151.4,
+           En_Horn                  := FALSE,
+           NUM                      := 433);
+//------------VRTemp-----------
+      CALL FC    11 (
+           OPSW                     := I    193.7,
+           CLSW                     := I    193.6,
+           OUTP                     := Q    151.5,
+           En_Horn                  := FALSE,
+           NUM                      := 434);
+//------------VRTemp-----------
+      CALL FC    11 (
+           OPSW                     := I    195.1,
+           CLSW                     := I    195.0,
+           OUTP                     := Q    151.6,
+           En_Horn                  := FALSE,
+           NUM                      := 435);
+//------------VRTemp-----------
+      CALL FC    11 (
+           OPSW                     := I    195.3,
+           CLSW                     := I    195.2,
+           OUTP                     := Q    151.7,
+           En_Horn                  := FALSE,
+           NUM                      := 436);
+//------------VHF1/1-----------
+      CALL FC    11 (
+           OPSW                     := I    105.6,
+           CLSW                     := I    105.7,
+           OUTP                     := Q    105.6,
+           En_Horn                  := FALSE,
+           NUM                      := 437);
+//------------KA1/1-----------
+      CALL FC    11 (
+           OPSW                     := I    106.2,
+           CLSW                     := I    106.3,
+           OUTP                     := Q    105.7,
+           En_Horn                  := FALSE,
+           NUM                      := 438);
+//------------VHF2/1-----------
+      CALL FC    11 (
+           OPSW                     := I    106.4,
+           CLSW                     := I    106.5,
+           OUTP                     := Q    106.0,
+           En_Horn                  := FALSE,
+           NUM                      := 439);
+//------------VKF4/1-----------
+      CALL FC    11 (
+           OPSW                     := I    106.6,
+           CLSW                     := I    106.7,
+           OUTP                     := Q    106.1,
+           En_Horn                  := FALSE,
+           NUM                      := 440);
+//------------VC3-T100/T200-----------
+      CALL FC    11 (
+           OPSW                     := I    210.1,
+           CLSW                     := I    210.0,
+           OUTP                     := Q    153.4,
+           En_Horn                  := FALSE,
+           NUM                      := 441);
+//------------VC1-T100/T200-----------
+      CALL FC    11 (
+           OPSW                     := I    210.3,
+           CLSW                     := I    210.2,
+           OUTP                     := Q    153.5,
+           En_Horn                  := FALSE,
+           NUM                      := 442);
+//-----------VPC3/3-----------
+      CALL FC    11 (
+           OPSW                     := I    210.5,
+           CLSW                     := I    210.4,
+           OUTP                     := Q    153.6,
+           En_Horn                  := FALSE,
+           NUM                      := 443);
+
+
+NETWORK
+TITLE =Коллектор на/с секций J/H2600
+
+//------------VC1_2600-----------
+      CALL FC    11 (
+           OPSW                     := I    210.7,
+           CLSW                     := I    210.6,
+           OUTP                     := Q    153.7,
+           En_Horn                  := FALSE,
+           NUM                      := 444);
+//------------VC3_2600-----------
+      CALL FC    11 (
+           OPSW                     := I    211.1,
+           CLSW                     := I    211.0,
+           OUTP                     := Q    154.0,
+           En_Horn                  := FALSE,
+           NUM                      := 445);
+//------------VH1-----------
+      CALL FC    11 (
+           OPSW                     := I    216.7,
+           CLSW                     := I    216.6,
+           OUTP                     := Q    163.6,
+           En_Horn                  := FALSE,
+           NUM                      := 446);
+//------------VJ1-----------
+      CALL FC    11 (
+           OPSW                     := I    217.1,
+           CLSW                     := I    217.0,
+           OUTP                     := Q    163.7,
+           En_Horn                  := FALSE,
+           NUM                      := 447);
+//------------VH-MBH1-----------
+      CALL FC    11 (
+           OPSW                     := I    226.2,
+           CLSW                     := I    226.3,
+           OUTP                     := Q    178.5,
+           En_Horn                  := FALSE,
+           NUM                      := 448);
+//------------VJ-MBH1-----------
+      CALL FC    11 (
+           OPSW                     := I    226.0,
+           CLSW                     := I    226.1,
+           OUTP                     := Q    178.4,
+           En_Horn                  := FALSE,
+           NUM                      := 449);
+//------------VH-F3-----------
+      CALL FC    11 (
+           OPSW                     := I    221.1,
+           CLSW                     := I    221.0,
+           OUTP                     := Q    176.3,
+           En_Horn                  := FALSE,
+           NUM                      := 450);
+//------------VJ-F3-----------
+      CALL FC    11 (
+           OPSW                     := I    217.3,
+           CLSW                     := I    217.2,
+           OUTP                     := Q    176.0,
+           En_Horn                  := FALSE,
+           NUM                      := 451);
+//------------VH-MBH2-----------
+      CALL FC    11 (
+           OPSW                     := I    217.7,
+           CLSW                     := I    217.6,
+           OUTP                     := Q    176.2,
+           En_Horn                  := FALSE,
+           NUM                      := 452);
+//------------VJ-MBH2-----------
+      CALL FC    11 (
+           OPSW                     := I    217.5,
+           CLSW                     := I    217.4,
+           OUTP                     := Q    176.1,
+           En_Horn                  := FALSE,
+           NUM                      := 453);
+//------------VH1-D4-----------
+      CALL FC    11 (
+           OPSW                     := I    225.3,
+           CLSW                     := I    225.2,
+           OUTP                     := Q    178.1,
+           En_Horn                  := FALSE,
+           NUM                      := 454);
+//------------VH2-D4-----------
+      CALL FC    11 (
+           OPSW                     := I    224.5,
+           CLSW                     := I    224.4,
+           OUTP                     := Q    177.7,
+           En_Horn                  := FALSE,
+           NUM                      := 455);
+//------------VH3-D4-----------
+      CALL FC    11 (
+           OPSW                     := I    225.1,
+           CLSW                     := I    225.0,
+           OUTP                     := Q    178.0,
+           En_Horn                  := FALSE,
+           NUM                      := 456);
+//------------VH4-4-----------
+      CALL FC    11 (
+           OPSW                     := I    225.7,
+           CLSW                     := I    225.6,
+           OUTP                     := Q    178.3,
+           En_Horn                  := FALSE,
+           NUM                      := 457);
+//------------VH4-5-----------
+      CALL FC    11 (
+           OPSW                     := I    225.5,
+           CLSW                     := I    225.4,
+           OUTP                     := Q    178.2,
+           En_Horn                  := FALSE,
+           NUM                      := 458);
+//------------VH1-F3-----------
+      CALL FC    11 (
+           OPSW                     := I    222.1,
+           CLSW                     := I    222.0,
+           OUTP                     := Q    176.7,
+           En_Horn                  := FALSE,
+           NUM                      := 459);
+//------------VH2-F3-----------
+      CALL FC    11 (
+           OPSW                     := I    222.5,
+           CLSW                     := I    222.4,
+           OUTP                     := Q    177.1,
+           En_Horn                  := FALSE,
+           NUM                      := 460);
+//------------VH3-F3-----------
+      CALL FC    11 (
+           OPSW                     := I    222.3,
+           CLSW                     := I    222.2,
+           OUTP                     := Q    177.0,
+           En_Horn                  := FALSE,
+           NUM                      := 461);
+//------------VI1-F3-----------
+      CALL FC    11 (
+           OPSW                     := I    221.3,
+           CLSW                     := I    221.2,
+           OUTP                     := Q    176.4,
+           En_Horn                  := FALSE,
+           NUM                      := 462);
+//------------VI2-F3-----------
+      CALL FC    11 (
+           OPSW                     := I    221.5,
+           CLSW                     := I    221.4,
+           OUTP                     := Q    176.5,
+           En_Horn                  := FALSE,
+           NUM                      := 463);
+//------------VI3-F3-----------
+      CALL FC    11 (
+           OPSW                     := I    221.7,
+           CLSW                     := I    221.6,
+           OUTP                     := Q    176.6,
+           En_Horn                  := FALSE,
+           NUM                      := 464);
+//------------VB1-D4-----------
+      CALL FC    11 (
+           OPSW                     := I    222.7,
+           CLSW                     := I    222.6,
+           OUTP                     := Q    177.2,
+           En_Horn                  := FALSE,
+           NUM                      := 465);
+//------------VB2-D4-----------
+      CALL FC    11 (
+           OPSW                     := I    223.1,
+           CLSW                     := I    223.0,
+           OUTP                     := Q    177.3,
+           En_Horn                  := FALSE,
+           NUM                      := 466);
+//------------VB3-D4-----------
+      CALL FC    11 (
+           OPSW                     := I    223.3,
+           CLSW                     := I    223.2,
+           OUTP                     := Q    177.4,
+           En_Horn                  := FALSE,
+           NUM                      := 467);
+//------------VH4-6-----------
+      CALL FC    11 (
+           OPSW                     := I    223.4,
+           CLSW                     := I    223.5,
+           OUTP                     := Q    177.5,
+           En_Horn                  := FALSE,
+           NUM                      := 468);
+//------------VH4-7-----------
+      CALL FC    11 (
+           OPSW                     := I    223.7,
+           CLSW                     := I    223.6,
+           OUTP                     := Q    177.6,
+           En_Horn                  := FALSE,
+           NUM                      := 469);
+//------------VN1-D5-----------
+//      CALL  "Valves"
+//       OPSW   :="VN1-D5_OP"
+//       CLSW   :="VN1-D5_CL"
+//       OUTP   :="VN1-D5_OUT"
+//       En_Horn:=FALSE
+//       NUM    :=470
+//------------VN2-3-----------
+      CALL FC    11 (
+           OPSW                     := I    227.1,
+           CLSW                     := I    227.0,
+           OUTP                     := Q    179.1,
+           En_Horn                  := FALSE,
+           NUM                      := 471);
+//------------VN2-2-----------
+      CALL FC    11 (
+           OPSW                     := I    226.7,
+           CLSW                     := I    226.6,
+           OUTP                     := Q    179.0,
+           En_Horn                  := FALSE,
+           NUM                      := 472);
+//------------VN2-D5-----------
+      CALL FC    11 (
+           OPSW                     := I    226.5,
+           CLSW                     := I    226.4,
+           OUTP                     := Q    178.7,
+           En_Horn                  := FALSE,
+           NUM                      := 473);
+//____________________________________________
+
+//------------V800QMS_MBH2-----------
+      CALL FC    11 (
+           OPSW                     := I    246.3,
+           CLSW                     := I    246.2,
+           OUTP                     := Q    189.1,
+           En_Horn                  := FALSE,
+           NUM                      := 474);
+
+
+//------------V800Q3_MBH2-----------
+      CALL FC    11 (
+           OPSW                     := I    246.5,
+           CLSW                     := I    246.4,
+           OUTP                     := Q    189.2,
+           En_Horn                  := FALSE,
+           NUM                      := 475);
+
+//------------V800Q_MBH2-----------
+      CALL FC    11 (
+           OPSW                     := I    246.7,
+           CLSW                     := I    246.6,
+           OUTP                     := Q    189.3,
+           En_Horn                  := FALSE,
+           NUM                      := 476);
+
+//------------VIN2600_MBH2-----------
+      CALL FC    11 (
+           OPSW                     := I    247.1,
+           CLSW                     := I    247.0,
+           OUTP                     := Q    189.4,
+           En_Horn                  := FALSE,
+           NUM                      := 477);
+
+NETWORK
+TITLE =Клапана Ёршики
+
+//------------VDQMS3.1-----------
+      CALL FC    11 (
+           OPSW                     := I    244.1,
+           CLSW                     := I    244.0,
+           OUTP                     := Q    188.0,
+           En_Horn                  := FALSE,
+           NUM                      := 478);
+
+//------------VDQMS3.2-----------
+      CALL FC    11 (
+           OPSW                     := I    244.3,
+           CLSW                     := I    244.2,
+           OUTP                     := Q    188.1,
+           En_Horn                  := FALSE,
+           NUM                      := 479);
+
+//------------VDQMS3.3-----------
+      CALL FC    11 (
+           OPSW                     := I    244.5,
+           CLSW                     := I    244.4,
+           OUTP                     := Q    188.2,
+           En_Horn                  := FALSE,
+           NUM                      := 480);
+
+//------------VDQMS3-N1-----------
+      CALL FC    11 (
+           OPSW                     := I    244.7,
+           CLSW                     := I    244.6,
+           OUTP                     := Q    188.3,
+           En_Horn                  := FALSE,
+           NUM                      := 481);
+
+
+//------------VDQ1-----------
+      CALL FC    11 (
+           OPSW                     := I    245.1,
+           CLSW                     := I    245.0,
+           OUTP                     := Q    188.4,
+           En_Horn                  := FALSE,
+           NUM                      := 482);
+
+//------------VDQ2-----------
+      CALL FC    11 (
+           OPSW                     := I    245.3,
+           CLSW                     := I    245.2,
+           OUTP                     := Q    188.5,
+           En_Horn                  := FALSE,
+           NUM                      := 483);
+
+//------------VDQ3-----------
+      CALL FC    11 (
+           OPSW                     := I    245.5,
+           CLSW                     := I    245.4,
+           OUTP                     := Q    188.6,
+           En_Horn                  := FALSE,
+           NUM                      := 484);
+
+//------------VDQN1-----------
+      CALL FC    11 (
+           OPSW                     := I    245.7,
+           CLSW                     := I    245.6,
+           OUTP                     := Q    188.7,
+           En_Horn                  := FALSE,
+           NUM                      := 485);
+
+
+
+//------------------------------
+
+
+
+//------------VDN1.4-----------
+      CALL FC    11 (
+           OPSW                     := I    228.1,
+           CLSW                     := I    228.0,
+           OUTP                     := Q    179.2,
+           En_Horn                  := FALSE,
+           NUM                      := 486);
+
+//------------VDPR1-----------
+      CALL FC    11 (
+           OPSW                     := I    228.3,
+           CLSW                     := I    228.2,
+           OUTP                     := Q    179.3,
+           En_Horn                  := FALSE,
+           NUM                      := 487);
+
+//------------VDPR2-----------
+      CALL FC    11 (
+           OPSW                     := I    228.5,
+           CLSW                     := I    228.4,
+           OUTP                     := Q    179.4,
+           En_Horn                  := FALSE,
+           NUM                      := 488);
+
+
+//------------VDPR3-----------
+      CALL FC    11 (
+           OPSW                     := I    228.7,
+           CLSW                     := I    228.6,
+           OUTP                     := Q    179.5,
+           En_Horn                  := FALSE,
+           NUM                      := 489);
+
+//------------VDN1.1-----------
+      CALL FC    11 (
+           OPSW                     := I    229.1,
+           CLSW                     := I    229.0,
+           OUTP                     := Q    179.6,
+           En_Horn                  := FALSE,
+           NUM                      := 490);
+
+
+//------------VDS1.1-----------
+      CALL FC    11 (
+           OPSW                     := I    229.3,
+           CLSW                     := I    229.2,
+           OUTP                     := Q    179.7,
+           En_Horn                  := FALSE,
+           NUM                      := 491);
+
+//------------VDS1.2-----------
+      CALL FC    11 (
+           OPSW                     := I    229.5,
+           CLSW                     := I    229.4,
+           OUTP                     := Q    192.0,
+           En_Horn                  := FALSE,
+           NUM                      := 492);
+
+//------------VDS3-----------
+      CALL FC    11 (
+           OPSW                     := I    229.7,
+           CLSW                     := I    229.6,
+           OUTP                     := Q    192.1,
+           En_Horn                  := FALSE,
+           NUM                      := 493);
+
+//------------VK2_RQMS-----------
+      CALL FC    11 (
+           OPSW                     := I    247.3,
+           CLSW                     := I    247.2,
+           OUTP                     := Q    189.5,
+           En_Horn                  := FALSE,
+           NUM                      := 494);
+
+//------------VK1_RQMS-----------
+      CALL FC    11 (
+           OPSW                     := I    246.1,
+           CLSW                     := I    246.0,
+           OUTP                     := Q    189.0,
+           En_Horn                  := FALSE,
+           NUM                      := 495);
+
+NETWORK
+TITLE =ТМБХ№2 TF ET(34),(35),(36) 05.07.2022 
+
+//------------VH4_1_800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    255.5,
+           CLSW                     := I    255.4,
+           OUTP                     := Q    197.6,
+           En_Horn                  := FALSE,
+           NUM                      := 496);
+//------------VH4_1_H2600-----------
+      CALL FC    11 (
+           OPSW                     := I    255.7,
+           CLSW                     := I    255.6,
+           OUTP                     := Q    197.7,
+           En_Horn                  := FALSE,
+           NUM                      := 497);
+//------------VH4_2_800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    256.1,
+           CLSW                     := I    256.0,
+           OUTP                     := Q    198.0,
+           En_Horn                  := FALSE,
+           NUM                      := 498);
+//------------VH4_2_J2600-----------
+      CALL FC    11 (
+           OPSW                     := I    256.3,
+           CLSW                     := I    256.2,
+           OUTP                     := Q    198.1,
+           En_Horn                  := FALSE,
+           NUM                      := 499);
+//------------VH4_2_IN2600-----------
+      CALL FC    11 (
+           OPSW                     := I    256.5,
+           CLSW                     := I    256.4,
+           OUTP                     := Q    198.2,
+           En_Horn                  := FALSE,
+           NUM                      := 500);
+//------------VI4D2-----------
+      CALL FC    11 (
+           OPSW                     := I    260.3,
+           CLSW                     := I    260.2,
+           OUTP                     := Q    200.1,
+           En_Horn                  := FALSE,
+           NUM                      := 501);
+//------------VI5D2-----------
+      CALL FC    11 (
+           OPSW                     := I    259.1,
+           CLSW                     := I    259.0,
+           OUTP                     := Q    199.4,
+           En_Horn                  := FALSE,
+           NUM                      := 502);
+//------------VI4D1-----------
+      CALL FC    11 (
+           OPSW                     := I    260.5,
+           CLSW                     := I    260.4,
+           OUTP                     := Q    200.2,
+           En_Horn                  := FALSE,
+           NUM                      := 503);
+//------------VI5D1-----------
+      CALL FC    11 (
+           OPSW                     := I    258.7,
+           CLSW                     := I    258.6,
+           OUTP                     := Q    199.3,
+           En_Horn                  := FALSE,
+           NUM                      := 504);
+//------------VPI4-----------
+      CALL FC    11 (
+           OPSW                     := I    260.7,
+           CLSW                     := I    260.6,
+           OUTP                     := Q    200.3,
+           En_Horn                  := FALSE,
+           NUM                      := 505);
+//------------VPI5-----------
+      CALL FC    11 (
+           OPSW                     := I    261.1,
+           CLSW                     := I    261.0,
+           OUTP                     := Q    200.4,
+           En_Horn                  := FALSE,
+           NUM                      := 506);
+//------------VI4_800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    258.3,
+           CLSW                     := I    258.2,
+           OUTP                     := Q    199.1,
+           En_Horn                  := FALSE,
+           NUM                      := 507);
+//------------VI4_800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    258.5,
+           CLSW                     := I    258.4,
+           OUTP                     := Q    199.2,
+           En_Horn                  := FALSE,
+           NUM                      := 508);
+//------------VI4_800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    259.3,
+           CLSW                     := I    259.2,
+           OUTP                     := Q    199.5,
+           En_Horn                  := FALSE,
+           NUM                      := 509);
+//------------VI5_800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    259.5,
+           CLSW                     := I    259.4,
+           OUTP                     := Q    199.6,
+           En_Horn                  := FALSE,
+           NUM                      := 510);
+//------------VI5_800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    259.7,
+           CLSW                     := I    259.6,
+           OUTP                     := Q    199.7,
+           En_Horn                  := FALSE,
+           NUM                      := 511);
+//------------VI5_800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    260.1,
+           CLSW                     := I    260.0,
+           OUTP                     := Q    200.0,
+           En_Horn                  := FALSE,
+           NUM                      := 512);
+//------------VI6D2-----------
+      CALL FC    11 (
+           OPSW                     := I    271.7,
+           CLSW                     := I    271.6,
+           OUTP                     := Q    204.7,
+           En_Horn                  := FALSE,
+           NUM                      := 513);
+//------------VI7D2-----------
+      CALL FC    11 (
+           OPSW                     := I    272.3,
+           CLSW                     := I    272.2,
+           OUTP                     := Q    205.1,
+           En_Horn                  := FALSE,
+           NUM                      := 514);
+//------------VI6D1-----------
+      CALL FC    11 (
+           OPSW                     := I    271.5,
+           CLSW                     := I    271.4,
+           OUTP                     := Q    204.6,
+           En_Horn                  := FALSE,
+           NUM                      := 515);
+//------------VI7D1-----------
+      CALL FC    11 (
+           OPSW                     := I    272.1,
+           CLSW                     := I    272.0,
+           OUTP                     := Q    205.0,
+           En_Horn                  := FALSE,
+           NUM                      := 516);
+//------------VPI6-----------
+      CALL FC    11 (
+           OPSW                     := I    271.1,
+           CLSW                     := I    271.0,
+           OUTP                     := Q    204.4,//Было 204.3 15.07.22
+           En_Horn                  := FALSE,
+           NUM                      := 517);
+//------------VPI7-----------
+      CALL FC    11 (
+           OPSW                     := I    271.3,
+           CLSW                     := I    271.2,
+           OUTP                     := Q    204.5,
+           En_Horn                  := FALSE,
+           NUM                      := 518);
+//------------VI6_800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    269.1,
+           CLSW                     := I    269.0,
+           OUTP                     := Q    203.4,
+           En_Horn                  := FALSE,
+           NUM                      := 519);
+//------------VI6_800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    269.3,
+           CLSW                     := I    269.2,
+           OUTP                     := Q    203.5,
+           En_Horn                  := FALSE,
+           NUM                      := 520);
+//------------VI6_800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    269.5,
+           CLSW                     := I    269.4,
+           OUTP                     := Q    203.6,
+           En_Horn                  := FALSE,
+           NUM                      := 521);
+//------------VI7_800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    269.7,
+           CLSW                     := I    269.6,
+           OUTP                     := Q    203.7,
+           En_Horn                  := FALSE,
+           NUM                      := 522);
+//------------VI7_800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    270.1,
+           CLSW                     := I    270.0,
+           OUTP                     := Q    204.0,
+           En_Horn                  := FALSE,
+           NUM                      := 523);
+//------------VI7_800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    270.3,
+           CLSW                     := I    270.2,
+           OUTP                     := Q    204.1,
+           En_Horn                  := FALSE,
+           NUM                      := 524);
+//------------VI8D2-----------
+      CALL FC    11 (
+           OPSW                     := I    268.5,
+           CLSW                     := I    268.4,
+           OUTP                     := Q    203.2,
+           En_Horn                  := FALSE,
+           NUM                      := 525);
+//------------VI9D2-----------
+      CALL FC    11 (
+           OPSW                     := I    266.5,
+           CLSW                     := I    266.4,
+           OUTP                     := Q    202.2,
+           En_Horn                  := FALSE,
+           NUM                      := 526);
+//------------VI8D1-----------
+      CALL FC    11 (
+           OPSW                     := I    268.7,
+           CLSW                     := I    268.6,
+           OUTP                     := Q    203.3,
+           En_Horn                  := FALSE,
+           NUM                      := 527);
+//------------VI9D1-----------
+      CALL FC    11 (
+           OPSW                     := I    266.7,
+           CLSW                     := I    266.6,
+           OUTP                     := Q    202.3,
+           En_Horn                  := FALSE,
+           NUM                      := 528);
+//------------VPI8-----------
+      CALL FC    11 (
+           OPSW                     := I    268.3,
+           CLSW                     := I    268.2,
+           OUTP                     := Q    203.1,
+           En_Horn                  := FALSE,
+           NUM                      := 529);
+//------------VPI9-----------
+      CALL FC    11 (
+           OPSW                     := I    268.1,
+           CLSW                     := I    268.0,
+           OUTP                     := Q    203.0,
+           En_Horn                  := FALSE,
+           NUM                      := 530);
+//------------VI8_800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    266.1,
+           CLSW                     := I    266.0,
+           OUTP                     := Q    202.0,
+           En_Horn                  := FALSE,
+           NUM                      := 531);
+//------------VI8_800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    267.7,
+           CLSW                     := I    267.6,
+           OUTP                     := Q    202.7,
+           En_Horn                  := FALSE,
+           NUM                      := 532);
+//------------VI8_800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    267.5,
+           CLSW                     := I    267.4,
+           OUTP                     := Q    202.6,
+           En_Horn                  := FALSE,
+           NUM                      := 533);
+//------------VI9_800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    267.1,
+           CLSW                     := I    267.0,
+           OUTP                     := Q    202.4,
+           En_Horn                  := FALSE,
+           NUM                      := 534);
+//------------VI9_800Q-----------
+      CALL FC    11 (
+           OPSW                     := I    266.3,
+           CLSW                     := I    266.2,
+           OUTP                     := Q    202.1,
+           En_Horn                  := FALSE,
+           NUM                      := 535);
+//------------VI9_800QMS3-----------
+      CALL FC    11 (
+           OPSW                     := I    267.3,
+           CLSW                     := I    267.2,
+           OUTP                     := Q    202.5,
+           En_Horn                  := FALSE,
+           NUM                      := 536);
+//------------VI5_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    252.1,
+           CLSW                     := I    252.0,
+           OUTP                     := Q    196.0,
+           En_Horn                  := FALSE,
+           NUM                      := 537);
+//------------VI4_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    252.3,
+           CLSW                     := I    252.2,
+           OUTP                     := Q    196.1,
+           En_Horn                  := FALSE,
+           NUM                      := 538);
+//------------VI4_F2-----------     был vh4_f2
+      CALL FC    11 (
+           OPSW                     := I    252.5,
+           CLSW                     := I    252.4,
+           OUTP                     := Q    196.2,
+           En_Horn                  := FALSE,
+           NUM                      := 539);
+//------------VI5_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    253.1,
+           CLSW                     := I    253.0,
+           OUTP                     := Q    196.4,
+           En_Horn                  := FALSE,
+           NUM                      := 540);
+//------------VH4_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    252.7,
+           CLSW                     := I    252.6,
+           OUTP                     := Q    196.3,
+           En_Horn                  := FALSE,
+           NUM                      := 541);
+//------------VI9_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    254.1,
+           CLSW                     := I    254.0,
+           OUTP                     := Q    197.0,
+           En_Horn                  := FALSE,
+           NUM                      := 542);
+//------------VI8_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    253.7,
+           CLSW                     := I    253.6,
+           OUTP                     := Q    196.7,
+           En_Horn                  := FALSE,
+           NUM                      := 543);
+//------------VI7_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    253.5,
+           CLSW                     := I    253.4,
+           OUTP                     := Q    196.6,
+           En_Horn                  := FALSE,
+           NUM                      := 544);
+//------------VI6_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    253.3,
+           CLSW                     := I    253.2,
+           OUTP                     := Q    196.5,
+           En_Horn                  := FALSE,
+           NUM                      := 545);
+//------------VI9_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    261.5,
+           CLSW                     := I    261.4,
+           OUTP                     := Q    200.6,
+           En_Horn                  := FALSE,
+           NUM                      := 546);
+//------------VI8_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    261.3,
+           CLSW                     := I    261.2,
+           OUTP                     := Q    200.5,
+           En_Horn                  := FALSE,
+           NUM                      := 547);
+//------------VI7_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    255.1,
+           CLSW                     := I    255.0,
+           OUTP                     := Q    197.4,
+           En_Horn                  := FALSE,
+           NUM                      := 548);
+//------------VI6_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    254.7,
+           CLSW                     := I    254.6,
+           OUTP                     := Q    197.3,
+           En_Horn                  := FALSE,
+           NUM                      := 549);
+//------------VRec_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    254.5,
+           CLSW                     := I    254.4,
+           OUTP                     := Q    197.2,
+           En_Horn                  := FALSE,
+           NUM                      := 550);
+//------------VRec_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    254.3,
+           CLSW                     := I    254.2,
+           OUTP                     := Q    197.1,
+           En_Horn                  := FALSE,
+           NUM                      := 551);
+//------------VH4D2-----------
+      CALL FC    11 (
+           OPSW                     := I    257.1,
+           CLSW                     := I    257.0,
+           OUTP                     := Q    198.4,
+           En_Horn                  := FALSE,
+           NUM                      := 552);
+//------------VH4D1-----------
+      CALL FC    11 (
+           OPSW                     := I    256.7,
+           CLSW                     := I    256.6,
+           OUTP                     := Q    198.3,
+           En_Horn                  := FALSE,
+           NUM                      := 553);
+//------------VPH4_1-----------
+      CALL FC    11 (
+           OPSW                     := I    257.5,
+           CLSW                     := I    257.4,
+           OUTP                     := Q    198.6,
+           En_Horn                  := FALSE,
+           NUM                      := 554);
+//------------VPH4_2-----------
+      CALL FC    11 (
+           OPSW                     := I    257.3,
+           CLSW                     := I    257.2,
+           OUTP                     := Q    198.5,
+           En_Horn                  := FALSE,
+           NUM                      := 555);
+//------------VH4_1_800QMS-----------
+      CALL FC    11 (
+           OPSW                     := I    255.3,
+           CLSW                     := I    255.2,
+           OUTP                     := Q    197.5,
+           En_Horn                  := FALSE,
+           NUM                      := 556);
+
+NETWORK
+TITLE =C42-C44
+
+//------------VC44_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    272.5,
+           CLSW                     := I    272.4,
+           OUTP                     := Q    205.2,
+           En_Horn                  := FALSE,
+           NUM                      := 557);
+
+//------------VC42/43-----------
+      CALL FC    11 (
+           OPSW                     := I    272.7,
+           CLSW                     := I    272.6,
+           OUTP                     := Q    205.3,
+           En_Horn                  := FALSE,
+           NUM                      := 558);
+
+//------------VC42_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    273.1,
+           CLSW                     := I    273.0,
+           OUTP                     := Q    205.4,
+           En_Horn                  := FALSE,
+           NUM                      := 559);
+
+//------------VC43_F1-----------
+      CALL FC    11 (
+           OPSW                     := I    273.3,
+           CLSW                     := I    273.2,
+           OUTP                     := Q    205.5,
+           En_Horn                  := FALSE,
+           NUM                      := 560);
+
+NETWORK
+TITLE =
+
+//------------VH4_F2-----------
+      CALL FC    11 (
+           OPSW                     := I    261.7,
+           CLSW                     := I    261.6,
+           OUTP                     := Q    200.7,
+           En_Horn                  := FALSE,
+           NUM                      := 561);
+
+
+NETWORK
+TITLE =
+
+//-----------------VB4_HJ2600--------------------
+      CALL FC    11 (
+           OPSW                     := I    142.7,
+           CLSW                     := I    142.6,
+           OUTP                     := Q    142.4,
+           En_Horn                  := FALSE,
+           NUM                      := 562);
+
+//-----------------VB4_800QMS3--------------------
+      CALL FC    11 (
+           OPSW                     := I    143.1,
+           CLSW                     := I    143.0,
+           OUTP                     := Q    142.5,
+           En_Horn                  := FALSE,
+           NUM                      := 563);
+
+//-----------------VB4_800QMS--------------------
+      CALL FC    11 (
+           OPSW                     := I    143.3,
+           CLSW                     := I    143.2,
+           OUTP                     := Q    142.6,
+           En_Horn                  := FALSE,
+           NUM                      := 564);
+
+//-----------------VB4_800Q-------------------
+      CALL FC    11 (
+           OPSW                     := I    143.5,
+           CLSW                     := I    143.4,
+           OUTP                     := Q    142.7,
+           En_Horn                  := FALSE,
+           NUM                      := 565);
+
+NETWORK
+TITLE =
+
+
+
+//-----------------V800Q-------------------
+      CALL FC    11 (
+           OPSW                     := I    262.0,
+           CLSW                     := I    262.1,
+           OUTP                     := Q    201.0,
+           En_Horn                  := FALSE,
+           NUM                      := 566);
+
+
+//-----------------V800QMS-------------------
+      CALL FC    11 (
+           OPSW                     := I    262.2,
+           CLSW                     := I    262.3,
+           OUTP                     := Q    201.1,
+           En_Horn                  := FALSE,
+           NUM                      := 567);
+
+
+//-----------------V800QMS3-------------------
+      CALL FC    11 (
+           OPSW                     := I    262.4,
+           CLSW                     := I    262.5,
+           OUTP                     := Q    201.2,
+           En_Horn                  := FALSE,
+           NUM                      := 568);
+
+
+//-----------------VHI2600-------------------
+      CALL FC    11 (
+           OPSW                     := I    262.6,
+           CLSW                     := I    262.7,
+           OUTP                     := Q    201.3,
+           En_Horn                  := FALSE,
+           NUM                      := 569);
+
+//-----------------VIN2600-------------------
+      CALL FC    11 (
+           OPSW                     := I    263.0,
+           CLSW                     := I    263.1,
+           OUTP                     := Q    201.4,
+           En_Horn                  := FALSE,
+           NUM                      := 570);
+
+//-----------------VKH2-------------------
+      CALL FC    11 (
+           OPSW                     := I    278.7,
+           CLSW                     := I    278.6,
+           OUTP                     := Q    208.6,
+           En_Horn                  := FALSE,
+           NUM                      := 571);
+
+//-----------------VKH2_1-------------------
+      CALL FC    11 (
+           OPSW                     := I    279.1,
+           CLSW                     := I    279.0,
+           OUTP                     := Q    208.7,
+           En_Horn                  := FALSE,
+           NUM                      := 572);
+//-----------------VN34-------------------
+      CALL FC    11 (
+           OPSW                     := I    224.7,
+           CLSW                     := I    224.6,
+           OUTP                     := Q    178.6,
+           En_Horn                  := FALSE,
+           NUM                      := 573);
+//-----------------VH-MBX2/2------------------
+      CALL FC    11 (
+           OPSW                     := I    117.0,
+           CLSW                     := I    117.1,
+           OUTP                     := Q    106.2,
+           En_Horn                  := FALSE,
+           NUM                      := 574);
+//-----------------V_AMK------------------
+      CALL FC    11 (
+           OPSW                     := I     95.0,
+           CLSW                     := I     95.1,
+           OUTP                     := Q    221.0,
+           En_Horn                  := FALSE,
+           NUM                      := 575);
+//-----------------V_AMK_N1------------------
+      CALL FC    11 (
+           OPSW                     := I     95.2,
+           CLSW                     := I     95.3,
+           OUTP                     := Q    221.1,
+           En_Horn                  := FALSE,
+           NUM                      := 576);
+
+
+NETWORK
+TITLE =
+
+      BE    ; 
+
+END_FUNCTION
+
